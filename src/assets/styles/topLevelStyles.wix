@@ -1384,6 +1384,25 @@
       "id": "fk1",
       "skin": "wysiwyg.viewer.skins.FlickrBadgeWidgetSkin"
     },
+    "style-k05do2wp": {
+      "componentClassName": "",
+      "pageId": "",
+      "compId": "",
+      "styleType": "system",
+      "metaData": {
+        "isPreset": false,
+        "schemaVersion": "1.0",
+        "isHidden": false
+      },
+      "style": {
+        "properties": {},
+        "propertiesSource": {},
+        "groups": {}
+      },
+      "type": "TopLevelStyle",
+      "id": "style-k05do2wp",
+      "skin": "wysiwyg.viewer.skins.page.TransparentPageSkin"
+    },
     "ssg3": {
       "componentClassName": "",
       "pageId": "",

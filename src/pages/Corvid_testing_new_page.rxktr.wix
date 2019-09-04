@@ -4,37 +4,37 @@
       "structure": {
         "layout": {
           "width": 980,
-          "height": 500,
           "x": 0,
           "y": 0,
+          "fixedPosition": false,
+          "height": 500,
           "scale": 1,
-          "rotationInDegrees": 0,
-          "fixedPosition": false
+          "rotationInDegrees": 0
         },
-        "connectionQuery": "connection-k05a722y",
-        "styleId": "p1",
-        "behaviorQuery": "behavior-jg9pfpzt",
+        "connectionQuery": "connection-k05do2x5",
+        "styleId": "style-k05do2wp",
         "components": [],
         "componentType": "mobile.core.components.Page",
         "mobileComponents": [],
         "type": "Page",
-        "id": "c1dmp",
+        "id": "rxktr",
         "skin": "wysiwyg.viewer.skins.page.TransparentPageSkin",
-        "dataQuery": "#c1dmp",
-        "mobileHintsQuery": "mobileHints-j8u779np"
+        "dataQuery": "#rxktr",
+        "mobileHintsQuery": "mobileHints-k05do2xe"
       },
       "data": {
+        "component_properties": {},
         "document_data": {
-          "c1dmp": {
+          "rxktr": {
             "descriptionSEO": "",
             "isPopup": false,
-            "ogImage": "",
-            "tpaApplicationId": 0,
             "underConstruction": false,
             "indexable": true,
             "metaKeywordsSEO": "",
             "pageSecurity": {
-              "requireLogin": false
+              "requireLogin": false,
+              "passwordDigest": "",
+              "dialogLanguage": ""
             },
             "metaData": {
               "isPreset": false,
@@ -43,17 +43,16 @@
             },
             "hidePage": false,
             "pageTitleSEO": "",
-            "ignoreBottomBottomAnchors": true,
             "hideTitle": true,
             "pageBackgrounds": {
               "desktop": {
                 "custom": true,
-                "ref": "#c1dmp_jyzs4dym_bg",
+                "ref": "#rxktr_desktop_bg",
                 "isPreset": true
               },
               "mobile": {
                 "custom": true,
-                "ref": "#customBgImg24ta",
+                "ref": "#rxktr_mobile_bg",
                 "isPreset": true,
                 "mediaSizing": "viewport"
               }
@@ -61,15 +60,15 @@
             "icon": "",
             "type": "Page",
             "isMobileLandingPage": false,
-            "id": "c1dmp",
+            "id": "rxktr",
             "translationData": {
               "uriSEOTranslated": false
             },
             "isLandingPage": false
           },
-          "c1dmp_jyzs4dym_bg": {
+          "rxktr_desktop_bg": {
+            "id": "rxktr_desktop_bg",
             "type": "BackgroundMedia",
-            "id": "c1dmp_jyzs4dym_bg",
             "metaData": {
               "isPreset": false,
               "schemaVersion": "2.0",
@@ -80,7 +79,7 @@
             "fittingType": "fill",
             "scrollType": "fixed"
           },
-          "customBgImg24ta": {
+          "rxktr_mobile_bg": {
             "color": "{color_11}",
             "scrollType": "fixed",
             "colorOverlay": "",
@@ -91,76 +90,80 @@
             },
             "fittingType": "fill",
             "type": "BackgroundMedia",
-            "id": "customBgImg24ta",
+            "id": "rxktr_mobile_bg",
             "colorOverlayOpacity": 0,
             "alignType": "top"
           }
         },
-        "design_data": {},
-        "behaviors_data": {
-          "behavior-jg9pfpzt": {
-            "type": "ObsoleteBehaviorsList",
-            "id": "behavior-jg9pfpzt",
-            "items": "[]"
-          }
-        },
+        "theme_data": {},
+        "behaviors_data": {},
         "connections_data": {
-          "connection-k05a722y": {
+          "connection-k05do2x5": {
+            "id": "connection-k05do2x5",
             "type": "ConnectionList",
-            "id": "connection-k05a722y",
             "items": [
               {
                 "type": "WixCodeConnectionItem",
                 "role": "page1"
               }
-            ]
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
           }
         },
-        "theme_data": {},
-        "component_properties": {},
         "mobile_hints": {
-          "mobileHints-j8u779np": {
+          "mobileHints-k05do2xe": {
+            "id": "mobileHints-k05do2xe",
             "type": "MobileHints",
-            "id": "mobileHints-j8u779np",
-            "hidden": false
+            "hidden": false,
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
           }
-        }
+        },
+        "design_data": {}
       },
-      "title": "HOME",
-      "pageUriSEO": "home",
+      "pageUriSEO": "blank",
+      "title": "New Page",
+      "translations": {},
       "menus": {
         "CUSTOM_MAIN_MENU": {
-          "bmi23nr": {
+          "dataItem-k05do2we": {
             "type": "BasicMenuItem",
-            "id": "bmi23nr",
-            "metaData": {
-              "isPreset": false,
-              "schemaVersion": "1.0",
-              "isHidden": false
-            },
-            "label": "HOME",
             "isVisible": true,
             "isVisibleMobile": true,
-            "link": "#1fti"
-          },
-          "1fti": {
-            "type": "PageLink",
-            "id": "1fti",
+            "id": "dataItem-k05do2we",
+            "label": "Corvid testing new page",
+            "link": "#dataItem-k05do2we1",
             "metaData": {
               "isPreset": false,
               "schemaVersion": "1.0",
               "isHidden": false
-            },
-            "pageId": "#c1dmp",
-            "target": "_self"
+            }
+          },
+          "dataItem-k05do2we1": {
+            "type": "PageLink",
+            "target": "_self",
+            "pageId": "#rxktr",
+            "id": "dataItem-k05do2we1",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
           }
         }
       }
     },
-    "pageUriSeo": "home",
-    "title": "HOME",
+    "pageUriSeo": "corvid-testing-new-page",
+    "title": "Corvid testing new page",
     "isPopup": false,
-    "pageId": "c1dmp"
+    "pageId": "rxktr"
   },
   "documentSchemaVersion": "1.0"
 }
