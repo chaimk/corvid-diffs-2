@@ -7,6 +7,18 @@
       "displayName": "Title",
       "type": "text",
       "index": 0
+    },
+    "link-sample-title": {
+      "displayName": "Sample (Title)",
+      "type": "pagelink",
+      "calculator": {
+        "id": "FIELDS_PATTERN",
+        "config": {
+          "pattern": "/sample/{title}"
+        }
+      },
+      "plugin": "dataBinding",
+      "index": 1
     }
   },
   "permissions": {

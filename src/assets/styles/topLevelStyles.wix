@@ -1924,6 +1924,25 @@
       "id": "c2",
       "skin": "wysiwyg.viewer.skins.area.DefaultAreaSkin"
     },
+    "style-k06hkn3l": {
+      "componentClassName": "",
+      "pageId": "",
+      "compId": "",
+      "styleType": "system",
+      "metaData": {
+        "isPreset": false,
+        "schemaVersion": "1.0",
+        "isHidden": false
+      },
+      "style": {
+        "properties": {},
+        "propertiesSource": {},
+        "groups": {}
+      },
+      "type": "TopLevelStyle",
+      "id": "style-k06hkn3l",
+      "skin": "wysiwyg.viewer.skins.page.TransparentPageSkin"
+    },
     "hl3": {
       "componentClassName": "",
       "pageId": "",
@@ -2437,6 +2456,25 @@
       "type": "TopLevelStyle",
       "id": "fc1",
       "skin": "wysiwyg.viewer.skins.screenwidthcontainer.TransparentScreen"
+    },
+    "controller1": {
+      "componentClassName": "platform.components.AppController",
+      "pageId": "",
+      "compId": "",
+      "styleType": "system",
+      "metaData": {
+        "isPreset": false,
+        "schemaVersion": "1.0",
+        "isHidden": false
+      },
+      "style": {
+        "groups": {},
+        "properties": {},
+        "propertiesSource": {}
+      },
+      "type": "TopLevelStyle",
+      "id": "controller1",
+      "skin": "platform.components.skins.controllerSkin"
     },
     "fc2": {
       "componentClassName": "",

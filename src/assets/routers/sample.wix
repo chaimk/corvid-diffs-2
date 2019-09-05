@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appDefinitionId": "dataBinding",
+    "prefix": "sample",
+    "config": "{\"patterns\":{\"/{title}\":{\"pageRole\":\"d763cd0e-ff46-4579-acc3-5754363f2536\",\"title\":\"{title}\",\"config\":{\"collection\":\"sample\"},\"seoMetaTags\":{}}}}",
+    "pages": {
+      "d763cd0e-ff46-4579-acc3-5754363f2536": "azdsa"
+    },
+    "routeId": "routers-k06hkn10"
+  },
+  "documentSchemaVersion": "1.0"
+}

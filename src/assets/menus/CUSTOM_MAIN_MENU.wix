@@ -29,13 +29,18 @@
         "id": "dataItem-k06gcn68",
         "items": []
       },
+      "dataItem-k06hkn3c": {
+        "id": "dataItem-k06hkn3c",
+        "items": []
+      },
       "CUSTOM_MAIN_MENU": {
         "id": "CUSTOM_MAIN_MENU",
         "items": [
           "#bmi23nr",
           "#dataItem-k05do2we",
           "#dataItem-k06gcn3i",
-          "#dataItem-k06gcn68"
+          "#dataItem-k06gcn68",
+          "#dataItem-k06hkn3c"
         ]
       }
     }

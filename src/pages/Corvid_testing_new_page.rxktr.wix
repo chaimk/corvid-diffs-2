@@ -2602,10 +2602,7 @@
             }
           }
         }
-      },
-      "pagesPlatformApplications": [
-        "dataBinding"
-      ]
+      }
     },
     "pageUriSeo": "corvid-testing-new-page",
     "title": "Corvid testing new page",
