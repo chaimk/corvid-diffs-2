@@ -179,6 +179,25 @@
           "type": "Container"
         },
         {
+          "componentType": "wixui.ProgressBar",
+          "connectionQuery": "connection-k06fi9wb",
+          "dataQuery": "#dataItem-k06fi9v6",
+          "id": "comp-k06fi9ub",
+          "layout": {
+            "fixedPosition": false,
+            "height": 10,
+            "rotationInDegrees": 0,
+            "scale": 0.66,
+            "width": 305,
+            "x": 496,
+            "y": 372.8888888888889
+          },
+          "propertyQuery": "propItem-k06fi9v7",
+          "skin": "wixui.skins.ProgressBar",
+          "styleId": "style-k06fi9v8",
+          "type": "Component"
+        },
+        {
           "components": [
             {
               "componentType": "wysiwyg.viewer.components.SiteButton",
@@ -248,7 +267,7 @@
                 "scale": 1,
                 "width": 50,
                 "x": 253,
-                "y": 171
+                "y": 191
               },
               "skin": "wysiwyg.viewer.skins.inlinePopupToggle.inlinePopupToggleSkin4",
               "styleId": "style-jz9vc9ps",
@@ -398,6 +417,25 @@
               "type": "RepeaterContainer"
             },
             {
+              "componentType": "wixui.ProgressBar",
+              "connectionQuery": "connection-k06fi9wb",
+              "dataQuery": "#dataItem-k06fi9v6",
+              "id": "comp-k06fi9ub",
+              "layout": {
+                "fixedPosition": false,
+                "height": 10,
+                "rotationInDegrees": 0,
+                "scale": 0.66,
+                "width": 300,
+                "x": 10,
+                "y": 171
+              },
+              "propertyQuery": "propItem-k06fi9v7",
+              "skin": "wixui.skins.ProgressBar",
+              "styleId": "style-k06fi9v8",
+              "type": "Component"
+            },
+            {
               "behaviorQuery": "behavior-jz9tlsvs",
               "components": [
                 {
@@ -458,7 +496,7 @@
           "id": "SITE_HEADER",
           "layout": {
             "fixedPosition": false,
-            "height": 231,
+            "height": 251,
             "rotationInDegrees": 0,
             "scale": 1,
             "width": 320,
@@ -500,7 +538,7 @@
             "scale": 1,
             "width": 320,
             "x": 0,
-            "y": 231
+            "y": 251
           },
           "skin": "wysiwyg.viewer.skins.screenwidthcontainer.BlankScreen",
           "styleId": "pc1",
@@ -538,7 +576,7 @@
             "scale": 1,
             "width": 320,
             "x": 0,
-            "y": 431
+            "y": 451
           },
           "skin": "wysiwyg.viewer.skins.screenwidthcontainer.TransparentScreen",
           "styleId": "fc1",
@@ -1028,6 +1066,17 @@
           "text": "<h4 class=\"font_2\" style=\"font-size: 26px; text-align: center;\"><span style=\"font-size:26px\"><span style=\"letter-spacing:0.08em\"><span style=\"color:#FFFFFF\"><span style=\"font-family:futura-lt-w01-book,sans-serif\">Entertainment</span></span></span></span></h4>",
           "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
           "linkList": []
+        },
+        "dataItem-k06fi9v6": {
+          "id": "dataItem-k06fi9v6",
+          "type": "ProgressBar",
+          "metaData": {
+            "isPreset": false,
+            "schemaVersion": "1.0",
+            "isHidden": false
+          },
+          "value": 0,
+          "targetValue": 100
         },
         "PAGES_GROUP_COLLECTION": {
           "type": "PagesGroupCollection",
@@ -1883,6 +1932,21 @@
             }
           ]
         },
+        "connection-k06fi9wb": {
+          "id": "connection-k06fi9wb",
+          "type": "ConnectionList",
+          "items": [
+            {
+              "type": "WixCodeConnectionItem",
+              "role": "progressBar1"
+            }
+          ],
+          "metaData": {
+            "isPreset": false,
+            "schemaVersion": "1.0",
+            "isHidden": false
+          }
+        },
         "connection-jz9tlsw5": {
           "type": "ConnectionList",
           "id": "connection-jz9tlsw5",
@@ -1994,6 +2058,16 @@
           },
           "brightness": 1,
           "packed": true
+        },
+        "propItem-k06fi9v7": {
+          "id": "propItem-k06fi9v7",
+          "type": "ProgressBarProperties",
+          "metaData": {
+            "isPreset": false,
+            "schemaVersion": "1.0",
+            "isHidden": false
+          },
+          "direction": "ltr"
         },
         "mobile_propItem-k06feixb": {
           "id": "mobile_propItem-k06feixb",
