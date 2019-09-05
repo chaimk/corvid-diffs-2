@@ -179,6 +179,7 @@
           "type": "Container"
         },
         {
+          "components": [],
           "componentType": "wixui.ProgressBar",
           "connectionQuery": "connection-k06fi9wb",
           "dataQuery": "#dataItem-k06fi9v6",

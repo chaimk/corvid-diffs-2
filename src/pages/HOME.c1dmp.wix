@@ -13,7 +13,6 @@
         },
         "connectionQuery": "connection-k05a722y",
         "styleId": "p1",
-        "behaviorQuery": "behavior-jg9pfpzt",
         "components": [
           {
             "connectionQuery": "connection-k06f8ly9",
@@ -1388,18 +1387,7 @@
             "alignType": "center"
           }
         },
-        "behaviors_data": {
-          "behavior-jg9pfpzt": {
-            "type": "ObsoleteBehaviorsList",
-            "id": "behavior-jg9pfpzt",
-            "items": "[{\"action\":{\"sourceId\":\"c1dmp\",\"type\":\"comp\",\"name\":\"load\"},\"behavior\":{\"targetId\":\"dsccv\",\"type\":\"site\",\"name\":\"openPopup\",\"params\":{\"delay\":2,\"openInDesktop\":true,\"openInMobile\":false}}}]",
-            "metaData": {
-              "isPreset": false,
-              "schemaVersion": "1.0",
-              "isHidden": false
-            }
-          }
-        },
+        "behaviors_data": {},
         "connections_data": {
           "connection-k06f8m18": {
             "id": "connection-k06f8m18",
