@@ -128,8 +128,8 @@
         },
         "design_data": {}
       },
-      "pageUriSEO": "blank",
-      "title": "New Page",
+      "pageUriSEO": "corvid-testing-new-page",
+      "title": "Corvid testing new page",
       "translations": {},
       "menus": {
         "CUSTOM_MAIN_MENU": {

@@ -101,7 +101,12 @@
           "behavior-jg9pfpzt": {
             "type": "ObsoleteBehaviorsList",
             "id": "behavior-jg9pfpzt",
-            "items": "[]"
+            "items": "[{\"action\":{\"sourceId\":\"c1dmp\",\"type\":\"comp\",\"name\":\"load\"},\"behavior\":{\"targetId\":\"dsccv\",\"type\":\"site\",\"name\":\"openPopup\",\"params\":{\"delay\":2,\"openInDesktop\":true,\"openInMobile\":false}}}]",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
           }
         },
         "connections_data": {

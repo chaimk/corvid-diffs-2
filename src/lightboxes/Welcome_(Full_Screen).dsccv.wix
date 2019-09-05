@@ -1,0 +1,934 @@
+{
+  "content": {
+    "content": {
+      "structure": {
+        "layout": {
+          "width": 980,
+          "x": 0,
+          "y": 0,
+          "fixedPosition": false,
+          "height": 860,
+          "scale": 1,
+          "rotationInDegrees": 0
+        },
+        "connectionQuery": "connection-k06f5kn6",
+        "styleId": "p1",
+        "propertyQuery": "dsccv",
+        "components": [
+          {
+            "connectionQuery": "connection-k06f5kn4",
+            "designQuery": "#dataItem-k06f5km91",
+            "layout": {
+              "x": 77,
+              "y": 195,
+              "fixedPosition": false,
+              "width": 826,
+              "height": 470,
+              "scale": 1,
+              "rotationInDegrees": 0
+            },
+            "styleId": "style-k06f5kml",
+            "propertyQuery": "propItem-k06f5km9",
+            "behaviorQuery": "behavior-k06f5kmk",
+            "components": [
+              {
+                "connectionQuery": "connection-k06f5kn1",
+                "layout": {
+                  "x": 10,
+                  "y": 8,
+                  "fixedPosition": false,
+                  "width": 799,
+                  "height": 166,
+                  "scale": 1,
+                  "rotationInDegrees": 0
+                },
+                "styleId": "txtNew",
+                "propertyQuery": "propItem-k06f5kmr",
+                "componentType": "wysiwyg.viewer.components.WRichText",
+                "type": "Component",
+                "id": "comp-k06f5kmp",
+                "skin": "wysiwyg.viewer.skins.WRichTextNewSkin",
+                "dataQuery": "#dataItem-k06f5kmq"
+              },
+              {
+                "type": "Component",
+                "id": "comp-k06f5knd",
+                "layout": {
+                  "x": 139,
+                  "y": 205,
+                  "fixedPosition": false,
+                  "width": 547,
+                  "height": 56,
+                  "scale": 1,
+                  "rotationInDegrees": 0
+                },
+                "componentType": "wysiwyg.viewer.components.WRichText",
+                "dataQuery": "#dataItem-k06f5knd1",
+                "propertyQuery": "propItem-k06f5kne",
+                "styleId": "txtNew",
+                "connectionQuery": "connection-k06f5knk"
+              },
+              {
+                "connectionQuery": "connection-k06f5knx",
+                "layout": {
+                  "x": 325,
+                  "y": 316,
+                  "fixedPosition": false,
+                  "width": 175,
+                  "height": 40,
+                  "scale": 1,
+                  "rotationInDegrees": 0
+                },
+                "styleId": "style-k06f5knq1",
+                "propertyQuery": "propItem-k06f5knq",
+                "componentType": "wysiwyg.viewer.components.PopupCloseTextButton",
+                "type": "Component",
+                "id": "comp-k06f5kno",
+                "skin": "wysiwyg.viewer.skins.button.BasicButton",
+                "dataQuery": "#dataItem-k06f5kno1"
+              },
+              {
+                "connectionQuery": "connection-k06f5kob",
+                "layout": {
+                  "fixedPosition": true,
+                  "width": 44,
+                  "height": 37,
+                  "scale": 1,
+                  "rotationInDegrees": 0,
+                  "docked": {
+                    "top": {
+                      "px": 60
+                    },
+                    "right": {
+                      "px": 60
+                    }
+                  },
+                  "y": 60,
+                  "x": 1161
+                },
+                "styleId": "style-k06f5ko4",
+                "propertyQuery": "propItem-k06f5ko3",
+                "componentType": "wysiwyg.viewer.components.PopupCloseIconButton",
+                "type": "Component",
+                "id": "comp-k06f5ko2",
+                "skin": "svgshape.v2.Svg_9a8686831e874878a55a90925c0feb6c",
+                "dataQuery": "#dataItem-k06f5ko21"
+              }
+            ],
+            "componentType": "wysiwyg.viewer.components.PopupContainer",
+            "type": "Container",
+            "id": "comp-k06f5km7",
+            "skin": "wysiwyg.viewer.skins.stripContainer.DefaultStripContainer"
+          }
+        ],
+        "componentType": "mobile.core.components.Page",
+        "mobileComponents": [
+          {
+            "connectionQuery": "connection-k06f5kn4",
+            "designQuery": "#mobile_dataItem-k06f5km91",
+            "layout": {
+              "x": 9,
+              "y": 236,
+              "fixedPosition": false,
+              "width": 302,
+              "height": 426,
+              "scale": 1,
+              "rotationInDegrees": 0
+            },
+            "styleId": "style-k06f5kml",
+            "propertyQuery": "mobile_propItem-k06f5km9",
+            "behaviorQuery": "behavior-k06f5kmk",
+            "components": [
+              {
+                "connectionQuery": "connection-k06f5kn1",
+                "layout": {
+                  "x": 0,
+                  "y": 36,
+                  "fixedPosition": false,
+                  "width": 302,
+                  "height": 141,
+                  "scale": 0.9428927976562499,
+                  "rotationInDegrees": 0
+                },
+                "styleId": "txtNew",
+                "propertyQuery": "mobile_propItem-k06f5kmr",
+                "componentType": "wysiwyg.viewer.components.WRichText",
+                "type": "Component",
+                "id": "comp-k06f5kmp",
+                "skin": "wysiwyg.viewer.skins.WRichTextNewSkin",
+                "dataQuery": "#dataItem-k06f5kmq"
+              },
+              {
+                "type": "Component",
+                "id": "comp-k06f5knd",
+                "layout": {
+                  "x": 30,
+                  "y": 208,
+                  "fixedPosition": false,
+                  "width": 242,
+                  "height": 93,
+                  "scale": 1.0291828341153586,
+                  "rotationInDegrees": 0
+                },
+                "componentType": "wysiwyg.viewer.components.WRichText",
+                "dataQuery": "#dataItem-k06f5knd1",
+                "propertyQuery": "mobile_propItem-k06f5kne",
+                "styleId": "txtNew",
+                "connectionQuery": "connection-k06f5knk"
+              },
+              {
+                "connectionQuery": "connection-k06f5knx",
+                "layout": {
+                  "x": 63,
+                  "y": 338,
+                  "fixedPosition": false,
+                  "width": 175,
+                  "height": 40,
+                  "scale": 1,
+                  "rotationInDegrees": 0
+                },
+                "styleId": "style-k06f5knq1",
+                "propertyQuery": "propItem-k06f5knq",
+                "componentType": "wysiwyg.viewer.components.PopupCloseTextButton",
+                "type": "Component",
+                "id": "comp-k06f5kno",
+                "skin": "wysiwyg.viewer.skins.button.BasicButton",
+                "dataQuery": "#dataItem-k06f5kno1"
+              },
+              {
+                "connectionQuery": "connection-k06f5kob",
+                "layout": {
+                  "x": 263,
+                  "y": -43,
+                  "fixedPosition": false,
+                  "width": 31,
+                  "height": 27,
+                  "scale": 1,
+                  "rotationInDegrees": 0
+                },
+                "styleId": "style-k06f5ko4",
+                "propertyQuery": "propItem-k06f5ko3",
+                "componentType": "wysiwyg.viewer.components.PopupCloseIconButton",
+                "type": "Component",
+                "id": "comp-k06f5ko2",
+                "skin": "svgshape.v2.Svg_9a8686831e874878a55a90925c0feb6c",
+                "dataQuery": "#dataItem-k06f5ko21"
+              }
+            ],
+            "componentType": "wysiwyg.viewer.components.PopupContainer",
+            "type": "Container",
+            "id": "comp-k06f5km7",
+            "skin": "wysiwyg.viewer.skins.stripContainer.DefaultStripContainer"
+          }
+        ],
+        "type": "Page",
+        "id": "dsccv",
+        "skin": "skins.core.InlineSkin",
+        "dataQuery": "#dsccv",
+        "mobileHintsQuery": "mobileHints-k06f5krv"
+      },
+      "data": {
+        "component_properties": {
+          "propItem-k06f5knq": {
+            "id": "propItem-k06f5knq",
+            "type": "ButtonProperties",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "align": "center",
+            "margin": 0
+          },
+          "propItem-k06f5ko3": {
+            "id": "propItem-k06f5ko3",
+            "type": "SvgShapeProperties",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "maintainAspectRatio": true
+          },
+          "dsccv": {
+            "id": "dsccv",
+            "type": "PageProperties",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "desktop": {
+              "popup": {
+                "closeOnOverlayClick": true
+              }
+            },
+            "mobile": {
+              "popup": {
+                "closeOnOverlayClick": true
+              }
+            },
+            "labelMargin": 14,
+            "labelPadding": 0
+          },
+          "propItem-k06f5kmr": {
+            "id": "propItem-k06f5kmr",
+            "type": "WRichTextProperties",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "brightness": 1,
+            "packed": true
+          },
+          "mobile_propItem-k06f5kmr": {
+            "id": "mobile_propItem-k06f5kmr",
+            "type": "WRichTextProperties",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false,
+              "autoGenerated": false
+            },
+            "brightness": 1,
+            "packed": true
+          },
+          "propItem-k06f5km9": {
+            "id": "propItem-k06f5km9",
+            "type": "PopupContainerProperties",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "horizontalAlignment": "center",
+            "verticalAlignment": "center",
+            "alignmentType": "nineGrid",
+            "horizontalOffset": 0,
+            "verticalOffset": 0
+          },
+          "mobile_propItem-k06f5km9": {
+            "id": "mobile_propItem-k06f5km9",
+            "type": "PopupContainerProperties",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false,
+              "autoGenerated": true
+            },
+            "horizontalAlignment": "center",
+            "verticalAlignment": "center",
+            "alignmentType": "nineGrid",
+            "horizontalOffset": 0,
+            "verticalOffset": 0
+          },
+          "propItem-k06f5kne": {
+            "id": "propItem-k06f5kne",
+            "type": "WRichTextProperties",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "brightness": 1,
+            "packed": true
+          },
+          "mobile_propItem-k06f5kne": {
+            "id": "mobile_propItem-k06f5kne",
+            "type": "WRichTextProperties",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false,
+              "autoGenerated": false
+            },
+            "brightness": 1,
+            "packed": true
+          }
+        },
+        "document_data": {
+          "dataItem-k06f5kmq": {
+            "id": "dataItem-k06f5kmq",
+            "type": "StyledText",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "text": "<h2 style=\"text-align: center; font-size: 70px; line-height: 1.1em;\" class=\"font_2\"><span style=\"font-family:lulo-clean-w01-one-bold,sans-serif;\"><span style=\"line-height:1.1em;\"><span style=\"color:#07DBD9;\"><span style=\"font-size:70px;\"><span style=\"letter-spacing:-0.1em;\">Welcome </span></span></span></span></span></h2><h2 style=\"text-align: center; font-size: 70px; line-height: 1.1em;\" class=\"font_2\"><span style=\"font-family:lulo-clean-w01-one-bold,sans-serif;\"><span style=\"line-height:1.1em;\"><span style=\"color:#07DBD9;\"><span style=\"font-size:70px;\"><span style=\"letter-spacing:-0.1em;\">to </span></span></span></span></span><span style=\"font-family:lulo-clean-w01-one-bold,sans-serif;\"><span style=\"line-height:1.1em;\"><span style=\"color:#07DBD9;\"><span style=\"font-size:70px;\"><span style=\"letter-spacing:-0.1em;\">My Site!</span></span></span></span></span></h2>",
+            "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
+            "linkList": []
+          },
+          "dataItem-k06f5knd1": {
+            "id": "dataItem-k06f5knd1",
+            "type": "StyledText",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "text": "<p class=\"font_8\" style=\"font-size:20px; line-height:1.4em; text-align:center\"><span style=\"color:#FFFFFE;\"><span style=\"font-family:futura-lt-w01-light,sans-serif\"><span style=\"font-size:20px\">Add catchy text here to give your visitors a </span></span></span></p>\n\n<p class=\"font_8\" style=\"font-size:20px; line-height:1.4em; text-align:center\"><span style=\"color:#FFFFFE;\"><span style=\"font-family:futura-lt-w01-light,sans-serif\"><span style=\"font-size:20px\">friendly first impression.</span></span></span></p>\n",
+            "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
+            "linkList": []
+          },
+          "dataItem-k06f5kno1": {
+            "id": "dataItem-k06f5kno1",
+            "type": "LinkableButton",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "label": "ENTER SITE"
+          },
+          "dataItem-k06f5ko21": {
+            "id": "dataItem-k06f5ko21",
+            "type": "SvgShape",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
+          "dsccv": {
+            "descriptionSEO": "",
+            "isPopup": true,
+            "tpaApplicationId": 0,
+            "underConstruction": false,
+            "indexable": false,
+            "metaKeywordsSEO": "",
+            "pageSecurity": {
+              "requireLogin": false,
+              "passwordDigest": "",
+              "dialogLanguage": ""
+            },
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "hidePage": true,
+            "pageTitleSEO": "",
+            "ignoreBottomBottomAnchors": true,
+            "hideTitle": true,
+            "pageBackgrounds": {
+              "desktop": {
+                "ref": "#dsccv_desktop_bg",
+                "custom": true,
+                "isPreset": true
+              },
+              "mobile": {
+                "custom": true,
+                "ref": "#dsccv_mobile_bg",
+                "isPreset": true,
+                "mediaSizing": "viewport"
+              }
+            },
+            "icon": "",
+            "type": "Page",
+            "isMobileLandingPage": false,
+            "id": "dsccv",
+            "translationData": {
+              "uriSEOTranslated": false
+            },
+            "isLandingPage": false
+          },
+          "dsccv_desktop_bg": {
+            "color": "#000000",
+            "scrollType": "none",
+            "colorOpacity": 0.8,
+            "colorOverlay": "",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "fittingType": "fill",
+            "type": "BackgroundMedia",
+            "id": "dsccv_desktop_bg",
+            "colorOverlayOpacity": 0,
+            "alignType": "center"
+          },
+          "dsccv_mobile_bg": {
+            "color": "#000000",
+            "scrollType": "scroll",
+            "colorOpacity": 0.8,
+            "colorOverlay": "",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "fittingType": "fill",
+            "type": "BackgroundMedia",
+            "id": "dsccv_mobile_bg",
+            "colorOverlayOpacity": 0,
+            "alignType": "center"
+          }
+        },
+        "theme_data": {
+          "style-k06f5kml": {
+            "componentClassName": "wysiwyg.viewer.components.PopupContainer",
+            "pageId": "",
+            "compId": "",
+            "styleType": "custom",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "style": {
+              "groups": {},
+              "properties": {
+                "alpha-bg": "1",
+                "bg": "rgba(255,255,255,1)"
+              },
+              "propertiesSource": {
+                "alpha-bg": "value",
+                "bg": "value"
+              }
+            },
+            "type": "ComponentStyle",
+            "id": "style-k06f5kml",
+            "skin": "wysiwyg.viewer.skins.stripContainer.DefaultStripContainer"
+          },
+          "style-k06f5knq1": {
+            "componentClassName": "wysiwyg.viewer.components.PopupCloseTextButton",
+            "pageId": "",
+            "compId": "",
+            "styleType": "custom",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "style": {
+              "groups": {},
+              "properties": {
+                "boxShadowToggleOn-shd": "false",
+                "alpha-txt": "1",
+                "bgh": "#36D9D8",
+                "alpha-brdh": "0",
+                "bg": "#18C1C0",
+                "alpha-brd": "1",
+                "brw": "0",
+                "alpha-txth": "1",
+                "fnt": "normal normal normal 15px/1.4em raleway",
+                "shd": "0 1px 4px rgba(0, 0, 0, 0.6);",
+                "txt": "#FFFFFF",
+                "rd": "0px",
+                "brdh": "#B08484",
+                "brd": "#BD1515",
+                "alpha-bg": "1",
+                "alpha-bgh": "1",
+                "txth": "#FFFFFF"
+              },
+              "propertiesSource": {
+                "bgh": "value",
+                "alpha-brdh": "value",
+                "bg": "value",
+                "brw": "value",
+                "fnt": "value",
+                "shd": "value",
+                "txt": "value",
+                "rd": "value",
+                "brdh": "value",
+                "brd": "value",
+                "txth": "value"
+              }
+            },
+            "type": "ComponentStyle",
+            "id": "style-k06f5knq1",
+            "skin": "wysiwyg.viewer.skins.button.BasicButton"
+          },
+          "style-k06f5ko4": {
+            "componentClassName": "wysiwyg.viewer.components.PopupCloseIconButton",
+            "pageId": "",
+            "compId": "",
+            "styleType": "custom",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "style": {
+              "groups": {},
+              "properties": {
+                "alpha-fillcolor": "1",
+                "alpha-stroke": "1",
+                "fillcolor": "#F2F2F2",
+                "stroke": "#ED1566",
+                "strokewidth": "0px"
+              },
+              "propertiesSource": {
+                "fillcolor": "value",
+                "stroke": "value",
+                "strokewidth": "value"
+              }
+            },
+            "type": "ComponentStyle",
+            "id": "style-k06f5ko4",
+            "skin": "svgshape.v2.Svg_9a8686831e874878a55a90925c0feb6c"
+          },
+          "style-k06f5koo": {
+            "componentClassName": "wysiwyg.viewer.components.PopupContainer",
+            "pageId": "",
+            "compId": "",
+            "styleType": "custom",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "style": {
+              "groups": {},
+              "properties": {
+                "alpha-bg": "1",
+                "bg": "rgba(255,255,255,1)"
+              },
+              "propertiesSource": {
+                "alpha-bg": "value",
+                "bg": "value"
+              }
+            },
+            "type": "ComponentStyle",
+            "id": "style-k06f5koo",
+            "skin": "wysiwyg.viewer.skins.stripContainer.DefaultStripContainer"
+          },
+          "style-k06f5kq9": {
+            "componentClassName": "wysiwyg.viewer.components.PopupCloseTextButton",
+            "pageId": "",
+            "compId": "",
+            "styleType": "custom",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "style": {
+              "groups": {},
+              "properties": {
+                "boxShadowToggleOn-shd": "false",
+                "alpha-txt": "1",
+                "bgh": "#36D9D8",
+                "alpha-brdh": "0",
+                "bg": "#18C1C0",
+                "alpha-brd": "1",
+                "brw": "0",
+                "alpha-txth": "1",
+                "fnt": "normal normal normal 15px/1.4em raleway",
+                "shd": "0 1px 4px rgba(0, 0, 0, 0.6);",
+                "txt": "#FFFFFF",
+                "rd": "0px",
+                "brdh": "#B08484",
+                "brd": "#BD1515",
+                "alpha-bg": "1",
+                "alpha-bgh": "1",
+                "txth": "#FFFFFF"
+              },
+              "propertiesSource": {
+                "bgh": "value",
+                "alpha-brdh": "value",
+                "bg": "value",
+                "brw": "value",
+                "fnt": "value",
+                "shd": "value",
+                "txt": "value",
+                "rd": "value",
+                "brdh": "value",
+                "brd": "value",
+                "txth": "value"
+              }
+            },
+            "type": "ComponentStyle",
+            "id": "style-k06f5kq9",
+            "skin": "wysiwyg.viewer.skins.button.BasicButton"
+          },
+          "style-k06f5kqs": {
+            "componentClassName": "wysiwyg.viewer.components.PopupCloseIconButton",
+            "pageId": "",
+            "compId": "",
+            "styleType": "custom",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "style": {
+              "groups": {},
+              "properties": {
+                "alpha-fillcolor": "1",
+                "alpha-stroke": "1",
+                "fillcolor": "#F2F2F2",
+                "stroke": "#ED1566",
+                "strokewidth": "0px"
+              },
+              "propertiesSource": {
+                "fillcolor": "value",
+                "stroke": "value",
+                "strokewidth": "value"
+              }
+            },
+            "type": "ComponentStyle",
+            "id": "style-k06f5kqs",
+            "skin": "svgshape.v2.Svg_9a8686831e874878a55a90925c0feb6c"
+          }
+        },
+        "behaviors_data": {
+          "behavior-k06f5kmk": {
+            "id": "behavior-k06f5kmk",
+            "type": "ObsoleteBehaviorsList",
+            "items": "[{\"name\":\"FadeIn\",\"delay\":0.1,\"duration\":0.75,\"action\":\"screenIn\",\"targetId\":\"\",\"params\":{}},{\"name\":\"FadeOut\",\"delay\":0.1,\"duration\":0.75,\"action\":\"exit\",\"targetId\":\"\",\"params\":{}}]",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          }
+        },
+        "connections_data": {
+          "connection-k06f5kn4": {
+            "id": "connection-k06f5kn4",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "lightbox1"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
+          "connection-k06f5kp7": {
+            "id": "connection-k06f5kp7",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "lightbox1"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
+          "connection-k06f5kn6": {
+            "id": "connection-k06f5kn6",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "page1"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
+          "connection-k06f5kpy": {
+            "id": "connection-k06f5kpy",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "text2"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
+          "connection-k06f5knx": {
+            "id": "connection-k06f5knx",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "button1"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
+          "connection-k06f5kob": {
+            "id": "connection-k06f5kob",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "button2"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
+          "connection-k06f5kqi": {
+            "id": "connection-k06f5kqi",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "button1"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
+          "connection-k06f5knk": {
+            "id": "connection-k06f5knk",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "text2"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
+          "connection-k06f5kr0": {
+            "id": "connection-k06f5kr0",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "button2"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
+          "connection-k06f5kn1": {
+            "id": "connection-k06f5kn1",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "text1"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
+          "connection-k06f5kp3": {
+            "id": "connection-k06f5kp3",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "text1"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          }
+        },
+        "mobile_hints": {
+          "mobileHints-k06f5krv": {
+            "id": "mobileHints-k06f5krv",
+            "type": "MobileHints",
+            "hidden": false,
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          }
+        },
+        "design_data": {
+          "dataItem-k06f5km91": {
+            "id": "dataItem-k06f5km91",
+            "type": "MediaContainerDesignData",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "background": "#dataItem-k06f5km92"
+          },
+          "dataItem-k06f5km92": {
+            "color": "#FFFFFE",
+            "scrollType": "none",
+            "colorOpacity": 0,
+            "colorOverlay": "",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "fittingType": "fill",
+            "type": "BackgroundMedia",
+            "id": "dataItem-k06f5km92",
+            "colorOverlayOpacity": 0,
+            "alignType": "center"
+          },
+          "mobile_dataItem-k06f5km91": {
+            "id": "mobile_dataItem-k06f5km91",
+            "type": "MediaContainerDesignData",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "background": "#dataItem-k06f5kon"
+          },
+          "dataItem-k06f5kon": {
+            "color": "#FFFFFE",
+            "scrollType": "none",
+            "colorOpacity": 0,
+            "colorOverlay": "",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "fittingType": "fill",
+            "type": "BackgroundMedia",
+            "id": "dataItem-k06f5kon",
+            "colorOverlayOpacity": 0,
+            "alignType": "center"
+          }
+        }
+      },
+      "pageUriSEO": "popup-dsccv",
+      "title": "Welcome (Full Screen)",
+      "translations": {}
+    },
+    "pageUriSeo": "popup-dsccv",
+    "title": "Welcome (Full Screen)",
+    "isPopup": true,
+    "pageId": "dsccv"
+  },
+  "documentSchemaVersion": "1.0"
+}

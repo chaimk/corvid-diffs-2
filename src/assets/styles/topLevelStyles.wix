@@ -1388,7 +1388,7 @@
       "componentClassName": "",
       "pageId": "",
       "compId": "",
-      "styleType": "system",
+      "styleType": "custom",
       "metaData": {
         "isPreset": false,
         "schemaVersion": "1.0",
@@ -1399,7 +1399,7 @@
         "propertiesSource": {},
         "groups": {}
       },
-      "type": "TopLevelStyle",
+      "type": "ComponentStyle",
       "id": "style-k05do2wp",
       "skin": "wysiwyg.viewer.skins.page.TransparentPageSkin"
     },
