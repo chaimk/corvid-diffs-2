@@ -2,9 +2,10 @@
   "content": {
     "appDefinitionId": "dataBinding",
     "prefix": "sample",
-    "config": "{\"patterns\":{\"/{title}\":{\"pageRole\":\"d763cd0e-ff46-4579-acc3-5754363f2536\",\"title\":\"{title}\",\"config\":{\"collection\":\"sample\"},\"seoMetaTags\":{}}}}",
+    "config": "{\"patterns\":{\"/{title}\":{\"pageRole\":\"d763cd0e-ff46-4579-acc3-5754363f2536\",\"title\":\"{title}\",\"config\":{\"collection\":\"sample\"},\"seoMetaTags\":{}},\"/\":{\"pageRole\":\"5dbecc31-0208-4cae-83fc-df46364ab47c\",\"title\":\"sample\",\"config\":{\"collection\":\"sample\"},\"seoMetaTags\":{}}}}",
     "pages": {
-      "d763cd0e-ff46-4579-acc3-5754363f2536": "azdsa"
+      "d763cd0e-ff46-4579-acc3-5754363f2536": "azdsa",
+      "5dbecc31-0208-4cae-83fc-df46364ab47c": "rxktr"
     },
     "routeId": "routers-k06hkn10"
   },
