@@ -2051,8 +2051,7 @@
             },
             "displayMode": "fill",
             "onClickBehavior": "goToLink",
-            "autoFill": false,
-            "effectName": "none"
+            "autoFill": false
           },
           "propItem-k06f8m2f": {
             "id": "propItem-k06f8m2f",
