@@ -232,6 +232,29 @@
             "skin": "TextAreaDefaultSkin",
             "dataQuery": "#dataItem-k06h4501",
             "mobileHintsQuery": "mobileHints-k06h4519"
+          },
+          {
+            "connectionQuery": "connection-k06hec4s",
+            "layout": {
+              "x": 839,
+              "y": 8,
+              "fixedPosition": false,
+              "width": 94,
+              "height": 78,
+              "scale": 1,
+              "rotationInDegrees": 0
+            },
+            "styleId": "style-k06hec3i",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "componentType": "platform.components.AppController",
+            "type": "Component",
+            "id": "comp-k06hec2a",
+            "skin": "platform.components.skins.controllerSkin",
+            "dataQuery": "#dataItem-k06hec3f"
           }
         ],
         "componentType": "mobile.core.components.Page",
@@ -453,6 +476,41 @@
             "skin": "TextAreaDefaultSkin",
             "dataQuery": "#dataItem-k06h4501",
             "mobileHintsQuery": "mobileHints-k06h4519"
+          },
+          {
+            "conversionData": {
+              "isSemiTransparentContainer": false,
+              "isTransparentContainer": false,
+              "backgroundColor": "#3D9BE9",
+              "shouldApplyPreset": true,
+              "mobileHints": {
+                "hidden": false
+              },
+              "isNonContainableFullWidth": false,
+              "nonLayoutComponent": true,
+              "hiddenable": false
+            },
+            "connectionQuery": "connection-k06hec4s",
+            "layout": {
+              "x": 0,
+              "y": 0,
+              "fixedPosition": false,
+              "width": 0,
+              "height": 0,
+              "scale": 1,
+              "rotationInDegrees": 0
+            },
+            "styleId": "style-k06hec3i",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "componentType": "platform.components.AppController",
+            "type": "Component",
+            "id": "comp-k06hec2a",
+            "skin": "platform.components.skins.controllerSkin",
+            "dataQuery": "#dataItem-k06hec3f"
           }
         ],
         "type": "Page",
@@ -717,6 +775,19 @@
             "text": "<h4 class=\"font_2\" style=\"font-size:20px\"><span style=\"font-size:20px\"><span style=\"letter-spacing:0.08em\"><span style=\"font-weight:bold\"><span style=\"color:#577083\"><span style=\"font-family:open sans,sans-serif\">HYDRA</span></span></span></span></span></h4>",
             "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
             "linkList": []
+          },
+          "dataItem-k06hec3f": {
+            "id": "dataItem-k06hec3f",
+            "type": "AppController",
+            "applicationId": "dataBinding",
+            "name": "Sample dataset",
+            "controllerType": "dataset",
+            "settings": "{\"dataset\":{\"collectionName\":\"sample\",\"includes\":null,\"readWriteType\":\"READ\",\"pageSize\":20,\"sort\":null,\"filter\":null}}",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
           },
           "dataItem-k06f8m2c1__item1": {
             "id": "dataItem-k06f8m2c1__item1",
@@ -1474,6 +1545,21 @@
                 "role": "page1"
               }
             ]
+          },
+          "connection-k06hec4s": {
+            "id": "connection-k06hec4s",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "dataset1"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
           },
           "connection-k06f8lzf": {
             "id": "connection-k06f8lzf",
@@ -2439,7 +2525,10 @@
             "target": "_self"
           }
         }
-      }
+      },
+      "pagesPlatformApplications": [
+        "dataBinding"
+      ]
     },
     "pageUriSeo": "home",
     "title": "HOME",
