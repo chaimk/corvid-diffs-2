@@ -211,6 +211,27 @@
             "skin": "wysiwyg.viewer.skins.area.DefaultAreaSkin",
             "dataQuery": "#dataItem-k06f8lw8",
             "mobileHintsQuery": "mobileHints-k06f8m6h"
+          },
+          {
+            "connectionQuery": "connection-k06h4506",
+            "layout": {
+              "x": 102,
+              "y": 2.999999999999943,
+              "fixedPosition": false,
+              "width": 304,
+              "height": 70,
+              "scale": 1,
+              "rotationInDegrees": 0
+            },
+            "styleId": "style-k06h4504",
+            "propertyQuery": "propItem-k06h4503",
+            "previousStyleId": "style-k06gmz0z",
+            "componentType": "wysiwyg.viewer.components.inputs.TextAreaInput",
+            "type": "Component",
+            "id": "comp-k06h44z9",
+            "skin": "TextAreaDefaultSkin",
+            "dataQuery": "#dataItem-k06h4501",
+            "mobileHintsQuery": "mobileHints-k06h4519"
           }
         ],
         "componentType": "mobile.core.components.Page",
@@ -219,7 +240,7 @@
             "connectionQuery": "connection-k06f8ly9",
             "layout": {
               "x": 0,
-              "y": 0,
+              "y": 84,
               "fixedPosition": false,
               "width": 320,
               "height": 1348,
@@ -411,6 +432,27 @@
             "skin": "wysiwyg.viewer.skins.area.DefaultAreaSkin",
             "dataQuery": "#dataItem-k06f8lw8",
             "mobileHintsQuery": "mobileHints-k06f8m6h"
+          },
+          {
+            "connectionQuery": "connection-k06h4506",
+            "layout": {
+              "x": 20,
+              "y": 10,
+              "fixedPosition": false,
+              "width": 280,
+              "height": 64,
+              "scale": 1,
+              "rotationInDegrees": 0
+            },
+            "styleId": "style-k06h4504",
+            "propertyQuery": "propItem-k06h4503",
+            "previousStyleId": "style-k06gmz0z",
+            "componentType": "wysiwyg.viewer.components.inputs.TextAreaInput",
+            "type": "Component",
+            "id": "comp-k06h44z9",
+            "skin": "TextAreaDefaultSkin",
+            "dataQuery": "#dataItem-k06h4501",
+            "mobileHintsQuery": "mobileHints-k06h4519"
           }
         ],
         "type": "Page",
@@ -555,6 +597,18 @@
             "text": "<p class=\"font_7\" style=\"font-size:14px\"><span style=\"font-size:14px\"><span style=\"font-family:avenir-lt-w01_35-light1475496,sans-serif\"><span style=\"color:#36B5CD\">01/19 - 01/23</span></span></span></p>",
             "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
             "linkList": []
+          },
+          "dataItem-k06h4501": {
+            "id": "dataItem-k06h4501",
+            "type": "TextAreaInput",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "placeholder": "How can we do better next time?",
+            "value": "",
+            "label": ""
           },
           "dataItem-k06f8lyv__item2": {
             "id": "dataItem-k06f8lyv__item2",
@@ -1451,6 +1505,21 @@
               "isHidden": false
             }
           },
+          "connection-k06h4506": {
+            "id": "connection-k06h4506",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "textBox1"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
           "connection-k06f8m0i": {
             "id": "connection-k06f8m0i",
             "type": "ConnectionList",
@@ -1877,6 +1946,45 @@
             "id": "style-k06f8m2f1",
             "skin": "wysiwyg.viewer.skins.WRichTextNewSkin"
           },
+          "style-k06h4504": {
+            "componentClassName": "wysiwyg.viewer.components.inputs.TextAreaInput",
+            "pageId": "",
+            "compId": "",
+            "styleType": "custom",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "style": {
+              "properties": {
+                "boxShadowToggleOn-shd": "false",
+                "brwh": "2",
+                "txt2": "#7F808A",
+                "bgh": "#F2FAF9",
+                "bg": "rgba(255, 255, 255, 1)",
+                "txtlbl": "#61615F",
+                "brw": "2px",
+                "fntlbl": "normal normal 700 14px/1.4em avenir-lt-w01_35-light1475496",
+                "fnt": "normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496",
+                "bg2": "#aaaaaa",
+                "shd": "0px 1px 4px 0px rgba(0,0,0,0.6)",
+                "brdd": "#DBDBDB",
+                "txt": "#000000",
+                "brde": "#FF4040",
+                "brdf": "#000000",
+                "rd": "0px",
+                "brdh": "#5C5C5C",
+                "brd": "#919191",
+                "txtd": "#DBDBDB",
+                "bgd": "#FFFFFF",
+                "brwf": "2"
+              }
+            },
+            "type": "ComponentStyle",
+            "id": "style-k06h4504",
+            "skin": "TextAreaDefaultSkin"
+          },
           "style-k06f8lym": {
             "componentClassName": "",
             "pageId": "",
@@ -2048,6 +2156,23 @@
             "onClickBehavior": "goToLink",
             "autoFill": false
           },
+          "propItem-k06h4503": {
+            "labelMargin": 14,
+            "textPadding": 16,
+            "defaultTextType": "placeholderText",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false,
+              "autoGenerated": false
+            },
+            "inputHeight": 70,
+            "placeholder": "How can we do better next time?",
+            "textAlignment": "left",
+            "type": "TextAreaInputProperties",
+            "id": "propItem-k06h4503",
+            "labelPadding": 0
+          },
           "propItem-k06f8m2f": {
             "id": "propItem-k06f8m2f",
             "type": "WRichTextProperties",
@@ -2114,6 +2239,20 @@
             "offsetOrigin": "leftTop",
             "type": "MobileHints",
             "id": "mobileHints-k06f8m5k"
+          },
+          "mobileHints-k06h4519": {
+            "id": "mobileHints-k06h4519",
+            "type": "MobileHints",
+            "recommendedWidth": 280,
+            "recommendedHeight": 64,
+            "recommendedScale": 1,
+            "author": "duplicate",
+            "originalCompId": "comp-k06gmyzs",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
           },
           "mobileHints-k06f8m5p": {
             "recommendedHeight": 231,
