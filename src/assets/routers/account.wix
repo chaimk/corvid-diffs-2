@@ -1,0 +1,19 @@
+{
+  "content": {
+    "appDefinitionId": "14cc59bc-f0b7-15b8-e1c7-89ce41d0e0c9",
+    "prefix": "account",
+    "config": "{\"type\":\"private\",\"patterns\":{\"/my-account\":{\"appData\":{\"appDefinitionId\":\"14cffd81-5215-0a7f-22f8-074b0e2401fb\",\"appPageId\":\"member_info\",\"menuOrder\":3,\"visibleForRoles\":[]},\"page\":\"a8ecafad-806a-4f4a-859b-4eec0a1513c4\",\"seoData\":{\"title\":\"My Account\",\"description\":\"\",\"keywords\":\"\",\"noIndex\":\"true\"},\"title\":\"My Account\"},\"/my-orders\":{\"socialHome\":false,\"appData\":{\"appDefinitionId\":\"1380b703-ce81-ff05-f115-39571d94dfcd\",\"appPageId\":\"order_history\",\"menuOrder\":2,\"visibleForRoles\":[]},\"page\":\"9191be05-290c-4fa0-8faa-63503ef65aef\",\"seoData\":{\"title\":\"My Orders\",\"description\":\"\",\"keywords\":\"\",\"noIndex\":\"true\"},\"title\":\"My Orders\"},\"/my-addresses-1\":{\"socialHome\":false,\"appData\":{\"appDefinitionId\":\"1505b775-e885-eb1b-b665-1e485d9bf90e\",\"appPageId\":\"my_addresses\",\"menuOrder\":2,\"visibleForRoles\":[]},\"page\":\"cc544bc2-c964-4444-b6c2-3584038ce9bd\",\"seoData\":{\"title\":\"My Addresses\",\"description\":\"\",\"keywords\":\"\",\"noIndex\":\"true\"},\"title\":\"My Addresses\"},\"/my-wallet\":{\"socialHome\":false,\"appData\":{\"appDefinitionId\":\"4aebd0cb-fbdb-4da7-b5d1-d05660a30172\",\"appPageId\":\"my_wallet\",\"menuOrder\":2,\"visibleForRoles\":[]},\"page\":\"926239d3-8251-4eff-b999-faeb91c4f948\",\"seoData\":{\"title\":\"My Wallet\",\"description\":\"\",\"keywords\":\"\",\"noIndex\":\"true\"},\"title\":\"My Wallet\"},\"/notifications\":{\"socialHome\":false,\"appData\":{\"numbers\":{\"key\":\"notificationsCount\",\"default\":0},\"appDefinitionId\":\"14f25924-5664-31b2-9568-f9c5ed98c9b1\",\"appPageId\":\"notifications_app\",\"menuOrder\":4,\"visibleForRoles\":[]},\"page\":\"cc3f51fd-fa56-4faf-b024-81861777c81e\",\"seoData\":{\"title\":\"Notifications\",\"description\":\"\",\"keywords\":\"\",\"noIndex\":\"true\"},\"title\":\"Notifications\"},\"/settings\":{\"socialHome\":false,\"appData\":{\"numbers\":{},\"appDefinitionId\":\"14f25dc5-6af3-5420-9568-f9c5ed98c9b1\",\"appPageId\":\"settings\",\"menuOrder\":4,\"visibleForRoles\":[]},\"page\":\"22c1a13a-39d8-48a3-a752-b3ff98994878\",\"seoData\":{\"title\":\"Settings\",\"description\":\"\",\"keywords\":\"\",\"noIndex\":\"true\"},\"title\":\"Settings\"},\"/my-drafts\":{\"socialHome\":false,\"appData\":{\"numbers\":{\"key\":\"draftsCount\",\"default\":0},\"appDefinitionId\":\"14bcded7-0066-7c35-14d7-466cb3f09103\",\"appPageId\":\"member-drafts-page\",\"menuOrder\":2,\"visibleForRoles\":[\"admin\",\"blog_writer\"]},\"page\":\"55322113-1eef-40d6-9882-6defe8075f7f\",\"seoData\":{\"title\":\"My Drafts\",\"description\":\"\",\"keywords\":\"\",\"noIndex\":\"true\"},\"title\":\"My Drafts\"}}}",
+    "group": "members",
+    "pages": {
+      "a8ecafad-806a-4f4a-859b-4eec0a1513c4": "afj7z",
+      "9191be05-290c-4fa0-8faa-63503ef65aef": "pyd5v",
+      "cc544bc2-c964-4444-b6c2-3584038ce9bd": "blobf",
+      "926239d3-8251-4eff-b999-faeb91c4f948": "em59z",
+      "cc3f51fd-fa56-4faf-b024-81861777c81e": "nlegb",
+      "22c1a13a-39d8-48a3-a752-b3ff98994878": "i7lir",
+      "55322113-1eef-40d6-9882-6defe8075f7f": "aymjd"
+    },
+    "routeId": "routers-k06n4hdn"
+  },
+  "documentSchemaVersion": "1.0"
+}

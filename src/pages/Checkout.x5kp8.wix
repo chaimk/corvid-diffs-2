@@ -1,0 +1,264 @@
+{
+  "content": {
+    "content": {
+      "structure": {
+        "layout": {
+          "width": 980,
+          "x": 0,
+          "y": 0,
+          "fixedPosition": false,
+          "height": 500,
+          "scale": 1,
+          "rotationInDegrees": 0
+        },
+        "connectionQuery": "connection-k06n4gf9",
+        "styleId": "style-k06n4gex",
+        "components": [
+          {
+            "componentType": "wysiwyg.viewer.components.tpapps.TPAMultiSection",
+            "type": "Component",
+            "id": "TPAMultiSection_k06n4gep",
+            "skin": "wysiwyg.viewer.skins.TPASectionSkin",
+            "layout": {
+              "fixedPosition": true,
+              "scale": 1,
+              "rotationInDegrees": 0,
+              "docked": {
+                "top": {
+                  "px": 0
+                },
+                "right": {
+                  "px": 0
+                },
+                "bottom": {
+                  "px": 0
+                },
+                "left": {
+                  "px": 0
+                }
+              }
+            },
+            "dataQuery": "#dataItem-k06n4gft",
+            "styleId": "tpas0",
+            "connectionQuery": "connection-k06n4gg3"
+          }
+        ],
+        "componentType": "mobile.core.components.Page",
+        "mobileComponents": [
+          {
+            "connectionQuery": "connection-k06n4gg3",
+            "layout": {
+              "fixedPosition": false,
+              "scale": 1,
+              "rotationInDegrees": 0,
+              "height": 5,
+              "width": 320,
+              "x": 0,
+              "y": 0
+            },
+            "styleId": "tpas0",
+            "componentType": "wysiwyg.viewer.components.tpapps.TPAMultiSection",
+            "type": "Component",
+            "id": "TPAMultiSection_k06n4gep",
+            "skin": "wysiwyg.viewer.skins.TPASectionSkin",
+            "dataQuery": "#dataItem-k06n4gft"
+          }
+        ],
+        "type": "Page",
+        "id": "x5kp8",
+        "skin": "skins.core.InlineSkin",
+        "dataQuery": "#x5kp8",
+        "mobileHintsQuery": "mobileHints-k06n4gfj"
+      },
+      "data": {
+        "component_properties": {},
+        "document_data": {
+          "dataItem-k06n4gft": {
+            "id": "dataItem-k06n4gft",
+            "appDefinitionId": "1380b703-ce81-ff05-f115-39571d94dfcd",
+            "type": "TPAMultiSection",
+            "applicationId": "5906",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "widgetId": "14fd5970-8072-c276-1246-058b79e70c1a",
+            "referenceId": ""
+          },
+          "x5kp8": {
+            "descriptionSEO": "",
+            "isPopup": false,
+            "tpaApplicationId": 5906,
+            "underConstruction": false,
+            "indexable": false,
+            "metaKeywordsSEO": "",
+            "tpaPageId": "checkout",
+            "pageSecurity": {
+              "requireLogin": false,
+              "passwordDigest": "",
+              "dialogLanguage": ""
+            },
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "hidePage": true,
+            "mobileHidePage": null,
+            "pageTitleSEO": "",
+            "hideTitle": true,
+            "pageBackgrounds": {
+              "desktop": {
+                "custom": true,
+                "ref": "#x5kp8_desktop_bg",
+                "isPreset": true
+              },
+              "mobile": {
+                "custom": true,
+                "ref": "#x5kp8_mobile_bg",
+                "isPreset": true,
+                "mediaSizing": "viewport"
+              }
+            },
+            "icon": "",
+            "type": "Page",
+            "isMobileLandingPage": true,
+            "id": "x5kp8",
+            "translationData": {
+              "uriSEOTranslated": false
+            },
+            "isLandingPage": true
+          },
+          "x5kp8_desktop_bg": {
+            "id": "x5kp8_desktop_bg",
+            "type": "BackgroundMedia",
+            "color": "{color_11}",
+            "alignType": "center",
+            "fittingType": "fill",
+            "scrollType": "none",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "2.0",
+              "isHidden": false
+            }
+          },
+          "x5kp8_mobile_bg": {
+            "color": "{color_11}",
+            "scrollType": "none",
+            "colorOverlay": "",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "2.0",
+              "isHidden": false
+            },
+            "fittingType": "fill",
+            "type": "BackgroundMedia",
+            "id": "x5kp8_mobile_bg",
+            "colorOverlayOpacity": 0,
+            "alignType": "center"
+          }
+        },
+        "theme_data": {
+          "style-k06n4gex": {
+            "componentClassName": "",
+            "pageId": "",
+            "compId": "",
+            "styleType": "custom",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "style": {
+              "properties": {},
+              "propertiesSource": {},
+              "groups": {}
+            },
+            "type": "ComponentStyle",
+            "id": "style-k06n4gex",
+            "skin": "wysiwyg.viewer.skins.page.TransparentPageSkin"
+          }
+        },
+        "behaviors_data": {},
+        "connections_data": {
+          "connection-k06n4gf9": {
+            "id": "connection-k06n4gf9",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "page1"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
+          "connection-k06n4gg3": {
+            "id": "connection-k06n4gg3",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "checkout1"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          }
+        },
+        "mobile_hints": {
+          "mobileHints-k06n4gfj": {
+            "id": "mobileHints-k06n4gfj",
+            "type": "MobileHints",
+            "hidden": false,
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          }
+        },
+        "design_data": {}
+      },
+      "pageUriSEO": "checkout",
+      "title": "Checkout",
+      "translations": {},
+      "menus": {
+        "CUSTOM_MAIN_MENU": {
+          "dataItem-k06n4get": {
+            "type": "BasicMenuItem",
+            "isVisible": false,
+            "isVisibleMobile": false,
+            "id": "dataItem-k06n4get",
+            "label": "Checkout",
+            "link": "#dataItem-k06n4get1",
+            "metaData": {
+              "isPreset": false
+            }
+          },
+          "dataItem-k06n4get1": {
+            "type": "PageLink",
+            "target": "_self",
+            "pageId": "#x5kp8",
+            "id": "dataItem-k06n4get1",
+            "metaData": {
+              "isPreset": false
+            }
+          }
+        }
+      }
+    },
+    "pageUriSeo": "checkout",
+    "title": "Checkout",
+    "isPopup": false,
+    "pageId": "x5kp8"
+  },
+  "documentSchemaVersion": "1.0"
+}

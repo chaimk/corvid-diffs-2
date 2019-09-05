@@ -1,0 +1,253 @@
+{
+  "content": {
+    "content": {
+      "structure": {
+        "layout": {
+          "width": 980,
+          "x": 0,
+          "y": 0,
+          "fixedPosition": false,
+          "height": 500,
+          "scale": 1,
+          "rotationInDegrees": 0
+        },
+        "connectionQuery": "connection-k06n4o39",
+        "styleId": "style-k06n4o2u",
+        "components": [
+          {
+            "componentType": "wysiwyg.viewer.components.tpapps.TPAMultiSection",
+            "type": "Component",
+            "id": "TPAMultiSection_k06n4o2m",
+            "skin": "wysiwyg.viewer.skins.TPASectionSkin",
+            "layout": {
+              "x": 300,
+              "y": 60,
+              "fixedPosition": false,
+              "width": 660,
+              "height": 600,
+              "scale": 1,
+              "rotationInDegrees": 0
+            },
+            "dataQuery": "#dataItem-k06n4o41",
+            "styleId": "tpas0",
+            "connectionQuery": "connection-k06n4o4h"
+          }
+        ],
+        "componentType": "mobile.core.components.Page",
+        "mobileComponents": [
+          {
+            "connectionQuery": "connection-k06n4o4h",
+            "layout": {
+              "x": 0,
+              "y": 0,
+              "fixedPosition": false,
+              "width": 320,
+              "height": 291,
+              "scale": 1,
+              "rotationInDegrees": 0
+            },
+            "styleId": "tpas0",
+            "componentType": "wysiwyg.viewer.components.tpapps.TPAMultiSection",
+            "type": "Component",
+            "id": "TPAMultiSection_k06n4o2m",
+            "skin": "wysiwyg.viewer.skins.TPASectionSkin",
+            "dataQuery": "#dataItem-k06n4o41"
+          }
+        ],
+        "type": "Page",
+        "id": "aymjd",
+        "skin": "skins.core.InlineSkin",
+        "dataQuery": "#aymjd",
+        "mobileHintsQuery": "mobileHints-k06n4o3o"
+      },
+      "data": {
+        "component_properties": {},
+        "document_data": {
+          "dataItem-k06n4o41": {
+            "id": "dataItem-k06n4o41",
+            "appDefinitionId": "14bcded7-0066-7c35-14d7-466cb3f09103",
+            "type": "TPAMultiSection",
+            "applicationId": "3550",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "widgetId": "14f260e4-ea13-f861-b0ba-4577df99b961",
+            "referenceId": ""
+          },
+          "aymjd": {
+            "descriptionSEO": "",
+            "isPopup": false,
+            "tpaApplicationId": 3550,
+            "underConstruction": false,
+            "indexable": false,
+            "metaKeywordsSEO": "",
+            "tpaPageId": "member-drafts-page",
+            "pageSecurity": {
+              "requireLogin": true,
+              "dialogLanguage": "en"
+            },
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "hidePage": true,
+            "mobileHidePage": null,
+            "pageTitleSEO": "",
+            "hideTitle": true,
+            "pageBackgrounds": {
+              "desktop": {
+                "custom": true,
+                "ref": "#aymjd_desktop_bg",
+                "isPreset": true
+              },
+              "mobile": {
+                "custom": true,
+                "ref": "#aymjd_mobile_bg",
+                "isPreset": true,
+                "mediaSizing": "viewport"
+              }
+            },
+            "icon": "",
+            "type": "Page",
+            "isMobileLandingPage": false,
+            "id": "aymjd",
+            "translationData": {
+              "uriSEOTranslated": false
+            },
+            "isLandingPage": false
+          },
+          "aymjd_desktop_bg": {
+            "id": "aymjd_desktop_bg",
+            "type": "BackgroundMedia",
+            "color": "{color_11}",
+            "alignType": "center",
+            "fittingType": "fill",
+            "scrollType": "none",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "2.0",
+              "isHidden": false
+            }
+          },
+          "aymjd_mobile_bg": {
+            "color": "{color_11}",
+            "scrollType": "none",
+            "colorOverlay": "",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "2.0",
+              "isHidden": false
+            },
+            "fittingType": "fill",
+            "type": "BackgroundMedia",
+            "id": "aymjd_mobile_bg",
+            "colorOverlayOpacity": 0,
+            "alignType": "center"
+          }
+        },
+        "theme_data": {
+          "style-k06n4o2u": {
+            "componentClassName": "",
+            "pageId": "",
+            "compId": "",
+            "styleType": "custom",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "style": {
+              "properties": {},
+              "propertiesSource": {},
+              "groups": {}
+            },
+            "type": "ComponentStyle",
+            "id": "style-k06n4o2u",
+            "skin": "wysiwyg.viewer.skins.page.TransparentPageSkin"
+          }
+        },
+        "behaviors_data": {},
+        "connections_data": {
+          "connection-k06n4o39": {
+            "id": "connection-k06n4o39",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "page1"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
+          "connection-k06n4o4h": {
+            "id": "connection-k06n4o4h",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "memberDraftsPage1"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          }
+        },
+        "mobile_hints": {
+          "mobileHints-k06n4o3o": {
+            "id": "mobileHints-k06n4o3o",
+            "type": "MobileHints",
+            "hidden": false,
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          }
+        },
+        "design_data": {}
+      },
+      "pageUriSEO": "my-drafts",
+      "title": "My Drafts",
+      "translations": {},
+      "menus": {
+        "CUSTOM_MAIN_MENU": {
+          "dataItem-k06n4o2p": {
+            "type": "BasicMenuItem",
+            "isVisible": false,
+            "isVisibleMobile": false,
+            "id": "dataItem-k06n4o2p",
+            "label": "My Drafts",
+            "link": "#dataItem-k06n4o2p1",
+            "metaData": {
+              "isPreset": false
+            }
+          },
+          "dataItem-k06n4o2p1": {
+            "type": "PageLink",
+            "target": "_self",
+            "pageId": "#aymjd",
+            "id": "dataItem-k06n4o2p1",
+            "metaData": {
+              "isPreset": false
+            }
+          }
+        }
+      }
+    },
+    "pageUriSeo": "my-drafts",
+    "title": "My Drafts",
+    "isPopup": false,
+    "pageId": "aymjd"
+  },
+  "documentSchemaVersion": "1.0"
+}

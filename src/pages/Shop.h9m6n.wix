@@ -1,0 +1,254 @@
+{
+  "content": {
+    "content": {
+      "structure": {
+        "layout": {
+          "width": 980,
+          "x": 0,
+          "y": 0,
+          "fixedPosition": false,
+          "height": 938,
+          "scale": 1,
+          "rotationInDegrees": 0
+        },
+        "connectionQuery": "connection-k06n4g85",
+        "styleId": "style-k06n4g7g",
+        "components": [
+          {
+            "componentType": "wysiwyg.viewer.components.tpapps.TPASection",
+            "type": "Component",
+            "id": "TPASection_k06n4fzp",
+            "skin": "wysiwyg.viewer.skins.TPASectionSkin",
+            "layout": {
+              "x": 0,
+              "y": 0,
+              "fixedPosition": false,
+              "width": 980,
+              "height": 938,
+              "scale": 1,
+              "rotationInDegrees": 0
+            },
+            "dataQuery": "#dataItem-k06n4g8z",
+            "styleId": "tpas0",
+            "connectionQuery": "connection-k06n4g9d"
+          }
+        ],
+        "componentType": "mobile.core.components.Page",
+        "mobileComponents": [
+          {
+            "connectionQuery": "connection-k06n4g9d",
+            "layout": {
+              "x": 20,
+              "y": 10,
+              "fixedPosition": false,
+              "width": 280,
+              "height": 340,
+              "scale": 1,
+              "rotationInDegrees": 0
+            },
+            "styleId": "tpas0",
+            "componentType": "wysiwyg.viewer.components.tpapps.TPASection",
+            "type": "Component",
+            "id": "TPASection_k06n4fzp",
+            "skin": "wysiwyg.viewer.skins.TPASectionSkin",
+            "dataQuery": "#dataItem-k06n4g8z"
+          }
+        ],
+        "type": "Page",
+        "id": "h9m6n",
+        "skin": "skins.core.InlineSkin",
+        "dataQuery": "#h9m6n",
+        "mobileHintsQuery": "mobileHints-k06n4g8l"
+      },
+      "data": {
+        "component_properties": {},
+        "document_data": {
+          "dataItem-k06n4g8z": {
+            "id": "dataItem-k06n4g8z",
+            "appDefinitionId": "1380b703-ce81-ff05-f115-39571d94dfcd",
+            "type": "TPA",
+            "applicationId": "5906",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "widgetId": "1380bba0-253e-a800-a235-88821cf3f8a4",
+            "referenceId": ""
+          },
+          "h9m6n": {
+            "descriptionSEO": "",
+            "isPopup": false,
+            "tpaApplicationId": 5906,
+            "underConstruction": false,
+            "indexable": true,
+            "metaKeywordsSEO": "",
+            "tpaPageId": "product_gallery",
+            "pageSecurity": {
+              "requireLogin": false,
+              "passwordDigest": "",
+              "dialogLanguage": ""
+            },
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "hidePage": false,
+            "mobileHidePage": null,
+            "pageTitleSEO": "",
+            "hideTitle": true,
+            "pageBackgrounds": {
+              "desktop": {
+                "custom": true,
+                "ref": "#h9m6n_desktop_bg",
+                "isPreset": true
+              },
+              "mobile": {
+                "custom": true,
+                "ref": "#h9m6n_mobile_bg",
+                "isPreset": true,
+                "mediaSizing": "viewport"
+              }
+            },
+            "icon": "",
+            "type": "Page",
+            "isMobileLandingPage": false,
+            "id": "h9m6n",
+            "translationData": {
+              "uriSEOTranslated": false
+            },
+            "isLandingPage": false
+          },
+          "h9m6n_desktop_bg": {
+            "id": "h9m6n_desktop_bg",
+            "type": "BackgroundMedia",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "2.0",
+              "isHidden": false
+            },
+            "color": "{color_11}",
+            "alignType": "top",
+            "fittingType": "fill",
+            "scrollType": "fixed"
+          },
+          "h9m6n_mobile_bg": {
+            "color": "{color_11}",
+            "scrollType": "fixed",
+            "colorOverlay": "",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "2.0",
+              "isHidden": false
+            },
+            "fittingType": "fill",
+            "type": "BackgroundMedia",
+            "id": "h9m6n_mobile_bg",
+            "colorOverlayOpacity": 0,
+            "alignType": "top"
+          }
+        },
+        "theme_data": {
+          "style-k06n4g7g": {
+            "componentClassName": "",
+            "pageId": "",
+            "compId": "",
+            "styleType": "custom",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "style": {
+              "properties": {},
+              "propertiesSource": {},
+              "groups": {}
+            },
+            "type": "ComponentStyle",
+            "id": "style-k06n4g7g",
+            "skin": "wysiwyg.viewer.skins.page.TransparentPageSkin"
+          }
+        },
+        "behaviors_data": {},
+        "connections_data": {
+          "connection-k06n4g85": {
+            "id": "connection-k06n4g85",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "page1"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
+          "connection-k06n4g9d": {
+            "id": "connection-k06n4g9d",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "productGallery1"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          }
+        },
+        "mobile_hints": {
+          "mobileHints-k06n4g8l": {
+            "id": "mobileHints-k06n4g8l",
+            "type": "MobileHints",
+            "hidden": false,
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          }
+        },
+        "design_data": {}
+      },
+      "pageUriSEO": "shop",
+      "title": "Shop",
+      "translations": {},
+      "menus": {
+        "CUSTOM_MAIN_MENU": {
+          "dataItem-k06n4g75": {
+            "type": "BasicMenuItem",
+            "isVisible": true,
+            "isVisibleMobile": true,
+            "id": "dataItem-k06n4g75",
+            "label": "Shop",
+            "link": "#dataItem-k06n4g751",
+            "metaData": {
+              "isPreset": false
+            }
+          },
+          "dataItem-k06n4g751": {
+            "type": "PageLink",
+            "target": "_self",
+            "pageId": "#h9m6n",
+            "id": "dataItem-k06n4g751",
+            "metaData": {
+              "isPreset": false
+            }
+          }
+        }
+      }
+    },
+    "pageUriSeo": "shop",
+    "title": "Shop",
+    "isPopup": false,
+    "pageId": "h9m6n"
+  },
+  "documentSchemaVersion": "1.0"
+}

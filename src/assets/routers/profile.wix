@@ -1,0 +1,17 @@
+{
+  "content": {
+    "appDefinitionId": "14cc59bc-f0b7-15b8-e1c7-89ce41d0e0c9",
+    "prefix": "profile",
+    "config": "{\"type\":\"public\",\"patterns\":{\"/{userName}/profile\":{\"socialHome\":true,\"appData\":{\"numbers\":{},\"appDefinitionId\":\"14dbef06-cc42-5583-32a7-3abd44da4908\",\"appPageId\":\"about\",\"menuOrder\":1,\"visibleForRoles\":[]},\"page\":\"f4af647c-95e8-4dcf-91cd-3fade95a3e0b\",\"seoData\":{\"title\":\"{userName} | Profile\",\"description\":\"\",\"keywords\":\"\",\"noIndex\":\"false\"},\"title\":\"Profile\"},\"/{userName}/followers\":{\"socialHome\":false,\"appData\":{\"numbers\":{},\"appDefinitionId\":\"14ebe801-d78a-daa9-c9e5-0286a891e46f\",\"appPageId\":\"following_followers\",\"menuOrder\":2,\"visibleForRoles\":[]},\"page\":\"0c7f68da-31b6-46ff-98ec-57f5883521fc\",\"seoData\":{\"title\":\"{userName} | Followers\",\"description\":\"\",\"keywords\":\"\",\"noIndex\":\"false\"},\"title\":\"Followers\"},\"/{userName}/blog-posts\":{\"socialHome\":false,\"appData\":{\"numbers\":{\"key\":\"postsCount\",\"default\":0},\"appDefinitionId\":\"14bcded7-0066-7c35-14d7-466cb3f09103\",\"appPageId\":\"member-posts-page\",\"menuOrder\":2,\"visibleForRoles\":[\"admin\",\"blog_writer\"]},\"page\":\"b71b3ae1-9d4c-411b-b2c7-c43d4ee681e5\",\"seoData\":{\"title\":\"{userName} | Blog Posts\",\"description\":\"\",\"keywords\":\"\",\"noIndex\":\"false\"},\"title\":\"Blog Posts\"},\"/{userName}/blog-comments\":{\"socialHome\":false,\"appData\":{\"numbers\":{\"key\":\"commentsCount\",\"default\":0},\"appDefinitionId\":\"14bcded7-0066-7c35-14d7-466cb3f09103\",\"appPageId\":\"member-comments-page\",\"menuOrder\":2,\"visibleForRoles\":[]},\"page\":\"34d5923e-a846-4cc5-bb02-86eff1a60a61\",\"seoData\":{\"title\":\"{userName} | Blog Comments \",\"description\":\"\",\"keywords\":\"\",\"noIndex\":\"false\"},\"title\":\"Blog Comments \"},\"/{userName}/blog-likes\":{\"socialHome\":false,\"appData\":{\"numbers\":{\"key\":\"likesCount\",\"default\":0},\"appDefinitionId\":\"14bcded7-0066-7c35-14d7-466cb3f09103\",\"appPageId\":\"member-likes-page\",\"menuOrder\":2,\"visibleForRoles\":[]},\"page\":\"ee458b8b-fad1-4a51-8136-fa9c55ed289d\",\"seoData\":{\"title\":\"{userName} | Blog Likes\",\"description\":\"\",\"keywords\":\"\",\"noIndex\":\"false\"},\"title\":\"Blog Likes\"}}}",
+    "group": "members",
+    "pages": {
+      "f4af647c-95e8-4dcf-91cd-3fade95a3e0b": "uv6ic",
+      "0c7f68da-31b6-46ff-98ec-57f5883521fc": "dbg26",
+      "b71b3ae1-9d4c-411b-b2c7-c43d4ee681e5": "c07lg",
+      "34d5923e-a846-4cc5-bb02-86eff1a60a61": "disgl",
+      "ee458b8b-fad1-4a51-8136-fa9c55ed289d": "r3bvm"
+    },
+    "routeId": "routers-k06n4hdo"
+  },
+  "documentSchemaVersion": "1.0"
+}

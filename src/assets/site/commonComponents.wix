@@ -123,6 +123,43 @@
               "skin": "wysiwyg.viewer.skins.area.DefaultAreaSkin",
               "styleId": "style-k06feiw4",
               "type": "RepeaterContainer"
+            },
+            {
+              "componentType": "wysiwyg.viewer.components.tpapps.TPAWidget",
+              "connectionQuery": "connection-k06n4gi1",
+              "dataQuery": "#dataItem-k06n4ggh",
+              "id": "comp-k06n4ggc",
+              "layout": {
+                "fixedPosition": false,
+                "height": 42,
+                "rotationInDegrees": 0,
+                "scale": 1,
+                "width": 35,
+                "x": 946,
+                "y": 154
+              },
+              "skin": "wysiwyg.viewer.skins.TPAWidgetSkin",
+              "styleId": "tpaw0",
+              "type": "Component"
+            },
+            {
+              "componentType": "wysiwyg.viewer.components.LoginSocialBar",
+              "connectionQuery": "connection-k06n4ivz",
+              "dataQuery": "#dataItem-k06n4ivx",
+              "id": "comp-k06n4i89",
+              "layout": {
+                "fixedPosition": false,
+                "height": 40,
+                "rotationInDegrees": 0,
+                "scale": 1,
+                "width": 120,
+                "x": 810,
+                "y": 155
+              },
+              "propertyQuery": "propItem-k06n4ivy",
+              "skin": "wysiwyg.viewer.skins.LoginSocialBarSkin",
+              "styleId": "style-k06n4ivy1",
+              "type": "Component"
             }
           ],
           "componentType": "wysiwyg.viewer.components.HeaderContainer",
@@ -199,6 +236,95 @@
           "type": "Component"
         },
         {
+          "componentType": "platform.components.AppController",
+          "connectionQuery": "connection-k06n4hir",
+          "dataQuery": "#CONTROLLER_COMP_CUSTOM_ID",
+          "id": "CONTROLLER_COMP_CUSTOM_ID",
+          "layout": {
+            "fixedPosition": false,
+            "height": 96,
+            "rotationInDegrees": 0,
+            "scale": 1,
+            "width": 96,
+            "x": 20,
+            "y": 15
+          },
+          "metaData": {
+            "isHidden": false,
+            "isPreset": false,
+            "schemaVersion": "1.0"
+          },
+          "skin": "platform.components.skins.controllerSkin",
+          "styleId": "style-k06n4hgi",
+          "type": "Component"
+        },
+        {
+          "components": [
+            {
+              "componentType": "wysiwyg.common.components.verticalmenu.viewer.VerticalMenu",
+              "connectionQuery": "connection-k06n4i13",
+              "dataQuery": "#dataItem-k06n4hzs",
+              "id": "comp-k06n4hza",
+              "layout": {
+                "fixedPosition": false,
+                "height": 42,
+                "rotationInDegrees": 0,
+                "scale": 1,
+                "width": 250,
+                "x": 20,
+                "y": 275
+              },
+              "propertyQuery": "propItem-k06n4hzt",
+              "skin": "wysiwyg.common.components.verticalmenu.viewer.skins.VerticalMenuSolidColorSkin",
+              "styleId": "style-k06n4hzu",
+              "type": "Component"
+            },
+            {
+              "componentType": "wysiwyg.viewer.components.tpapps.TPAWidget",
+              "connectionQuery": "connection-k06n4ivd",
+              "dataQuery": "#dataItem-k06n4iu0",
+              "id": "comp-k06n4ilq",
+              "layout": {
+                "fixedPosition": false,
+                "height": 186,
+                "rotationInDegrees": 0,
+                "scale": 1,
+                "width": 250,
+                "x": 20,
+                "y": 60
+              },
+              "skin": "wysiwyg.viewer.skins.TPAWidgetSkin",
+              "styleId": "tpaw0",
+              "type": "Component"
+            }
+          ],
+          "componentType": "wysiwyg.viewer.components.SiteRegionContainer",
+          "connectionQuery": "connection-k06n4hur",
+          "id": "SOSP_CONTAINER_CUSTOM_ID",
+          "layout": {
+            "fixedPosition": false,
+            "height": 451,
+            "rotationInDegrees": 0,
+            "scale": 1,
+            "width": 291,
+            "x": 0,
+            "y": 350
+          },
+          "modes": {
+            "isHiddenByModes": true,
+            "overrides": [
+              {
+                "isHiddenByModes": false,
+                "modeIds": [
+                  "masterPage-mode-k06n4krh"
+                ]
+              }
+            ]
+          },
+          "styleId": "style-k06n4hsl",
+          "type": "Container"
+        },
+        {
           "components": [
             {
               "componentType": "wysiwyg.viewer.components.SiteButton",
@@ -268,7 +394,7 @@
                 "scale": 1,
                 "width": 50,
                 "x": 253,
-                "y": 191
+                "y": 243
               },
               "skin": "wysiwyg.viewer.skins.inlinePopupToggle.inlinePopupToggleSkin4",
               "styleId": "style-jz9vc9ps",
@@ -429,11 +555,29 @@
                 "scale": 0.66,
                 "width": 300,
                 "x": 10,
-                "y": 171
+                "y": 223
               },
               "propertyQuery": "propItem-k06fi9v7",
               "skin": "wixui.skins.ProgressBar",
               "styleId": "style-k06fi9v8",
+              "type": "Component"
+            },
+            {
+              "componentType": "wysiwyg.viewer.components.tpapps.TPAWidget",
+              "connectionQuery": "connection-k06n4gi1",
+              "dataQuery": "#dataItem-k06n4ggh",
+              "id": "comp-k06n4ggc",
+              "layout": {
+                "fixedPosition": false,
+                "height": 42,
+                "rotationInDegrees": 0,
+                "scale": 1,
+                "width": 35,
+                "x": 143,
+                "y": 171
+              },
+              "skin": "wysiwyg.viewer.skins.TPAWidgetSkin",
+              "styleId": "tpaw0",
               "type": "Component"
             },
             {
@@ -452,11 +596,30 @@
                     "scale": 1,
                     "width": 188,
                     "x": 66,
-                    "y": 102
+                    "y": 60
                   },
                   "propertyQuery": "propItem-jz9tlsw4",
                   "skin": "wysiwyg.viewer.skins.ExpandableMenuSkin",
                   "styleId": "style-jz9vahle",
+                  "type": "Component"
+                },
+                {
+                  "componentType": "wysiwyg.viewer.components.LoginSocialBar",
+                  "connectionQuery": "connection-k06n4ivz",
+                  "dataQuery": "#dataItem-k06n4ivx",
+                  "id": "comp-k06n4i89",
+                  "layout": {
+                    "fixedPosition": false,
+                    "height": 40,
+                    "rotationInDegrees": 0,
+                    "scale": 1,
+                    "width": 120,
+                    "x": 100,
+                    "y": 10
+                  },
+                  "propertyQuery": "propItem-k06n4ivy",
+                  "skin": "wysiwyg.viewer.skins.LoginSocialBarSkin",
+                  "styleId": "style-k06n4ivy1",
                   "type": "Component"
                 }
               ],
@@ -485,7 +648,7 @@
                 "scale": 1,
                 "width": 320,
                 "x": 66,
-                "y": 0
+                "y": 306
               },
               "skin": "wysiwyg.viewer.skins.inlinePopup.DefaultInlinePopup",
               "styleId": "style-jz9tlsvs1",
@@ -497,7 +660,7 @@
           "id": "SITE_HEADER",
           "layout": {
             "fixedPosition": false,
-            "height": 251,
+            "height": 303,
             "rotationInDegrees": 0,
             "scale": 1,
             "width": 320,
@@ -506,6 +669,72 @@
           },
           "skin": "wysiwyg.viewer.skins.screenwidthcontainer.TransparentScreen",
           "styleId": "hc1",
+          "type": "Container"
+        },
+        {
+          "components": [
+            {
+              "componentType": "wysiwyg.common.components.verticalmenu.viewer.VerticalMenu",
+              "connectionQuery": "connection-k06n4i13",
+              "dataQuery": "#dataItem-k06n4hzs",
+              "id": "comp-k06n4hza",
+              "layout": {
+                "fixedPosition": false,
+                "height": 48,
+                "rotationInDegrees": 0,
+                "scale": 1,
+                "width": 320,
+                "x": 0,
+                "y": 238
+              },
+              "propertyQuery": "propItem-k06n4hzt",
+              "skin": "wysiwyg.common.components.verticalmenu.viewer.skins.VerticalMenuSolidColorSkin",
+              "styleId": "style-k06n4hzu",
+              "type": "Component"
+            },
+            {
+              "componentType": "wysiwyg.viewer.components.tpapps.TPAWidget",
+              "connectionQuery": "connection-k06n4ivd",
+              "dataQuery": "#dataItem-k06n4iu0",
+              "id": "comp-k06n4ilq",
+              "layout": {
+                "fixedPosition": false,
+                "height": 238,
+                "rotationInDegrees": 0,
+                "scale": 1,
+                "width": 320,
+                "x": 0,
+                "y": 0
+              },
+              "skin": "wysiwyg.viewer.skins.TPAWidgetSkin",
+              "styleId": "tpaw0",
+              "type": "Component"
+            }
+          ],
+          "componentType": "wysiwyg.viewer.components.SiteRegionContainer",
+          "connectionQuery": "connection-k06n4hur",
+          "id": "SOSP_CONTAINER_CUSTOM_ID",
+          "layout": {
+            "fixedPosition": false,
+            "height": 286,
+            "rotationInDegrees": 0,
+            "scale": 1,
+            "width": 320,
+            "x": 0,
+            "y": 303
+          },
+          "modes": {
+            "isHiddenByModes": true,
+            "overrides": [
+              {
+                "isHiddenByModes": false,
+                "modeIds": [
+                  "masterPage-mode-k06n4krh"
+                ]
+              }
+            ]
+          },
+          "styleId": "style-k06n4hsl",
           "type": "Container"
         },
         {
@@ -539,7 +768,7 @@
             "scale": 1,
             "width": 320,
             "x": 0,
-            "y": 251
+            "y": 589
           },
           "skin": "wysiwyg.viewer.skins.screenwidthcontainer.BlankScreen",
           "styleId": "pc1",
@@ -577,7 +806,7 @@
             "scale": 1,
             "width": 320,
             "x": 0,
-            "y": 451
+            "y": 789
           },
           "skin": "wysiwyg.viewer.skins.screenwidthcontainer.TransparentScreen",
           "styleId": "fc1",
@@ -597,11 +826,55 @@
           "skin": "wysiwyg.viewer.skins.backtotopbutton.BackToTopButtonSkin",
           "styleId": "",
           "type": "Component"
+        },
+        {
+          "componentType": "platform.components.AppController",
+          "connectionQuery": "connection-k06n4hir",
+          "conversionData": {
+            "backgroundColor": "#3D9BE9",
+            "hiddenable": false,
+            "isNonContainableFullWidth": false,
+            "isSemiTransparentContainer": false,
+            "isTransparentContainer": false,
+            "mobileHints": {
+              "hidden": false
+            },
+            "nonLayoutComponent": true,
+            "shouldApplyPreset": true
+          },
+          "dataQuery": "#CONTROLLER_COMP_CUSTOM_ID",
+          "id": "CONTROLLER_COMP_CUSTOM_ID",
+          "layout": {
+            "fixedPosition": false,
+            "height": 0,
+            "rotationInDegrees": 0,
+            "scale": 1,
+            "width": 0,
+            "x": 0,
+            "y": 0
+          },
+          "metaData": {
+            "isHidden": false,
+            "isPreset": false,
+            "schemaVersion": "1.0"
+          },
+          "skin": "platform.components.skins.controllerSkin",
+          "styleId": "style-k06n4hgi",
+          "type": "Component"
         }
       ],
       "mobileHintsQuery": "mobileHints-j8u779ne",
       "modes": {
-        "definitions": [],
+        "definitions": [
+          {
+            "label": "SOSP-members_pages_group",
+            "modeId": "masterPage-mode-k06n4krh",
+            "settings": {
+              "pagesGroupId": "#dataItem-k06n4i8d"
+            },
+            "type": "SHOW_ON_SOME_PAGES"
+          }
+        ],
         "overrides": []
       },
       "themeData": {},
@@ -636,6 +909,19 @@
           "hoverImage": "#dataItem-k06fej0g1",
           "activeImage": "#dataItem-k06fej0g2",
           "alt": ""
+        },
+        "dataItem-k06n4ggh": {
+          "id": "dataItem-k06n4ggh",
+          "widgetId": "1380bbc4-1485-9d44-4616-92e36b1ead6b",
+          "applicationId": "5906",
+          "appDefinitionId": "1380b703-ce81-ff05-f115-39571d94dfcd",
+          "type": "TPAWidget",
+          "metaData": {
+            "isPreset": false,
+            "schemaVersion": "1.0",
+            "isHidden": false
+          },
+          "referenceId": ""
         },
         "dataItem-k06feiz5__item-j9ples3e": {
           "id": "dataItem-k06feiz5__item-j9ples3e",
@@ -735,6 +1021,24 @@
           "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
           "linkList": []
         },
+        "dataItem-k06n4ivx": {
+          "loggedInMember": "avatarOnly",
+          "iconItemsRef": "#dataItem-k06n4jn61",
+          "metaData": {
+            "isPreset": false,
+            "schemaVersion": "1.0",
+            "isHidden": false
+          },
+          "showLoggedInText": false,
+          "menuItemsRef": "#dataItem-k06n4jn6",
+          "loggedInText": "Hello",
+          "role": "members_login",
+          "logOutText": "Log Out",
+          "language": "en",
+          "loggedOutText": "Log In",
+          "type": "LoginSocialBar",
+          "id": "dataItem-k06n4ivx"
+        },
         "MAIN_MENU": {
           "type": "Menu",
           "id": "MAIN_MENU",
@@ -766,8 +1070,21 @@
             "isHidden": false
           },
           "menus": [
-            "#CUSTOM_MAIN_MENU"
+            "#CUSTOM_MAIN_MENU",
+            "#MEMBERS_SUB_MENU",
+            "#MEMBERS_LOGIN_MENU",
+            "#MEMBERS_LOGIN_ICONS_MENU"
           ]
+        },
+        "dataItem-k06n4jn61": {
+          "id": "dataItem-k06n4jn61",
+          "menuRef": "#MEMBERS_LOGIN_ICONS_MENU",
+          "type": "CustomMenuDataRef",
+          "metaData": {
+            "isPreset": false,
+            "schemaVersion": "1.0",
+            "isHidden": false
+          }
         },
         "dataItem-k06feix9__item-j9plerjk": {
           "id": "dataItem-k06feix9__item-j9plerjk",
@@ -793,6 +1110,16 @@
           "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
           "linkList": []
         },
+        "dataItem-k06n4jn6": {
+          "id": "dataItem-k06n4jn6",
+          "menuRef": "#MEMBERS_LOGIN_MENU",
+          "type": "CustomMenuDataRef",
+          "metaData": {
+            "isPreset": false,
+            "schemaVersion": "1.0",
+            "isHidden": false
+          }
+        },
         "dataItem-k06feiz5__item-j9pleqw5": {
           "id": "dataItem-k06feiz5__item-j9pleqw5",
           "type": "StyledText",
@@ -817,6 +1144,41 @@
           "hoverImage": "#dataItem-k06fej0e1",
           "activeImage": "#dataItem-k06fej0e2",
           "alt": ""
+        },
+        "dataItem-k06n4q4x": {
+          "id": "dataItem-k06n4q4x",
+          "svgId": "2c36dc006cb94853a49daee7e821f642.svg",
+          "type": "VectorImage",
+          "metaData": {
+            "isPreset": false,
+            "schemaVersion": "1.0",
+            "isHidden": false
+          }
+        },
+        "dataItem-k06n4i8d": {
+          "id": "dataItem-k06n4i8d",
+          "groupName": "members_pages_group",
+          "appId": 6403,
+          "type": "PagesGroupData",
+          "pages": [
+            "#afj7z",
+            "#pyd5v",
+            "#blobf",
+            "#em59z",
+            "#uv6ic",
+            "#dbg26",
+            "#nlegb",
+            "#i7lir",
+            "#c07lg",
+            "#disgl",
+            "#r3bvm",
+            "#aymjd"
+          ],
+          "metaData": {
+            "isPreset": false,
+            "schemaVersion": "1.0",
+            "isHidden": false
+          }
         },
         "dataItem-k06fej2j1": {
           "width": 36,
@@ -1087,7 +1449,9 @@
             "schemaVersion": "1.0",
             "isHidden": false
           },
-          "groups": []
+          "groups": [
+            "#dataItem-k06n4i8d"
+          ]
         },
         "dataItem-k06feiz5__item1": {
           "id": "dataItem-k06feiz5__item1",
@@ -1100,6 +1464,16 @@
           "text": "<p class=\"font_2\" style=\"font-size: 14px; line-height: 1.5em; text-align: center;\"><span style=\"font-size:14px;\"><span style=\"font-family:georgia,palatino,book antiqua,palatino linotype,serif\"><span style=\"letter-spacing:0em\"><span style=\"color:#FFFFFF\">Make this yours. Add images, text and links, or connect data from your collection.</span></span></span></span></p>",
           "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
           "linkList": []
+        },
+        "dataItem-k06n4hzs": {
+          "id": "dataItem-k06n4hzs",
+          "type": "CustomMenuDataRef",
+          "metaData": {
+            "isPreset": false,
+            "schemaVersion": "1.0",
+            "isHidden": false
+          },
+          "menuRef": "#MEMBERS_SUB_MENU"
         },
         "dataItem-k06feix9__item-j9ples3e": {
           "id": "dataItem-k06feix9__item-j9ples3e",
@@ -1134,6 +1508,19 @@
             "isHidden": false
           }
         },
+        "CONTROLLER_COMP_CUSTOM_ID": {
+          "id": "CONTROLLER_COMP_CUSTOM_ID",
+          "type": "AppController",
+          "name": "Members controller",
+          "applicationId": "14cc59bc-f0b7-15b8-e1c7-89ce41d0e0c9",
+          "controllerType": "members",
+          "metaData": {
+            "isPreset": false,
+            "schemaVersion": "1.0",
+            "isHidden": false
+          },
+          "settings": "[{\"l\":\"/profile/{userName}/profile\"},{\"l\":\"/account/my-orders\"},{\"l\":\"/account/my-addresses-1\"},{\"l\":\"/account/my-wallet\"},{\"l\":\"/profile/{userName}/followers\",\"hmb\":true,\"hmmb\":true},{\"l\":\"/profile/{userName}/blog-posts\",\"vfr\":[\"admin\",\"blog_writer\"]},{\"l\":\"/profile/{userName}/blog-comments\"},{\"l\":\"/profile/{userName}/blog-likes\"},{\"l\":\"/account/my-drafts\",\"vfr\":[\"admin\",\"blog_writer\"]},{\"l\":\"/account/my-account\"},{\"l\":\"/account/notifications\"},{\"l\":\"/account/settings\"}]"
+        },
         "dataItem-k06fej08__item-j9pleqw5": {
           "id": "dataItem-k06fej08__item-j9pleqw5",
           "type": "ImageButton",
@@ -1146,6 +1533,19 @@
           "hoverImage": "#dataItem-k06fej0h1",
           "activeImage": "#dataItem-k06fej0h2",
           "alt": ""
+        },
+        "dataItem-k06n4iu0": {
+          "id": "dataItem-k06n4iu0",
+          "widgetId": "14cefc05-d163-dbb7-e4ec-cd4f2c4d6ddd",
+          "applicationId": "6763",
+          "appDefinitionId": "14ce28f7-7eb0-3745-22f8-074b0e2401fb",
+          "type": "TPAWidget",
+          "metaData": {
+            "isPreset": false,
+            "schemaVersion": "1.0",
+            "isHidden": false
+          },
+          "referenceId": ""
         },
         "dataItem-jz9tlsw3": {
           "type": "CustomMenuDataRef",
@@ -1768,6 +2168,28 @@
             }
           ]
         },
+        "connection-k06n4i13": {
+          "id": "connection-k06n4i13",
+          "type": "ConnectionList",
+          "items": [
+            {
+              "type": "WixCodeConnectionItem",
+              "role": "verticalMenu1"
+            },
+            {
+              "type": "ConnectionItem",
+              "role": "members_menu",
+              "isPrimary": true,
+              "config": "{}",
+              "controllerId": "CONTROLLER_COMP_CUSTOM_ID"
+            }
+          ],
+          "metaData": {
+            "isPreset": false,
+            "schemaVersion": "1.0",
+            "isHidden": false
+          }
+        },
         "connection-k06feiyu": {
           "id": "connection-k06feiyu",
           "type": "ConnectionList",
@@ -1798,6 +2220,28 @@
             "isHidden": false
           }
         },
+        "connection-k06n4ivz": {
+          "id": "connection-k06n4ivz",
+          "type": "ConnectionList",
+          "items": [
+            {
+              "type": "WixCodeConnectionItem",
+              "role": "loginSocialBar1"
+            },
+            {
+              "type": "ConnectionItem",
+              "role": "members_login",
+              "isPrimary": true,
+              "config": "{}",
+              "controllerId": "CONTROLLER_COMP_CUSTOM_ID"
+            }
+          ],
+          "metaData": {
+            "isPreset": false,
+            "schemaVersion": "1.0",
+            "isHidden": false
+          }
+        },
         "connection-k06feizx": {
           "id": "connection-k06feizx",
           "type": "ConnectionList",
@@ -1805,6 +2249,36 @@
             {
               "type": "WixCodeConnectionItem",
               "role": "text7"
+            }
+          ],
+          "metaData": {
+            "isPreset": false,
+            "schemaVersion": "1.0",
+            "isHidden": false
+          }
+        },
+        "connection-k06n4gi1": {
+          "id": "connection-k06n4gi1",
+          "type": "ConnectionList",
+          "items": [
+            {
+              "type": "WixCodeConnectionItem",
+              "role": "shoppingCartIcon1"
+            }
+          ],
+          "metaData": {
+            "isPreset": false,
+            "schemaVersion": "1.0",
+            "isHidden": false
+          }
+        },
+        "connection-k06n4hir": {
+          "id": "connection-k06n4hir",
+          "type": "ConnectionList",
+          "items": [
+            {
+              "type": "WixCodeConnectionItem",
+              "role": "members1"
             }
           ],
           "metaData": {
@@ -1832,6 +2306,21 @@
               "role": "pagesContainer1"
             }
           ]
+        },
+        "connection-k06n4ivd": {
+          "id": "connection-k06n4ivd",
+          "type": "ConnectionList",
+          "items": [
+            {
+              "type": "WixCodeConnectionItem",
+              "role": "profile1"
+            }
+          ],
+          "metaData": {
+            "isPreset": false,
+            "schemaVersion": "1.0",
+            "isHidden": false
+          }
         },
         "connection-k05a723g": {
           "type": "ConnectionList",
@@ -1923,6 +2412,21 @@
             }
           ]
         },
+        "connection-k06n4hur": {
+          "id": "connection-k06n4hur",
+          "type": "ConnectionList",
+          "items": [
+            {
+              "type": "WixCodeConnectionItem",
+              "role": "container3"
+            }
+          ],
+          "metaData": {
+            "isPreset": false,
+            "schemaVersion": "1.0",
+            "isHidden": false
+          }
+        },
         "connection-k05a7235": {
           "type": "ConnectionList",
           "id": "connection-k05a7235",
@@ -1960,6 +2464,19 @@
         }
       },
       "component_properties": {
+        "propItem-k06n4hzt": {
+          "id": "propItem-k06n4hzt",
+          "type": "VerticalMenuProperties",
+          "itemsAlignment": "left",
+          "subMenuOpenSide": "right",
+          "metaData": {
+            "isPreset": false,
+            "schemaVersion": "1.0",
+            "isHidden": false
+          },
+          "originalHeight": 210,
+          "menuItemHeight": 40
+        },
         "propItem-k06fb9mo": {
           "id": "propItem-k06fb9mo",
           "align": "center",
@@ -2024,6 +2541,19 @@
           },
           "align": "center",
           "margin": 0
+        },
+        "propItem-k06n4ivy": {
+          "id": "propItem-k06n4ivy",
+          "type": "LoginSocialBarProperties",
+          "buttonsDirection": "ltr",
+          "iconSize": 26,
+          "dropDownTextAlignment": "left",
+          "buttonsAlignment": "right",
+          "metaData": {
+            "isPreset": false,
+            "schemaVersion": "1.0",
+            "isHidden": false
+          }
         },
         "propItem-k06feiz7": {
           "id": "propItem-k06feiz7",
