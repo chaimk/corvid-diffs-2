@@ -4,7 +4,7 @@
       "structure": {
         "layout": {
           "width": 980,
-          "height": 506,
+          "height": 505.99999999999994,
           "x": 0,
           "y": 0,
           "scale": 1,
@@ -13,6 +13,7 @@
         },
         "connectionQuery": "connection-k05a722y",
         "styleId": "p1",
+        "behaviorQuery": "behavior-jg9pfpzt",
         "components": [
           {
             "connectionQuery": "connection-k06f8ly9",
@@ -1387,7 +1388,13 @@
             "alignType": "center"
           }
         },
-        "behaviors_data": {},
+        "behaviors_data": {
+          "behavior-jg9pfpzt": {
+            "type": "ObsoleteBehaviorsList",
+            "id": "behavior-jg9pfpzt",
+            "items": "[]"
+          }
+        },
         "connections_data": {
           "connection-k06f8m18": {
             "id": "connection-k06f8m18",
