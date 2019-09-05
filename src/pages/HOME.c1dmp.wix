@@ -2525,10 +2525,7 @@
             "target": "_self"
           }
         }
-      },
-      "pagesPlatformApplications": [
-        "dataBinding"
-      ]
+      }
     },
     "pageUriSeo": "home",
     "title": "HOME",

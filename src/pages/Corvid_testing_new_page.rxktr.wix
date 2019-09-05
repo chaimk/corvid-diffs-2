@@ -239,6 +239,31 @@
             "id": "comp-k06gmyzs",
             "skin": "TextAreaDefaultSkin",
             "dataQuery": "#dataItem-k06gmz0v"
+          },
+          {
+            "connectionQuery": "connection-k06hhlv8",
+            "layout": {
+              "x": 839,
+              "y": 8,
+              "fixedPosition": false,
+              "width": 94,
+              "height": 78,
+              "scale": 1,
+              "rotationInDegrees": 0
+            },
+            "styleId": "style-k06hhlv6",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "previousStyleId": "style-k06hec3i",
+            "componentType": "platform.components.AppController",
+            "type": "Component",
+            "id": "comp-k06hhlu3",
+            "skin": "platform.components.skins.controllerSkin",
+            "dataQuery": "#dataItem-k06hhlv4",
+            "mobileHintsQuery": "mobileHints-k06hhlw9"
           }
         ],
         "componentType": "mobile.core.components.Page",
@@ -468,6 +493,51 @@
             "id": "comp-k06gmyzs",
             "skin": "TextAreaDefaultSkin",
             "dataQuery": "#dataItem-k06gmz0v"
+          },
+          {
+            "conversionData": {
+              "keepIfVerticalDivider": false,
+              "hiddenable": false,
+              "nonLayoutComponent": true,
+              "isSemiTransparentContainer": false,
+              "mobileScale": 1,
+              "hideByDefault": false,
+              "mobileHints": {
+                "hidden": false,
+                "recommendedHeight": 0,
+                "recommendedWidth": 0,
+                "recommendedComponentsOrder": []
+              },
+              "isNonContainableFullWidth": false,
+              "backgroundColor": "#3D9BE9",
+              "isSuitableForProportionGrouping": false,
+              "isTransparentContainer": false,
+              "shouldApplyPreset": true,
+              "nestOverlayingSiblings": false
+            },
+            "connectionQuery": "connection-k06hhlv8",
+            "layout": {
+              "x": 0,
+              "y": 0,
+              "fixedPosition": false,
+              "width": 0,
+              "height": 0,
+              "scale": 1,
+              "rotationInDegrees": 0
+            },
+            "styleId": "style-k06hhlv6",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "previousStyleId": "style-k06hec3i",
+            "componentType": "platform.components.AppController",
+            "type": "Component",
+            "id": "comp-k06hhlu3",
+            "skin": "platform.components.skins.controllerSkin",
+            "dataQuery": "#dataItem-k06hhlv4",
+            "mobileHintsQuery": "mobileHints-k06hhlw9"
           }
         ],
         "type": "Page",
@@ -744,6 +814,19 @@
             "text": "<p class=\"font_7\" style=\"font-size: 26px; line-height: 1.5em;\"><span style=\"font-size:26px;\"><span style=\"color:#36B5CD\"><span style=\"font-family:avenir-lt-w01_85-heavy1475544,sans-serif;\">$550</span></span></span></p>",
             "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
             "linkList": []
+          },
+          "dataItem-k06hhlv4": {
+            "id": "dataItem-k06hhlv4",
+            "type": "AppController",
+            "applicationId": "dataBinding",
+            "name": "Sample dataset",
+            "controllerType": "dataset",
+            "settings": "{\"dataset\":{\"collectionName\":\"sample\",\"includes\":null,\"readWriteType\":\"READ\",\"pageSize\":20,\"sort\":null,\"filter\":null}}",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
           },
           "dataItem-k06gfq5n": {
             "width": 6000,
@@ -1358,6 +1441,52 @@
             "id": "style-k06gfq751",
             "skin": "wysiwyg.viewer.skins.WRichTextNewSkin"
           },
+          "style-k06hhlv6": {
+            "id": "style-k06hhlv6",
+            "type": "ComponentStyle",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "style": {
+              "groups": {},
+              "properties": {
+                "boxShadowToggleOn-shd": "false",
+                "alpha-txt": "1",
+                "bgh": "#2B689C",
+                "alpha-brdh": "1",
+                "bg": "#3D9BE9",
+                "alpha-brd": "1",
+                "brw": "0px",
+                "alpha-txth": "1",
+                "fnt": "normal normal normal 14px/1.4em raleway",
+                "shd": "0 1px 4px rgba(0, 0, 0, 0.6);",
+                "txt": "#FFFFFF",
+                "rd": "20px",
+                "brdh": "#3D9BE9",
+                "brd": "#2B689C",
+                "alpha-bg": "1",
+                "alpha-bgh": "1",
+                "txth": "#FFFFFF"
+              },
+              "propertiesSource": {
+                "bgh": "value",
+                "bg": "value",
+                "brw": "value",
+                "fnt": "value",
+                "shd": "value",
+                "txt": "value",
+                "rd": "value",
+                "brdh": "value",
+                "brd": "value",
+                "txth": "value"
+              }
+            },
+            "componentClassName": "platform.components.AppController",
+            "skin": "platform.components.skins.controllerSkin",
+            "styleType": "custom"
+          },
           "style-k06gfq6r1": {
             "componentClassName": "",
             "pageId": "",
@@ -1629,6 +1758,21 @@
               "isHidden": false
             }
           },
+          "connection-k06hhlv8": {
+            "id": "connection-k06hhlv8",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "dataset1"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
           "connection-k06gfq6s": {
             "id": "connection-k06gfq6s",
             "type": "ConnectionList",
@@ -1722,6 +1866,20 @@
             "offsetOrigin": "leftTop",
             "type": "MobileHints",
             "id": "mobileHints-k06gfq6r"
+          },
+          "mobileHints-k06hhlw9": {
+            "id": "mobileHints-k06hhlw9",
+            "type": "MobileHints",
+            "recommendedWidth": 0,
+            "recommendedHeight": 0,
+            "recommendedScale": 1,
+            "author": "duplicate",
+            "originalCompId": "comp-k06hec2a",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
           },
           "mobileHints-k06gfq5s": {
             "recommendedHeight": 231,
@@ -2444,7 +2602,10 @@
             }
           }
         }
-      }
+      },
+      "pagesPlatformApplications": [
+        "dataBinding"
+      ]
     },
     "pageUriSeo": "corvid-testing-new-page",
     "title": "Corvid testing new page",
