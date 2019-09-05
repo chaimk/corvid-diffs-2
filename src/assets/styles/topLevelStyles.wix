@@ -2071,6 +2071,55 @@
       "id": "b4",
       "skin": "wysiwyg.viewer.skins.button.ButtonThreeD"
     },
+    "style-k06fcq0c": {
+      "componentClassName": "wysiwyg.viewer.components.SiteButton",
+      "pageId": "",
+      "compId": "",
+      "styleType": "custom",
+      "metaData": {
+        "isPreset": false,
+        "schemaVersion": "1.0",
+        "isHidden": false
+      },
+      "style": {
+        "groups": {},
+        "properties": {
+          "boxShadowToggleOn-shd": "false",
+          "alpha-txt": "1",
+          "bgh": "#000000",
+          "alpha-brdh": "1",
+          "bg": "#323232",
+          "alpha-brd": "1",
+          "brw": "0px",
+          "alpha-txth": "1",
+          "fnt": "normal normal normal 16px/1.4em eb+garamond",
+          "shd": "0px 1px 4px 0px rgba(0,0,0,0.6)",
+          "txt": "#FFFFFF",
+          "rd": "0px",
+          "brdh": "#323232",
+          "brd": "#323232",
+          "alpha-bg": "1",
+          "alpha-bgh": "1",
+          "txth": "#FFFFFF"
+        },
+        "propertiesSource": {
+          "bgh": "value",
+          "bg": "value",
+          "brw": "value",
+          "fnt": "value",
+          "shd": "value",
+          "txt": "value",
+          "rd": "value",
+          "brdh": "value",
+          "brd": "value",
+          "alpha-bgh": "value",
+          "txth": "value"
+        }
+      },
+      "type": "ComponentStyle",
+      "id": "style-k06fcq0c",
+      "skin": "wysiwyg.viewer.skins.button.BasicButton"
+    },
     "ca1": {
       "componentClassName": "",
       "pageId": "",

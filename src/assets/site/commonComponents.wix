@@ -77,7 +77,27 @@
           "type": "Container"
         },
         {
-          "components": [],
+          "components": [
+            {
+              "componentType": "wysiwyg.viewer.components.SiteButton",
+              "connectionQuery": "connection-k06fcq11",
+              "dataQuery": "#dataItem-k06fcq09",
+              "id": "comp-k06fcpzh",
+              "layout": {
+                "fixedPosition": false,
+                "height": 40,
+                "rotationInDegrees": 0,
+                "scale": 1,
+                "width": 151,
+                "x": 558.3092485549133,
+                "y": 64.0952380952381
+              },
+              "propertyQuery": "propItem-k06fcq0b",
+              "skin": "wysiwyg.viewer.skins.button.BasicButton",
+              "styleId": "style-k06fcq0c",
+              "type": "Component"
+            }
+          ],
           "componentType": "wysiwyg.viewer.components.FooterContainer",
           "connectionQuery": "connection-k05a7235",
           "id": "SITE_FOOTER",
@@ -133,9 +153,31 @@
               "type": "Component"
             },
             {
+              "components": [
+                {
+                  "componentType": "wysiwyg.viewer.components.ExpandableMenu",
+                  "connectionQuery": "connection-jz9tlsw5",
+                  "dataQuery": "#dataItem-jz9tlsw3",
+                  "id": "MENU_AS_CONTAINER_EXPANDABLE_MENU",
+                  "layout": {
+                    "fixedPosition": false,
+                    "height": 56,
+                    "rotationInDegrees": 0,
+                    "scale": 1,
+                    "width": 188,
+                    "x": 66,
+                    "y": 102
+                  },
+                  "propertyQuery": "propItem-jz9tlsw4",
+                  "skin": "wysiwyg.viewer.skins.ExpandableMenuSkin",
+                  "styleId": "style-jz9vahle",
+                  "type": "Component"
+                }
+              ],
               "componentType": "wysiwyg.viewer.components.SiteButton",
               "connectionQuery": "connection-k06fb9ne",
               "dataQuery": "#dataItem-k06fb9mm",
+              "designQuery": "#dataItem-jz9tlsvi",
               "id": "comp-k06fb9lg",
               "layout": {
                 "fixedPosition": false,
@@ -147,6 +189,7 @@
                 "y": 10
               },
               "propertyQuery": "propItem-k06fb9mo",
+              "skin": "wysiwyg.viewer.skins.inlinePopup.DefaultInlinePopup",
               "styleId": "b1",
               "type": "Component"
             },
@@ -156,6 +199,7 @@
                 {
                   "componentType": "wysiwyg.viewer.components.ExpandableMenu",
                   "connectionQuery": "connection-jz9tlsw5",
+                  "conversionData": {},
                   "dataQuery": "#dataItem-jz9tlsw3",
                   "id": "MENU_AS_CONTAINER_EXPANDABLE_MENU",
                   "layout": {
@@ -259,7 +303,27 @@
           "type": "Container"
         },
         {
-          "components": [],
+          "components": [
+            {
+              "componentType": "wysiwyg.viewer.components.SiteButton",
+              "connectionQuery": "connection-k06fcq11",
+              "dataQuery": "#dataItem-k06fcq09",
+              "id": "comp-k06fcpzh",
+              "layout": {
+                "fixedPosition": false,
+                "height": 42,
+                "rotationInDegrees": 0,
+                "scale": 1,
+                "width": 160,
+                "x": 80,
+                "y": 10
+              },
+              "propertyQuery": "propItem-k06fcq0b",
+              "skin": "wysiwyg.viewer.skins.button.BasicButton",
+              "styleId": "style-k06fcq0c",
+              "type": "Component"
+            }
+          ],
           "componentType": "wysiwyg.viewer.components.FooterContainer",
           "connectionQuery": "connection-k05a7235",
           "id": "SITE_FOOTER",
@@ -398,6 +462,16 @@
           },
           "groups": []
         },
+        "dataItem-k06fcq09": {
+          "id": "dataItem-k06fcq09",
+          "type": "LinkableButton",
+          "metaData": {
+            "isPreset": false,
+            "schemaVersion": "1.0",
+            "isHidden": false
+          },
+          "label": "View More"
+        },
         "dataItem-k06fb9mm": {
           "id": "dataItem-k06fb9mm",
           "label": "Button",
@@ -520,6 +594,21 @@
             }
           ]
         },
+        "connection-k06fcq11": {
+          "id": "connection-k06fcq11",
+          "type": "ConnectionList",
+          "items": [
+            {
+              "type": "WixCodeConnectionItem",
+              "role": "button4"
+            }
+          ],
+          "metaData": {
+            "isPreset": false,
+            "schemaVersion": "1.0",
+            "isHidden": false
+          }
+        },
         "connection-k06fb9ne": {
           "id": "connection-k06fb9ne",
           "type": "ConnectionList",
@@ -605,6 +694,17 @@
             "schemaVersion": "1.0",
             "isHidden": false
           }
+        },
+        "propItem-k06fcq0b": {
+          "id": "propItem-k06fcq0b",
+          "type": "ButtonProperties",
+          "metaData": {
+            "isPreset": false,
+            "schemaVersion": "1.0",
+            "isHidden": false
+          },
+          "align": "center",
+          "margin": 0
         }
       },
       "mobile_hints": {
