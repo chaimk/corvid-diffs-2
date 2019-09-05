@@ -4,7 +4,7 @@
       "structure": {
         "layout": {
           "width": 980,
-          "height": 500.99999999999994,
+          "height": 505.99999999999994,
           "x": 0,
           "y": 0,
           "scale": 1,
@@ -19,7 +19,7 @@
             "connectionQuery": "connection-k06f8ly9",
             "layout": {
               "x": 0,
-              "y": 68.99999999999994,
+              "y": 73.99999999999994,
               "fixedPosition": false,
               "width": 980,
               "height": 432,
@@ -859,138 +859,6 @@
           }
         },
         "design_data": {
-          "dataItem-k06f8lws__item3": {
-            "id": "dataItem-k06f8lws__item3",
-            "type": "MediaContainerDesignData",
-            "metaData": {
-              "isPreset": false,
-              "schemaVersion": "1.0",
-              "isHidden": false
-            },
-            "background": "#dataItem-k06f8lx4",
-            "cssStyle": {
-              "cssBorder": {
-                "width": {
-                  "top": {
-                    "value": 0,
-                    "unit": "px"
-                  },
-                  "right": {
-                    "value": 0,
-                    "unit": "px"
-                  },
-                  "bottom": {
-                    "value": 0,
-                    "unit": "px"
-                  },
-                  "left": {
-                    "value": 0,
-                    "unit": "px"
-                  }
-                },
-                "style": {
-                  "top": "solid",
-                  "right": "solid",
-                  "left": "solid",
-                  "bottom": "solid"
-                },
-                "color": {
-                  "top": {
-                    "red": 176,
-                    "green": 169,
-                    "blue": 134,
-                    "alpha": 1
-                  },
-                  "right": {
-                    "red": 176,
-                    "green": 169,
-                    "blue": 134,
-                    "alpha": 1
-                  },
-                  "left": {
-                    "red": 176,
-                    "green": 169,
-                    "blue": 134,
-                    "alpha": 1
-                  },
-                  "bottom": {
-                    "red": 176,
-                    "green": 169,
-                    "blue": 134,
-                    "alpha": 1
-                  }
-                }
-              },
-              "cssBorderRadius": {
-                "topLeft": {
-                  "value": 0,
-                  "unit": "px"
-                },
-                "topRight": {
-                  "value": 0,
-                  "unit": "px"
-                },
-                "bottomLeft": {
-                  "value": 0,
-                  "unit": "px"
-                },
-                "bottomRight": {
-                  "value": 0,
-                  "unit": "px"
-                }
-              },
-              "cssBoxShadow": [
-                {
-                  "inset": false,
-                  "offsetX": {
-                    "value": 0,
-                    "unit": "px"
-                  },
-                  "offsetY": {
-                    "value": 4,
-                    "unit": "px"
-                  },
-                  "blurRadius": {
-                    "value": 10,
-                    "unit": "px"
-                  },
-                  "spreadRadius": {
-                    "value": 0,
-                    "unit": "px"
-                  },
-                  "color": {
-                    "red": 0,
-                    "green": 0,
-                    "blue": 0,
-                    "alpha": 0.1
-                  }
-                }
-              ]
-            },
-            "themeMappings": {},
-            "charas": "design-j9pcqsl2",
-            "dataChangeBehaviors": []
-          },
-          "dataItem-k06f8lx4": {
-            "color": "#FFFFFF",
-            "scrollType": "none",
-            "showOverlayForMediaType": "WixVideo",
-            "colorOpacity": 1,
-            "mediaTransforms": {
-              "scale": 1
-            },
-            "colorOverlay": "",
-            "metaData": {
-              "isPreset": false,
-              "schemaVersion": "1.0",
-              "isHidden": false
-            },
-            "fittingType": "fill",
-            "type": "BackgroundMedia",
-            "id": "dataItem-k06f8lx4",
-            "colorOverlayOpacity": 0,
-            "alignType": "center"
-          },
           "dataItem-k06f8lws__item1": {
             "id": "dataItem-k06f8lws__item1",
             "type": "MediaContainerDesignData",
@@ -1102,26 +970,6 @@
             "themeMappings": {},
             "charas": "design-j9o8atta",
             "dataChangeBehaviors": []
-          },
-          "dataItem-k06f8lx2": {
-            "color": "#FFFFFF",
-            "scrollType": "none",
-            "showOverlayForMediaType": "WixVideo",
-            "colorOpacity": 1,
-            "mediaTransforms": {
-              "scale": 1
-            },
-            "colorOverlay": "",
-            "metaData": {
-              "isPreset": false,
-              "schemaVersion": "1.0",
-              "isHidden": false
-            },
-            "fittingType": "fill",
-            "type": "BackgroundMedia",
-            "id": "dataItem-k06f8lx2",
-            "colorOverlayOpacity": 0,
-            "alignType": "center"
           },
           "dataItem-k06f8lws__item2": {
             "id": "dataItem-k06f8lws__item2",
@@ -1235,6 +1083,138 @@
             "charas": "design-j9pcqmvo",
             "dataChangeBehaviors": []
           },
+          "dataItem-k06f8lws__item3": {
+            "id": "dataItem-k06f8lws__item3",
+            "type": "MediaContainerDesignData",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "background": "#dataItem-k06f8lx4",
+            "cssStyle": {
+              "cssBorder": {
+                "width": {
+                  "top": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "right": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "bottom": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "left": {
+                    "value": 0,
+                    "unit": "px"
+                  }
+                },
+                "style": {
+                  "top": "solid",
+                  "right": "solid",
+                  "left": "solid",
+                  "bottom": "solid"
+                },
+                "color": {
+                  "top": {
+                    "red": 176,
+                    "green": 169,
+                    "blue": 134,
+                    "alpha": 1
+                  },
+                  "right": {
+                    "red": 176,
+                    "green": 169,
+                    "blue": 134,
+                    "alpha": 1
+                  },
+                  "left": {
+                    "red": 176,
+                    "green": 169,
+                    "blue": 134,
+                    "alpha": 1
+                  },
+                  "bottom": {
+                    "red": 176,
+                    "green": 169,
+                    "blue": 134,
+                    "alpha": 1
+                  }
+                }
+              },
+              "cssBorderRadius": {
+                "topLeft": {
+                  "value": 0,
+                  "unit": "px"
+                },
+                "topRight": {
+                  "value": 0,
+                  "unit": "px"
+                },
+                "bottomLeft": {
+                  "value": 0,
+                  "unit": "px"
+                },
+                "bottomRight": {
+                  "value": 0,
+                  "unit": "px"
+                }
+              },
+              "cssBoxShadow": [
+                {
+                  "inset": false,
+                  "offsetX": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "offsetY": {
+                    "value": 4,
+                    "unit": "px"
+                  },
+                  "blurRadius": {
+                    "value": 10,
+                    "unit": "px"
+                  },
+                  "spreadRadius": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0,
+                    "alpha": 0.1
+                  }
+                }
+              ]
+            },
+            "themeMappings": {},
+            "charas": "design-j9pcqsl2",
+            "dataChangeBehaviors": []
+          },
+          "dataItem-k06f8lx2": {
+            "color": "#FFFFFF",
+            "scrollType": "none",
+            "showOverlayForMediaType": "WixVideo",
+            "colorOpacity": 1,
+            "mediaTransforms": {
+              "scale": 1
+            },
+            "colorOverlay": "",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "fittingType": "fill",
+            "type": "BackgroundMedia",
+            "id": "dataItem-k06f8lx2",
+            "colorOverlayOpacity": 0,
+            "alignType": "center"
+          },
           "dataItem-k06f8lx3": {
             "color": "#FFFFFF",
             "scrollType": "none",
@@ -1252,6 +1232,26 @@
             "fittingType": "fill",
             "type": "BackgroundMedia",
             "id": "dataItem-k06f8lx3",
+            "colorOverlayOpacity": 0,
+            "alignType": "center"
+          },
+          "dataItem-k06f8lx4": {
+            "color": "#FFFFFF",
+            "scrollType": "none",
+            "showOverlayForMediaType": "WixVideo",
+            "colorOpacity": 1,
+            "mediaTransforms": {
+              "scale": 1
+            },
+            "colorOverlay": "",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "fittingType": "fill",
+            "type": "BackgroundMedia",
+            "id": "dataItem-k06f8lx4",
             "colorOverlayOpacity": 0,
             "alignType": "center"
           },

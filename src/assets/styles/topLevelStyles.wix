@@ -133,6 +133,49 @@
       "id": "fbl1",
       "skin": "skins.core.FacebookLikeSkin"
     },
+    "style-k06feixd": {
+      "componentClassName": "",
+      "pageId": "",
+      "compId": "",
+      "styleType": "custom",
+      "metaData": {
+        "isPreset": false,
+        "schemaVersion": "1.0",
+        "isHidden": false
+      },
+      "style": {
+        "groups": {},
+        "properties": {
+          "f10": "normal normal normal 12px/1.4em din-next-w01-light #545454",
+          "f0": "normal normal normal 40px/1.4em proxima-n-w01-reg #858585",
+          "f1": "normal normal normal 16px/1.4em din-next-w01-light #545454",
+          "f2": "normal normal normal 28px/1.4em proxima-n-w01-reg #858585",
+          "f3": "normal normal normal 60px/1.4em proxima-n-w01-reg #858585",
+          "f4": "normal normal normal 40px/1.4em proxima-n-w01-reg #858585",
+          "f5": "normal normal normal 25px/1.4em proxima-n-w01-reg #858585",
+          "f6": "normal normal normal 22px/1.4em proxima-n-w01-reg #858585",
+          "f7": "normal normal normal 17px/1.4em proxima-n-w01-reg #858585",
+          "f8": "normal normal normal 15px/1.4em helvetica-w01-roman #858585",
+          "f9": "normal normal normal 14px/1.4em proxima-n-w01-reg #858585"
+        },
+        "propertiesSource": {
+          "f10": "value",
+          "f0": "value",
+          "f1": "value",
+          "f2": "value",
+          "f3": "value",
+          "f4": "value",
+          "f5": "value",
+          "f6": "value",
+          "f7": "value",
+          "f8": "value",
+          "f9": "value"
+        }
+      },
+      "type": "ComponentStyle",
+      "id": "style-k06feixd",
+      "skin": "wysiwyg.viewer.skins.WRichTextNewSkin"
+    },
     "txt1": {
       "componentClassName": "",
       "pageId": "",
@@ -416,6 +459,25 @@
       "type": "ComponentStyle",
       "id": "style-jz9vc9ps",
       "skin": "wysiwyg.viewer.skins.inlinePopupToggle.inlinePopupToggleSkin4"
+    },
+    "style-k06fej0i1": {
+      "componentClassName": "wysiwyg.common.components.imagebutton.viewer.ImageButton",
+      "pageId": "",
+      "compId": "",
+      "styleType": "custom",
+      "metaData": {
+        "isPreset": false,
+        "schemaVersion": "1.0",
+        "isHidden": false
+      },
+      "style": {
+        "groups": {},
+        "properties": {},
+        "propertiesSource": {}
+      },
+      "type": "ComponentStyle",
+      "id": "style-k06fej0i1",
+      "skin": "wysiwyg.common.components.imagebutton.viewer.skins.ImageButtonSkin"
     },
     "pagg3": {
       "componentClassName": "",
@@ -1882,6 +1944,25 @@
       "id": "txtNew",
       "skin": "wysiwyg.viewer.skins.WRichTextNewSkin"
     },
+    "style-k06feix3": {
+      "componentClassName": "wysiwyg.viewer.components.MediaContainer",
+      "pageId": "",
+      "compId": "",
+      "styleType": "custom",
+      "metaData": {
+        "isPreset": false,
+        "schemaVersion": "1.0",
+        "isHidden": false
+      },
+      "style": {
+        "groups": {},
+        "properties": {},
+        "propertiesSource": {}
+      },
+      "type": "ComponentStyle",
+      "id": "style-k06feix3",
+      "skin": "wysiwyg.viewer.skins.mediaContainer.DefaultMediaContainer"
+    },
     "hl4": {
       "componentClassName": "",
       "pageId": "",
@@ -2119,6 +2200,42 @@
       "type": "ComponentStyle",
       "id": "style-k06fcq0c",
       "skin": "wysiwyg.viewer.skins.button.BasicButton"
+    },
+    "style-k06feiw4": {
+      "componentClassName": "mobile.core.components.Container",
+      "pageId": "",
+      "compId": "",
+      "styleType": "custom",
+      "metaData": {
+        "isPreset": false,
+        "schemaVersion": "1.0",
+        "isHidden": false
+      },
+      "style": {
+        "groups": {},
+        "properties": {
+          "alpha-bg": "0",
+          "alpha-brd": "0",
+          "bg": "61,155,233,1",
+          "boxShadowToggleOn-shd": "false",
+          "brd": "#324158",
+          "brw": "0px",
+          "rd": "0px",
+          "shd": "0px 1px 4px 0px rgba(0,0,0,0.6)"
+        },
+        "propertiesSource": {
+          "alpha-bg": "value",
+          "alpha-brd": "value",
+          "bg": "value",
+          "brd": "value",
+          "brw": "value",
+          "rd": "value",
+          "shd": "value"
+        }
+      },
+      "type": "ComponentStyle",
+      "id": "style-k06feiw4",
+      "skin": "wysiwyg.viewer.skins.area.DefaultAreaSkin"
     },
     "ca1": {
       "componentClassName": "",
@@ -3200,6 +3317,49 @@
       "type": "TopLevelStyle",
       "id": "pc2",
       "skin": "wysiwyg.viewer.skins.screenwidthcontainer.DefaultScreen"
+    },
+    "style-k06feiz71": {
+      "componentClassName": "",
+      "pageId": "",
+      "compId": "",
+      "styleType": "custom",
+      "metaData": {
+        "isPreset": false,
+        "schemaVersion": "1.0",
+        "isHidden": false
+      },
+      "style": {
+        "groups": {},
+        "properties": {
+          "f10": "normal normal normal 12px/1.4em din-next-w01-light #545454",
+          "f0": "normal normal normal 40px/1.4em proxima-n-w01-reg #858585",
+          "f1": "normal normal normal 16px/1.4em din-next-w01-light #545454",
+          "f2": "normal normal normal 28px/1.4em proxima-n-w01-reg #858585",
+          "f3": "normal normal normal 60px/1.4em proxima-n-w01-reg #858585",
+          "f4": "normal normal normal 40px/1.4em proxima-n-w01-reg #858585",
+          "f5": "normal normal normal 25px/1.4em proxima-n-w01-reg #858585",
+          "f6": "normal normal normal 22px/1.4em proxima-n-w01-reg #858585",
+          "f7": "normal normal normal 17px/1.4em proxima-n-w01-reg #858585",
+          "f8": "normal normal normal 15px/1.4em helvetica-w01-roman #858585",
+          "f9": "normal normal normal 14px/1.4em proxima-n-w01-reg #858585"
+        },
+        "propertiesSource": {
+          "f10": "value",
+          "f0": "value",
+          "f1": "value",
+          "f2": "value",
+          "f3": "value",
+          "f4": "value",
+          "f5": "value",
+          "f6": "value",
+          "f7": "value",
+          "f8": "value",
+          "f9": "value"
+        }
+      },
+      "type": "ComponentStyle",
+      "id": "style-k06feiz71",
+      "skin": "wysiwyg.viewer.skins.WRichTextNewSkin"
     },
     "tf1": {
       "componentClassName": "",
