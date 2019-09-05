@@ -1928,7 +1928,7 @@
       "componentClassName": "",
       "pageId": "",
       "compId": "",
-      "styleType": "system",
+      "styleType": "custom",
       "metaData": {
         "isPreset": false,
         "schemaVersion": "1.0",
@@ -1939,7 +1939,7 @@
         "propertiesSource": {},
         "groups": {}
       },
-      "type": "TopLevelStyle",
+      "type": "ComponentStyle",
       "id": "style-k06hkn3l",
       "skin": "wysiwyg.viewer.skins.page.TransparentPageSkin"
     },
