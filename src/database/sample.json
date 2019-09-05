@@ -1,0 +1,37 @@
+{
+  "id": "sample",
+  "displayName": "sample",
+  "displayField": "title",
+  "fields": {
+    "title": {
+      "displayName": "Title",
+      "type": "text",
+      "index": 0
+    }
+  },
+  "permissions": {
+    "anonymous": {
+      "insert": false,
+      "update": false,
+      "remove": false,
+      "read": true
+    },
+    "siteMember": {
+      "insert": false,
+      "update": false,
+      "remove": false,
+      "read": true
+    },
+    "dataOwner": {
+      "update": false,
+      "remove": false,
+      "read": true
+    },
+    "siteOwner": {
+      "insert": true,
+      "update": true,
+      "remove": true,
+      "read": true
+    }
+  }
+}
