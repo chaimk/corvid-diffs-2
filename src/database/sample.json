@@ -29,14 +29,14 @@
       "read": true
     },
     "siteMember": {
-      "insert": false,
+      "insert": true,
       "update": false,
       "remove": false,
       "read": true
     },
     "dataOwner": {
-      "update": false,
-      "remove": false,
+      "update": true,
+      "remove": true,
       "read": true
     },
     "siteOwner": {
