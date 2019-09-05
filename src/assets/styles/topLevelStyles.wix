@@ -1420,7 +1420,7 @@
       "componentClassName": "",
       "pageId": "",
       "compId": "",
-      "styleType": "system",
+      "styleType": "custom",
       "metaData": {
         "isPreset": false,
         "schemaVersion": "1.0",
@@ -1431,7 +1431,7 @@
         "propertiesSource": {},
         "groups": {}
       },
-      "type": "TopLevelStyle",
+      "type": "ComponentStyle",
       "id": "style-k06gcn6d",
       "skin": "wysiwyg.viewer.skins.page.TransparentPageSkin"
     },
@@ -3221,7 +3221,7 @@
       "componentClassName": "",
       "pageId": "",
       "compId": "",
-      "styleType": "system",
+      "styleType": "custom",
       "metaData": {
         "isPreset": false,
         "schemaVersion": "1.0",
@@ -3232,7 +3232,7 @@
         "propertiesSource": {},
         "groups": {}
       },
-      "type": "TopLevelStyle",
+      "type": "ComponentStyle",
       "id": "style-k06gcn3s",
       "skin": "wysiwyg.viewer.skins.page.TransparentPageSkin"
     },

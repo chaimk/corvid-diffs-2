@@ -7,15 +7,431 @@
           "x": 0,
           "y": 0,
           "fixedPosition": false,
-          "height": 500,
+          "height": 505.99999999999994,
           "scale": 1,
           "rotationInDegrees": 0
         },
         "connectionQuery": "connection-k05do2x5",
         "styleId": "style-k05do2wp",
-        "components": [],
+        "components": [
+          {
+            "connectionQuery": "connection-k06gfq4l",
+            "layout": {
+              "x": 0,
+              "y": 73.99999999999994,
+              "fixedPosition": false,
+              "width": 980,
+              "height": 432,
+              "scale": 1,
+              "rotationInDegrees": 0
+            },
+            "styleId": "style-k06gfq4k",
+            "propertyQuery": "propItem-k06gfq4i",
+            "previousStyleId": "style-k06f8lwc",
+            "components": [
+              {
+                "connectionQuery": "connection-k06gfq5g1",
+                "designQuery": "#dataItem-k06gfq51",
+                "layout": {
+                  "x": 0,
+                  "y": 0,
+                  "fixedPosition": false,
+                  "width": 306,
+                  "height": 432,
+                  "scale": 1,
+                  "rotationInDegrees": 0
+                },
+                "styleId": "style-k06gfq5g",
+                "previousStyleId": "style-k06f8lx41",
+                "components": [
+                  {
+                    "connectionQuery": "connection-k06gfq5s2",
+                    "layout": {
+                      "x": 0,
+                      "y": 0,
+                      "fixedPosition": false,
+                      "width": 306,
+                      "height": 226,
+                      "scale": 1,
+                      "rotationInDegrees": 0
+                    },
+                    "styleId": "style-k06gfq5s1",
+                    "propertyQuery": "propItem-k06gfq5r",
+                    "previousStyleId": "style-k06f8lxf1",
+                    "componentType": "wysiwyg.viewer.components.WPhoto",
+                    "type": "Component",
+                    "id": "comp-k06gfq5j",
+                    "skin": "wysiwyg.viewer.skins.photo.NoSkinPhoto",
+                    "dataQuery": "#dataItem-k06gfq5n",
+                    "mobileHintsQuery": "mobileHints-k06gfq5s"
+                  },
+                  {
+                    "connectionQuery": "connection-k06gfq6s",
+                    "layout": {
+                      "x": -1,
+                      "y": 196,
+                      "fixedPosition": false,
+                      "width": 180,
+                      "height": 44,
+                      "scale": 1,
+                      "rotationInDegrees": 0
+                    },
+                    "styleId": "style-k06gfq6r1",
+                    "previousStyleId": "style-k06f8lym",
+                    "components": [
+                      {
+                        "connectionQuery": "connection-k06gfq752",
+                        "layout": {
+                          "x": 17,
+                          "y": 8,
+                          "fixedPosition": false,
+                          "width": 159,
+                          "height": 27,
+                          "scale": 1,
+                          "rotationInDegrees": 0
+                        },
+                        "styleId": "style-k06gfq751",
+                        "propertyQuery": "propItem-k06gfq73",
+                        "previousStyleId": "style-k06f8lyy",
+                        "componentType": "wysiwyg.viewer.components.WRichText",
+                        "type": "Component",
+                        "id": "comp-k06gfq6y",
+                        "skin": "wysiwyg.viewer.skins.WRichTextNewSkin",
+                        "dataQuery": "#dataItem-k06gfq71",
+                        "mobileHintsQuery": "mobileHints-k06gfq75"
+                      }
+                    ],
+                    "componentType": "mobile.core.components.Container",
+                    "type": "Container",
+                    "id": "comp-k06gfq6j",
+                    "mobileHintsQuery": "mobileHints-k06gfq6r"
+                  },
+                  {
+                    "connectionQuery": "connection-k06gfq832",
+                    "layout": {
+                      "x": 16,
+                      "y": 242,
+                      "fixedPosition": false,
+                      "width": 191,
+                      "height": 17,
+                      "scale": 1,
+                      "rotationInDegrees": 0
+                    },
+                    "styleId": "style-k06gfq831",
+                    "propertyQuery": "propItem-k06gfq82",
+                    "previousStyleId": "style-k06f8m031",
+                    "componentType": "wysiwyg.viewer.components.WRichText",
+                    "type": "Component",
+                    "id": "comp-k06gfq7y",
+                    "dataQuery": "#dataItem-k06gfq81",
+                    "mobileHintsQuery": "mobileHints-k06gfq83"
+                  },
+                  {
+                    "connectionQuery": "connection-k06gfq8q",
+                    "layout": {
+                      "x": 19,
+                      "y": 277,
+                      "fixedPosition": false,
+                      "width": 268,
+                      "height": 68,
+                      "scale": 1,
+                      "rotationInDegrees": 0
+                    },
+                    "styleId": "style-k06gfq8p2",
+                    "propertyQuery": "propItem-k06gfq8p",
+                    "previousStyleId": "style-k06f8m0t1",
+                    "componentType": "wysiwyg.viewer.components.WRichText",
+                    "type": "Component",
+                    "id": "comp-k06gfq8k",
+                    "dataQuery": "#dataItem-k06gfq8n",
+                    "mobileHintsQuery": "mobileHints-k06gfq8p1"
+                  },
+                  {
+                    "connectionQuery": "connection-k06gfq9h2",
+                    "layout": {
+                      "x": 19,
+                      "y": 359,
+                      "fixedPosition": false,
+                      "width": 115,
+                      "height": 22,
+                      "scale": 1,
+                      "rotationInDegrees": 0
+                    },
+                    "styleId": "style-k06gfq9h1",
+                    "propertyQuery": "propItem-k06gfq9g",
+                    "previousStyleId": "style-k06f8m1m1",
+                    "componentType": "wysiwyg.viewer.components.WRichText",
+                    "type": "Component",
+                    "id": "comp-k06gfq9a",
+                    "dataQuery": "#dataItem-k06gfq9f",
+                    "mobileHintsQuery": "mobileHints-k06gfq9h"
+                  },
+                  {
+                    "connectionQuery": "connection-k06gfqa9",
+                    "layout": {
+                      "x": 19,
+                      "y": 379,
+                      "fixedPosition": false,
+                      "width": 136,
+                      "height": 39,
+                      "scale": 1,
+                      "rotationInDegrees": 0
+                    },
+                    "styleId": "style-k06gfqa82",
+                    "propertyQuery": "propItem-k06gfqa8",
+                    "previousStyleId": "style-k06f8m2f1",
+                    "componentType": "wysiwyg.viewer.components.WRichText",
+                    "type": "Component",
+                    "id": "comp-k06gfqa3",
+                    "dataQuery": "#dataItem-k06gfqa7",
+                    "mobileHintsQuery": "mobileHints-k06gfqa81"
+                  },
+                  {
+                    "connectionQuery": "connection-k06gfqb51",
+                    "layout": {
+                      "x": 167,
+                      "y": 372,
+                      "fixedPosition": false,
+                      "width": 120,
+                      "height": 40,
+                      "scale": 1,
+                      "rotationInDegrees": 0
+                    },
+                    "styleId": "style-k06gfqb5",
+                    "propertyQuery": "propItem-k06gfqb4",
+                    "previousStyleId": "style-k06f8m33",
+                    "componentType": "wysiwyg.viewer.components.SiteButton",
+                    "type": "Component",
+                    "id": "comp-k06gfqax",
+                    "skin": "wysiwyg.viewer.skins.button.BasicButton",
+                    "dataQuery": "#dataItem-k06gfqb2",
+                    "mobileHintsQuery": "mobileHints-k06gfqb41"
+                  }
+                ],
+                "componentType": "wysiwyg.viewer.components.MediaContainer",
+                "type": "Container",
+                "id": "comp-k06gfq4s",
+                "mobileHintsQuery": "mobileHints-k06gfq5f1"
+              }
+            ],
+            "componentType": "wysiwyg.viewer.components.Repeater",
+            "type": "RepeaterContainer",
+            "id": "comp-k06gfq3m",
+            "skin": "wysiwyg.viewer.skins.area.DefaultAreaSkin",
+            "dataQuery": "#dataItem-k06gfq4h",
+            "mobileHintsQuery": "mobileHints-k06gfq4j"
+          }
+        ],
         "componentType": "mobile.core.components.Page",
-        "mobileComponents": [],
+        "mobileComponents": [
+          {
+            "connectionQuery": "connection-k06gfq4l",
+            "layout": {
+              "x": 0,
+              "y": 0,
+              "fixedPosition": false,
+              "width": 320,
+              "height": 1348,
+              "scale": 1,
+              "rotationInDegrees": 0
+            },
+            "styleId": "style-k06gfq4k",
+            "propertyQuery": "propItem-k06gfq4i",
+            "previousStyleId": "style-k06f8lwc",
+            "components": [
+              {
+                "connectionQuery": "connection-k06gfq5g1",
+                "designQuery": "#dataItem-k06gfq51",
+                "layout": {
+                  "x": 0,
+                  "y": 0,
+                  "fixedPosition": false,
+                  "width": 320,
+                  "height": 436,
+                  "scale": 1,
+                  "rotationInDegrees": 0
+                },
+                "styleId": "style-k06gfq5g",
+                "previousStyleId": "style-k06f8lx41",
+                "components": [
+                  {
+                    "connectionQuery": "connection-k06gfq5s2",
+                    "layout": {
+                      "x": 12,
+                      "y": 10,
+                      "fixedPosition": false,
+                      "width": 297,
+                      "height": 231,
+                      "scale": 1,
+                      "rotationInDegrees": 0
+                    },
+                    "styleId": "style-k06gfq5s1",
+                    "propertyQuery": "propItem-k06gfq5r",
+                    "previousStyleId": "style-k06f8lxf1",
+                    "componentType": "wysiwyg.viewer.components.WPhoto",
+                    "type": "Component",
+                    "id": "comp-k06gfq5j",
+                    "skin": "wysiwyg.viewer.skins.photo.NoSkinPhoto",
+                    "dataQuery": "#dataItem-k06gfq5n",
+                    "mobileHintsQuery": "mobileHints-k06gfq5s"
+                  },
+                  {
+                    "connectionQuery": "connection-k06gfq6s",
+                    "layout": {
+                      "x": 12,
+                      "y": 209,
+                      "fixedPosition": false,
+                      "width": 164,
+                      "height": 55,
+                      "scale": 1,
+                      "rotationInDegrees": 0
+                    },
+                    "styleId": "style-k06gfq6r1",
+                    "previousStyleId": "style-k06f8lym",
+                    "components": [
+                      {
+                        "connectionQuery": "connection-k06gfq752",
+                        "layout": {
+                          "x": 7,
+                          "y": 7,
+                          "fixedPosition": false,
+                          "width": 149,
+                          "height": 23,
+                          "scale": 0.8727272727272727,
+                          "rotationInDegrees": 0
+                        },
+                        "styleId": "style-k06gfq751",
+                        "propertyQuery": "mobile_propItem-k06gfq73",
+                        "previousStyleId": "style-k06f8lyy",
+                        "componentType": "wysiwyg.viewer.components.WRichText",
+                        "type": "Component",
+                        "id": "comp-k06gfq6y",
+                        "skin": "wysiwyg.viewer.skins.WRichTextNewSkin",
+                        "dataQuery": "#dataItem-k06gfq71",
+                        "mobileHintsQuery": "mobileHints-k06gfq75"
+                      }
+                    ],
+                    "componentType": "mobile.core.components.Container",
+                    "type": "Container",
+                    "id": "comp-k06gfq6j",
+                    "mobileHintsQuery": "mobileHints-k06gfq6r"
+                  },
+                  {
+                    "connectionQuery": "connection-k06gfq832",
+                    "layout": {
+                      "x": 22,
+                      "y": 244,
+                      "fixedPosition": false,
+                      "width": 149,
+                      "height": 17,
+                      "scale": 0.9333333333333333,
+                      "rotationInDegrees": 0
+                    },
+                    "styleId": "style-k06gfq831",
+                    "propertyQuery": "mobile_propItem-k06gfq82",
+                    "previousStyleId": "style-k06f8m031",
+                    "componentType": "wysiwyg.viewer.components.WRichText",
+                    "type": "Component",
+                    "id": "comp-k06gfq7y",
+                    "dataQuery": "#dataItem-k06gfq81",
+                    "mobileHintsQuery": "mobileHints-k06gfq83"
+                  },
+                  {
+                    "connectionQuery": "connection-k06gfq8q",
+                    "layout": {
+                      "x": 20,
+                      "y": 280,
+                      "fixedPosition": false,
+                      "width": 280,
+                      "height": 44,
+                      "scale": 0.9974999999999999,
+                      "rotationInDegrees": 0
+                    },
+                    "styleId": "style-k06gfq8p2",
+                    "propertyQuery": "mobile_propItem-k06gfq8p",
+                    "previousStyleId": "style-k06f8m0t1",
+                    "componentType": "wysiwyg.viewer.components.WRichText",
+                    "type": "Component",
+                    "id": "comp-k06gfq8k",
+                    "dataQuery": "#dataItem-k06gfq8n",
+                    "mobileHintsQuery": "mobileHints-k06gfq8p1"
+                  },
+                  {
+                    "connectionQuery": "connection-k06gfq9h2",
+                    "layout": {
+                      "x": 20,
+                      "y": 351,
+                      "fixedPosition": false,
+                      "width": 98,
+                      "height": 22,
+                      "scale": 1,
+                      "rotationInDegrees": 0
+                    },
+                    "styleId": "style-k06gfq9h1",
+                    "propertyQuery": "mobile_propItem-k06gfq9g",
+                    "previousStyleId": "style-k06f8m1m1",
+                    "componentType": "wysiwyg.viewer.components.WRichText",
+                    "type": "Component",
+                    "id": "comp-k06gfq9a",
+                    "dataQuery": "#dataItem-k06gfq9f",
+                    "mobileHintsQuery": "mobileHints-k06gfq9h"
+                  },
+                  {
+                    "connectionQuery": "connection-k06gfqa9",
+                    "layout": {
+                      "x": 20,
+                      "y": 372,
+                      "fixedPosition": false,
+                      "width": 147,
+                      "height": 35,
+                      "scale": 0.8846153846153846,
+                      "rotationInDegrees": 0
+                    },
+                    "styleId": "style-k06gfqa82",
+                    "propertyQuery": "mobile_propItem-k06gfqa8",
+                    "previousStyleId": "style-k06f8m2f1",
+                    "componentType": "wysiwyg.viewer.components.WRichText",
+                    "type": "Component",
+                    "id": "comp-k06gfqa3",
+                    "dataQuery": "#dataItem-k06gfqa7",
+                    "mobileHintsQuery": "mobileHints-k06gfqa81"
+                  },
+                  {
+                    "connectionQuery": "connection-k06gfqb51",
+                    "layout": {
+                      "x": 185,
+                      "y": 362,
+                      "fixedPosition": false,
+                      "width": 120,
+                      "height": 40,
+                      "scale": 1,
+                      "rotationInDegrees": 0
+                    },
+                    "styleId": "style-k06gfqb5",
+                    "propertyQuery": "propItem-k06gfqb4",
+                    "previousStyleId": "style-k06f8m33",
+                    "componentType": "wysiwyg.viewer.components.SiteButton",
+                    "type": "Component",
+                    "id": "comp-k06gfqax",
+                    "skin": "wysiwyg.viewer.skins.button.BasicButton",
+                    "dataQuery": "#dataItem-k06gfqb2",
+                    "mobileHintsQuery": "mobileHints-k06gfqb41"
+                  }
+                ],
+                "componentType": "wysiwyg.viewer.components.MediaContainer",
+                "type": "Container",
+                "id": "comp-k06gfq4s",
+                "mobileHintsQuery": "mobileHints-k06gfq5f1"
+              }
+            ],
+            "componentType": "wysiwyg.viewer.components.Repeater",
+            "type": "RepeaterContainer",
+            "id": "comp-k06gfq3m",
+            "skin": "wysiwyg.viewer.skins.area.DefaultAreaSkin",
+            "dataQuery": "#dataItem-k06gfq4h",
+            "mobileHintsQuery": "mobileHints-k06gfq4j"
+          }
+        ],
         "type": "Page",
         "id": "rxktr",
         "skin": "wysiwyg.viewer.skins.page.TransparentPageSkin",
@@ -23,8 +439,540 @@
         "mobileHintsQuery": "mobileHints-k05do2xe"
       },
       "data": {
-        "component_properties": {},
+        "component_properties": {
+          "propItem-k06gfq9g": {
+            "id": "propItem-k06gfq9g",
+            "type": "WRichTextProperties",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false,
+              "autoGenerated": false
+            },
+            "brightness": 1,
+            "packed": true
+          },
+          "mobile_propItem-k06gfq9g": {
+            "id": "mobile_propItem-k06gfq9g",
+            "type": "WRichTextProperties",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false,
+              "autoGenerated": true
+            },
+            "brightness": 1,
+            "packed": false,
+            "minHeight": null
+          },
+          "propItem-k06gfqb4": {
+            "id": "propItem-k06gfqb4",
+            "type": "ButtonProperties",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "align": "center",
+            "margin": 0
+          },
+          "propItem-k06gfq4i": {
+            "id": "propItem-k06gfq4i",
+            "type": "CardsLayoutProperties",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false,
+              "autoGenerated": false
+            },
+            "alignment": "left",
+            "gap": {
+              "vertical": 30,
+              "horizontal": 30
+            }
+          },
+          "propItem-k06gfqa8": {
+            "id": "propItem-k06gfqa8",
+            "type": "WRichTextProperties",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false,
+              "autoGenerated": false
+            },
+            "brightness": 1,
+            "packed": true
+          },
+          "propItem-k06gfq8p": {
+            "id": "propItem-k06gfq8p",
+            "type": "WRichTextProperties",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false,
+              "autoGenerated": false
+            },
+            "brightness": 1,
+            "packed": false,
+            "minHeight": 68
+          },
+          "mobile_propItem-k06gfqa8": {
+            "id": "mobile_propItem-k06gfqa8",
+            "type": "WRichTextProperties",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false,
+              "autoGenerated": true
+            },
+            "brightness": 1,
+            "packed": false,
+            "minHeight": null
+          },
+          "propItem-k06gfq82": {
+            "id": "propItem-k06gfq82",
+            "type": "WRichTextProperties",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false,
+              "autoGenerated": false
+            },
+            "brightness": 1,
+            "packed": true
+          },
+          "mobile_propItem-k06gfq8p": {
+            "id": "mobile_propItem-k06gfq8p",
+            "type": "WRichTextProperties",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false,
+              "autoGenerated": true
+            },
+            "brightness": 1,
+            "packed": false,
+            "minHeight": null
+          },
+          "propItem-k06gfq73": {
+            "id": "propItem-k06gfq73",
+            "type": "WRichTextProperties",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "brightness": 1,
+            "packed": true
+          },
+          "mobile_propItem-k06gfq82": {
+            "id": "mobile_propItem-k06gfq82",
+            "type": "WRichTextProperties",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false,
+              "autoGenerated": true
+            },
+            "brightness": 1,
+            "packed": false,
+            "minHeight": null
+          },
+          "propItem-k06gfq5r": {
+            "id": "propItem-k06gfq5r",
+            "type": "WPhotoProperties",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false,
+              "autoGenerated": false
+            },
+            "displayMode": "fill",
+            "onClickBehavior": "goToLink",
+            "autoFill": false,
+            "effectName": "none"
+          },
+          "mobile_propItem-k06gfq73": {
+            "id": "mobile_propItem-k06gfq73",
+            "type": "WRichTextProperties",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false,
+              "autoGenerated": true
+            },
+            "brightness": 1,
+            "packed": false,
+            "minHeight": null
+          }
+        },
         "document_data": {
+          "dataItem-k06gfq9f__item1": {
+            "id": "dataItem-k06gfq9f__item1",
+            "type": "StyledText",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "text": "<p class=\"font_7\" style=\"font-size:15px; line-height:1.5em\"><span style=\"font-family:avenir-lt-w01_35-light1475496,sans-serif\"><span style=\"font-size:15px\"><span style=\"color:#577083\">From:</span></span></span></p>",
+            "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
+            "linkList": []
+          },
+          "dataItem-k06gfq9f__item2": {
+            "id": "dataItem-k06gfq9f__item2",
+            "type": "StyledText",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "text": "<p class=\"font_7\" style=\"font-size:15px; line-height:1.5em\"><span style=\"font-family:avenir-lt-w01_35-light1475496,sans-serif\"><span style=\"font-size:15px\"><span style=\"color:#577083\">From:</span></span></span></p>",
+            "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
+            "linkList": []
+          },
+          "dataItem-k06gfqb2": {
+            "id": "dataItem-k06gfqb2",
+            "type": "LinkableButton",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "label": "Book Now"
+          },
+          "dataItem-k06gfq9f__item3": {
+            "id": "dataItem-k06gfq9f__item3",
+            "type": "StyledText",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "text": "<p class=\"font_7\" style=\"font-size:15px; line-height:1.5em\"><span style=\"font-family:avenir-lt-w01_35-light1475496,sans-serif\"><span style=\"font-size:15px\"><span style=\"color:#577083\">From:</span></span></span></p>",
+            "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
+            "linkList": []
+          },
+          "dataItem-k06gfq4h": {
+            "id": "dataItem-k06gfq4h",
+            "type": "Repeater",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "items": [
+              "item1",
+              "item2",
+              "item3"
+            ]
+          },
+          "dataItem-k06gfq8n": {
+            "id": "dataItem-k06gfq8n",
+            "type": "StyledText",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "text": "<p class=\"font_8\" style=\"line-height:1.5em\"><span style=\"color:#577083\">Click here to add your own content, or connect to data from your collections.</span></p>",
+            "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
+            "linkList": []
+          },
+          "dataItem-k06gfqa7": {
+            "id": "dataItem-k06gfqa7",
+            "type": "StyledText",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "text": "<p class=\"font_7\" style=\"font-size: 26px; line-height: 1.5em;\"><span style=\"font-size:26px;\"><span style=\"color:#36B5CD\"><span style=\"font-family:avenir-lt-w01_85-heavy1475544,sans-serif;\">$550</span></span></span></p>",
+            "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
+            "linkList": []
+          },
+          "dataItem-k06gfq5n": {
+            "width": 6000,
+            "height": 4000,
+            "alt": "",
+            "uri": "af9daef5b5684a679caf003614294ccd.jpg",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "2.0",
+              "isHidden": false
+            },
+            "crop": {
+              "x": 584,
+              "y": 0,
+              "width": 5416,
+              "height": 4000
+            },
+            "title": "",
+            "type": "Image",
+            "id": "dataItem-k06gfq5n",
+            "description": ""
+          },
+          "dataItem-k06gfq81": {
+            "id": "dataItem-k06gfq81",
+            "type": "StyledText",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "text": "<p class=\"font_7\" style=\"font-size: 14px;\"><span style=\"font-size:14px;\"><span style=\"font-family:avenir-lt-w01_35-light1475496,sans-serif;\"><span style=\"color:#36B5CD\">01/19 - 01/23</span></span></span></p>",
+            "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
+            "linkList": []
+          },
+          "dataItem-k06gfq71": {
+            "id": "dataItem-k06gfq71",
+            "type": "StyledText",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "text": "<h4 class=\"font_2\" style=\"font-size:20px\"><span style=\"font-size:20px\"><span style=\"letter-spacing:0.08em\"><span style=\"font-weight:bold\"><span style=\"color:#577083\"><span style=\"font-family:open sans,sans-serif\">HYDRA</span></span></span></span></span></h4>",
+            "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
+            "linkList": []
+          },
+          "dataItem-k06gfq71__item1": {
+            "id": "dataItem-k06gfq71__item1",
+            "type": "StyledText",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "text": "<h4 class=\"font_2\" style=\"font-size:20px\"><span style=\"font-size:20px\"><span style=\"letter-spacing:0.08em\"><span style=\"font-weight:bold\"><span style=\"color:#577083\"><span style=\"font-family:open sans,sans-serif\">HYDRA</span></span></span></span></span></h4>",
+            "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
+            "linkList": []
+          },
+          "dataItem-k06gfq81__item1": {
+            "id": "dataItem-k06gfq81__item1",
+            "type": "StyledText",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "text": "<p class=\"font_7\" style=\"font-size: 14px;\"><span style=\"font-size:14px;\"><span style=\"font-family:avenir-lt-w01_35-light1475496,sans-serif;\"><span style=\"color:#36B5CD\">01/19 - 01/23</span></span></span></p>",
+            "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
+            "linkList": []
+          },
+          "dataItem-k06gfq5n__item1": {
+            "width": 6000,
+            "height": 4000,
+            "alt": "",
+            "uri": "af9daef5b5684a679caf003614294ccd.jpg",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "2.0",
+              "isHidden": false
+            },
+            "crop": {
+              "x": 584,
+              "y": 0,
+              "width": 5416,
+              "height": 4000
+            },
+            "title": "",
+            "type": "Image",
+            "id": "dataItem-k06gfq5n__item1",
+            "description": ""
+          },
+          "dataItem-k06gfq71__item2": {
+            "id": "dataItem-k06gfq71__item2",
+            "type": "StyledText",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "text": "<h4 class=\"font_2\" style=\"font-size: 20px;\"><span style=\"font-size:20px\"><span style=\"letter-spacing:0.08em\"><span style=\"font-weight:bold\"><span style=\"color:#577083\"><span style=\"font-family:open sans,sans-serif\">SANTORINI</span></span></span></span></span></h4>",
+            "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
+            "linkList": []
+          },
+          "dataItem-k06gfq81__item2": {
+            "id": "dataItem-k06gfq81__item2",
+            "type": "StyledText",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "text": "<p class=\"font_7\" style=\"font-size:14px\"><span style=\"font-size:14px\"><span style=\"font-family:avenir-lt-w01_35-light1475496,sans-serif\"><span style=\"color:#36B5CD\">01/19 - 01/23</span></span></span></p>",
+            "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
+            "linkList": []
+          },
+          "dataItem-k06gfq5n__item2": {
+            "width": 8576,
+            "height": 5696,
+            "alt": "",
+            "uri": "5bfb6f_0d9c0ddff0e54fb99dbea4f37fe36111~mv2_d_8576_5696_s_4_2.jpg",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "2.0",
+              "isHidden": false
+            },
+            "title": "",
+            "type": "Image",
+            "id": "dataItem-k06gfq5n__item2",
+            "description": ""
+          },
+          "dataItem-k06gfq71__item3": {
+            "id": "dataItem-k06gfq71__item3",
+            "type": "StyledText",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "text": "<h4 class=\"font_2\" style=\"font-size:20px\"><span style=\"font-size:20px\"><span style=\"letter-spacing:0.08em\"><span style=\"font-weight:bold\"><span style=\"color:#577083\"><span style=\"font-family:open sans,sans-serif\">MYKONOS</span></span></span></span></span></h4>",
+            "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
+            "linkList": []
+          },
+          "dataItem-k06gfq81__item3": {
+            "id": "dataItem-k06gfq81__item3",
+            "type": "StyledText",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "text": "<p class=\"font_7\" style=\"font-size: 14px;\"><span style=\"font-size:14px;\"><span style=\"font-family:avenir-lt-w01_35-light1475496,sans-serif;\"><span style=\"color:#36B5CD\">01/19 - 01/23</span></span></span></p>",
+            "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
+            "linkList": []
+          },
+          "dataItem-k06gfq5n__item3": {
+            "width": 3959,
+            "height": 2644,
+            "alt": "",
+            "uri": "3273c6e2911e44059093e6011be353a5.jpg",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "2.0",
+              "isHidden": false
+            },
+            "title": "",
+            "type": "Image",
+            "id": "dataItem-k06gfq5n__item3",
+            "description": ""
+          },
+          "dataItem-k06gfqa7__item1": {
+            "id": "dataItem-k06gfqa7__item1",
+            "type": "StyledText",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "text": "<p class=\"font_7\" style=\"font-size: 26px; line-height: 1.5em;\"><span style=\"font-size:26px;\"><span style=\"color:#36B5CD\"><span style=\"font-family:avenir-lt-w01_85-heavy1475544,sans-serif;\">$550</span></span></span></p>",
+            "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
+            "linkList": []
+          },
+          "dataItem-k06gfq8n__item1": {
+            "id": "dataItem-k06gfq8n__item1",
+            "type": "StyledText",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "text": "<p class=\"font_8\" style=\"line-height:1.5em\"><span style=\"color:#577083\">Click here to add your own content, or connect to data from your collections.</span></p>",
+            "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
+            "linkList": []
+          },
+          "dataItem-k06gfqa7__item2": {
+            "id": "dataItem-k06gfqa7__item2",
+            "type": "StyledText",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "text": "<p class=\"font_7\" style=\"font-size:26px; line-height:1.5em\"><span style=\"font-size:26px\"><span style=\"color:#36B5CD\"><span style=\"font-family:avenir-lt-w01_85-heavy1475544,sans-serif\">$399</span></span></span></p>",
+            "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
+            "linkList": []
+          },
+          "dataItem-k06gfq8n__item2": {
+            "id": "dataItem-k06gfq8n__item2",
+            "type": "StyledText",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "text": "<p class=\"font_8\" style=\"line-height:1.5em\"><span style=\"color:#577083\">Click here to add your own content, or connect to data from your collections.</span></p>",
+            "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
+            "linkList": []
+          },
+          "dataItem-k06gfqa7__item3": {
+            "id": "dataItem-k06gfqa7__item3",
+            "type": "StyledText",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "text": "<p class=\"font_7\" style=\"font-size:26px; line-height:1.5em\"><span style=\"font-size:26px\"><span style=\"color:#36B5CD\"><span style=\"font-family:avenir-lt-w01_85-heavy1475544,sans-serif\">$499</span></span></span></p>",
+            "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
+            "linkList": []
+          },
+          "dataItem-k06gfq8n__item3": {
+            "id": "dataItem-k06gfq8n__item3",
+            "type": "StyledText",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "text": "<p class=\"font_8\" style=\"line-height:1.5em\"><span style=\"color:#577083\">Click here to add your own content, or connect to data from your collections.</span></p>",
+            "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
+            "linkList": []
+          },
+          "dataItem-k06gfqb2__item1": {
+            "id": "dataItem-k06gfqb2__item1",
+            "type": "LinkableButton",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "label": "Book Now"
+          },
+          "dataItem-k06gfqb2__item2": {
+            "id": "dataItem-k06gfqb2__item2",
+            "type": "LinkableButton",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "label": "Book Now"
+          },
+          "dataItem-k06gfq9f": {
+            "id": "dataItem-k06gfq9f",
+            "type": "StyledText",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "text": "<p class=\"font_7\" style=\"font-size:15px; line-height:1.5em\"><span style=\"font-family:avenir-lt-w01_35-light1475496,sans-serif\"><span style=\"font-size:15px\"><span style=\"color:#577083\">From:</span></span></span></p>",
+            "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
+            "linkList": []
+          },
+          "dataItem-k06gfqb2__item3": {
+            "id": "dataItem-k06gfqb2__item3",
+            "type": "LinkableButton",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "label": "Book Now"
+          },
           "rxktr": {
             "descriptionSEO": "",
             "isPopup": false,
@@ -95,7 +1043,380 @@
             "alignType": "top"
           }
         },
-        "theme_data": {},
+        "theme_data": {
+          "style-k06gfq9h1": {
+            "componentClassName": "",
+            "pageId": "",
+            "compId": "",
+            "styleType": "custom",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "style": {
+              "groups": {},
+              "properties": {
+                "f10": "normal normal normal 12px/1.4em din-next-w01-light #545454",
+                "f0": "normal normal normal 40px/1.4em proxima-n-w01-reg #858585",
+                "f1": "normal normal normal 16px/1.4em din-next-w01-light #545454",
+                "f2": "normal normal normal 28px/1.4em proxima-n-w01-reg #858585",
+                "f3": "normal normal normal 60px/1.4em proxima-n-w01-reg #858585",
+                "f4": "normal normal normal 40px/1.4em proxima-n-w01-reg #858585",
+                "f5": "normal normal normal 25px/1.4em proxima-n-w01-reg #858585",
+                "f6": "normal normal normal 22px/1.4em proxima-n-w01-reg #858585",
+                "f7": "normal normal normal 17px/1.4em proxima-n-w01-reg #858585",
+                "f8": "normal normal normal 15px/1.4em helvetica-w01-roman #858585",
+                "f9": "normal normal normal 14px/1.4em proxima-n-w01-reg #858585"
+              },
+              "propertiesSource": {
+                "f10": "value",
+                "f0": "value",
+                "f1": "value",
+                "f2": "value",
+                "f3": "value",
+                "f4": "value",
+                "f5": "value",
+                "f6": "value",
+                "f7": "value",
+                "f8": "value",
+                "f9": "value"
+              }
+            },
+            "type": "ComponentStyle",
+            "id": "style-k06gfq9h1",
+            "skin": "wysiwyg.viewer.skins.WRichTextNewSkin"
+          },
+          "style-k06gfq5g": {
+            "componentClassName": "wysiwyg.viewer.components.MediaContainer",
+            "pageId": "",
+            "compId": "",
+            "styleType": "custom",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "style": {
+              "groups": {},
+              "properties": {},
+              "propertiesSource": {}
+            },
+            "type": "ComponentStyle",
+            "id": "style-k06gfq5g",
+            "skin": "wysiwyg.viewer.skins.mediaContainer.DefaultMediaContainer"
+          },
+          "style-k06gfqb5": {
+            "componentClassName": "wysiwyg.viewer.components.SiteButton",
+            "pageId": "",
+            "compId": "",
+            "styleType": "custom",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "style": {
+              "groups": {},
+              "properties": {
+                "boxShadowToggleOn-shd": "false",
+                "alpha-txt": "1",
+                "bgh": "#5BC9DE",
+                "alpha-brdh": "0",
+                "bg": "#36B5CD",
+                "alpha-brd": "1",
+                "brw": "0",
+                "alpha-txth": "1",
+                "fnt": "normal normal normal 15px/1.4em helvetica-w01-roman #858585",
+                "shd": "0px 1px 4px 0px rgba(0,0,0,0.6)",
+                "txt": "#FFFFFF",
+                "rd": "0px",
+                "brdh": "#F9F9F9",
+                "brd": "#545454",
+                "alpha-bg": "1",
+                "alpha-bgh": "1",
+                "txth": "#FFFFFF"
+              },
+              "propertiesSource": {
+                "bgh": "value",
+                "alpha-brdh": "value",
+                "bg": "value",
+                "brw": "value",
+                "fnt": "value",
+                "shd": "value",
+                "txt": "value",
+                "rd": "value",
+                "brdh": "value",
+                "brd": "value",
+                "txth": "value"
+              }
+            },
+            "type": "ComponentStyle",
+            "id": "style-k06gfqb5",
+            "skin": "wysiwyg.viewer.skins.button.BasicButton"
+          },
+          "style-k06gfq4k": {
+            "componentClassName": "mobile.core.components.Container",
+            "pageId": "",
+            "compId": "",
+            "styleType": "custom",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "style": {
+              "groups": {},
+              "properties": {
+                "alpha-bg": "0",
+                "alpha-brd": "0",
+                "bg": "61,155,233,1",
+                "boxShadowToggleOn-shd": "false",
+                "brd": "#324158",
+                "brw": "0px",
+                "rd": "0px",
+                "shd": "0px 1px 4px 0px rgba(0,0,0,0.6)"
+              },
+              "propertiesSource": {
+                "alpha-bg": "value",
+                "alpha-brd": "value",
+                "bg": "value",
+                "brd": "value",
+                "brw": "value",
+                "rd": "value",
+                "shd": "value"
+              }
+            },
+            "type": "ComponentStyle",
+            "id": "style-k06gfq4k",
+            "skin": "wysiwyg.viewer.skins.area.DefaultAreaSkin"
+          },
+          "style-k06gfq5s1": {
+            "componentClassName": "",
+            "pageId": "",
+            "compId": "",
+            "styleType": "custom",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "style": {
+              "groups": {},
+              "properties": {},
+              "propertiesSource": {}
+            },
+            "type": "ComponentStyle",
+            "id": "style-k06gfq5s1",
+            "skin": "wysiwyg.viewer.skins.photo.NoSkinPhoto"
+          },
+          "style-k06gfq751": {
+            "componentClassName": "",
+            "pageId": "",
+            "compId": "",
+            "styleType": "custom",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "style": {
+              "groups": {},
+              "properties": {
+                "f10": "normal normal normal 12px/1.4em din-next-w01-light #545454",
+                "f0": "normal normal normal 40px/1.4em proxima-n-w01-reg #858585",
+                "f1": "normal normal normal 16px/1.4em din-next-w01-light #545454",
+                "f2": "normal normal normal 28px/1.4em proxima-n-w01-reg #858585",
+                "f3": "normal normal normal 60px/1.4em proxima-n-w01-reg #858585",
+                "f4": "normal normal normal 40px/1.4em proxima-n-w01-reg #858585",
+                "f5": "normal normal normal 25px/1.4em proxima-n-w01-reg #858585",
+                "f6": "normal normal normal 22px/1.4em proxima-n-w01-reg #858585",
+                "f7": "normal normal normal 17px/1.4em proxima-n-w01-reg #858585",
+                "f8": "normal normal normal 15px/1.4em helvetica-w01-roman #858585",
+                "f9": "normal normal normal 14px/1.4em proxima-n-w01-reg #858585"
+              },
+              "propertiesSource": {
+                "f10": "value",
+                "f0": "value",
+                "f1": "value",
+                "f2": "value",
+                "f3": "value",
+                "f4": "value",
+                "f5": "value",
+                "f6": "value",
+                "f7": "value",
+                "f8": "value",
+                "f9": "value"
+              }
+            },
+            "type": "ComponentStyle",
+            "id": "style-k06gfq751",
+            "skin": "wysiwyg.viewer.skins.WRichTextNewSkin"
+          },
+          "style-k06gfq6r1": {
+            "componentClassName": "",
+            "pageId": "",
+            "compId": "",
+            "styleType": "custom",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "style": {
+              "groups": {},
+              "properties": {
+                "alpha-bg": "1",
+                "alpha-brd": "1",
+                "bg": "#FFFFFF",
+                "boxShadowToggleOn-shd": "false",
+                "brd": "#858585",
+                "brw": "0",
+                "rd": "0px",
+                "shd": "0px 1px 4px 0px rgba(0,0,0,0.6)"
+              },
+              "propertiesSource": {
+                "bg": "value",
+                "brd": "value",
+                "brw": "value",
+                "rd": "value",
+                "shd": "value"
+              }
+            },
+            "type": "ComponentStyle",
+            "id": "style-k06gfq6r1",
+            "skin": "wysiwyg.viewer.skins.area.DefaultAreaSkin"
+          },
+          "style-k06gfq831": {
+            "componentClassName": "",
+            "pageId": "",
+            "compId": "",
+            "styleType": "custom",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "style": {
+              "groups": {},
+              "properties": {
+                "f10": "normal normal normal 12px/1.4em din-next-w01-light #545454",
+                "f0": "normal normal normal 40px/1.4em proxima-n-w01-reg #858585",
+                "f1": "normal normal normal 16px/1.4em din-next-w01-light #545454",
+                "f2": "normal normal normal 28px/1.4em proxima-n-w01-reg #858585",
+                "f3": "normal normal normal 60px/1.4em proxima-n-w01-reg #858585",
+                "f4": "normal normal normal 40px/1.4em proxima-n-w01-reg #858585",
+                "f5": "normal normal normal 25px/1.4em proxima-n-w01-reg #858585",
+                "f6": "normal normal normal 22px/1.4em proxima-n-w01-reg #858585",
+                "f7": "normal normal normal 17px/1.4em proxima-n-w01-reg #858585",
+                "f8": "normal normal normal 15px/1.4em helvetica-w01-roman #858585",
+                "f9": "normal normal normal 14px/1.4em proxima-n-w01-reg #858585"
+              },
+              "propertiesSource": {
+                "f10": "value",
+                "f0": "value",
+                "f1": "value",
+                "f2": "value",
+                "f3": "value",
+                "f4": "value",
+                "f5": "value",
+                "f6": "value",
+                "f7": "value",
+                "f8": "value",
+                "f9": "value"
+              }
+            },
+            "type": "ComponentStyle",
+            "id": "style-k06gfq831",
+            "skin": "wysiwyg.viewer.skins.WRichTextNewSkin"
+          },
+          "style-k06gfq8p2": {
+            "componentClassName": "",
+            "pageId": "",
+            "compId": "",
+            "styleType": "custom",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "style": {
+              "groups": {},
+              "properties": {
+                "f10": "normal normal normal 12px/1.4em din-next-w01-light #545454",
+                "f0": "normal normal normal 40px/1.4em proxima-n-w01-reg #858585",
+                "f1": "normal normal normal 16px/1.4em din-next-w01-light #545454",
+                "f2": "normal normal normal 28px/1.4em proxima-n-w01-reg #858585",
+                "f3": "normal normal normal 60px/1.4em proxima-n-w01-reg #858585",
+                "f4": "normal normal normal 40px/1.4em proxima-n-w01-reg #858585",
+                "f5": "normal normal normal 25px/1.4em proxima-n-w01-reg #858585",
+                "f6": "normal normal normal 22px/1.4em proxima-n-w01-reg #858585",
+                "f7": "normal normal normal 17px/1.4em proxima-n-w01-reg #858585",
+                "f8": "normal normal normal 15px/1.4em helvetica-w01-roman #858585",
+                "f9": "normal normal normal 14px/1.4em proxima-n-w01-reg #858585"
+              },
+              "propertiesSource": {
+                "f10": "value",
+                "f0": "value",
+                "f1": "value",
+                "f2": "value",
+                "f3": "value",
+                "f4": "value",
+                "f5": "value",
+                "f6": "value",
+                "f7": "value",
+                "f8": "value",
+                "f9": "value"
+              }
+            },
+            "type": "ComponentStyle",
+            "id": "style-k06gfq8p2",
+            "skin": "wysiwyg.viewer.skins.WRichTextNewSkin"
+          },
+          "style-k06gfqa82": {
+            "componentClassName": "",
+            "pageId": "",
+            "compId": "",
+            "styleType": "custom",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "style": {
+              "groups": {},
+              "properties": {
+                "f10": "normal normal normal 12px/1.4em din-next-w01-light #545454",
+                "f0": "normal normal normal 40px/1.4em proxima-n-w01-reg #858585",
+                "f1": "normal normal normal 16px/1.4em din-next-w01-light #545454",
+                "f2": "normal normal normal 28px/1.4em proxima-n-w01-reg #858585",
+                "f3": "normal normal normal 60px/1.4em proxima-n-w01-reg #858585",
+                "f4": "normal normal normal 40px/1.4em proxima-n-w01-reg #858585",
+                "f5": "normal normal normal 25px/1.4em proxima-n-w01-reg #858585",
+                "f6": "normal normal normal 22px/1.4em proxima-n-w01-reg #858585",
+                "f7": "normal normal normal 17px/1.4em proxima-n-w01-reg #858585",
+                "f8": "normal normal normal 15px/1.4em helvetica-w01-roman #858585",
+                "f9": "normal normal normal 14px/1.4em proxima-n-w01-reg #858585"
+              },
+              "propertiesSource": {
+                "f10": "value",
+                "f0": "value",
+                "f1": "value",
+                "f2": "value",
+                "f3": "value",
+                "f4": "value",
+                "f5": "value",
+                "f6": "value",
+                "f7": "value",
+                "f8": "value",
+                "f9": "value"
+              }
+            },
+            "type": "ComponentStyle",
+            "id": "style-k06gfqa82",
+            "skin": "wysiwyg.viewer.skins.WRichTextNewSkin"
+          }
+        },
         "behaviors_data": {},
         "connections_data": {
           "connection-k05do2x5": {
@@ -112,9 +1433,210 @@
               "schemaVersion": "1.0",
               "isHidden": false
             }
+          },
+          "connection-k06gfq5s2": {
+            "id": "connection-k06gfq5s2",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "image1"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
+          "connection-k06gfq752": {
+            "id": "connection-k06gfq752",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "text1"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
+          "connection-k06gfq832": {
+            "id": "connection-k06gfq832",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "text2"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
+          "connection-k06gfq4l": {
+            "id": "connection-k06gfq4l",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "repeater1"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
+          "connection-k06gfqa9": {
+            "id": "connection-k06gfqa9",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "text5"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
+          "connection-k06gfq8q": {
+            "id": "connection-k06gfq8q",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "text3"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
+          "connection-k06gfq6s": {
+            "id": "connection-k06gfq6s",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "box1"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
+          "connection-k06gfqb51": {
+            "id": "connection-k06gfqb51",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "button1"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
+          "connection-k06gfq5g1": {
+            "id": "connection-k06gfq5g1",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "container1"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
+          "connection-k06gfq9h2": {
+            "id": "connection-k06gfq9h2",
+            "type": "ConnectionList",
+            "items": [
+              {
+                "type": "WixCodeConnectionItem",
+                "role": "text4"
+              }
+            ],
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
           }
         },
         "mobile_hints": {
+          "mobileHints-k06gfq6r": {
+            "recommendedHeight": 55,
+            "orderIndex": 1,
+            "offsetX": 0,
+            "offsetY": 199,
+            "recommendedWidth": 164,
+            "author": "studio",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "recommendedScale": 1,
+            "offsetOrigin": "leftTop",
+            "type": "MobileHints",
+            "id": "mobileHints-k06gfq6r"
+          },
+          "mobileHints-k06gfq5s": {
+            "recommendedHeight": 231,
+            "orderIndex": 0,
+            "offsetX": 12,
+            "offsetY": 10,
+            "recommendedWidth": 297,
+            "author": "studio",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "recommendedScale": 1,
+            "offsetOrigin": "leftTop",
+            "type": "MobileHints",
+            "id": "mobileHints-k06gfq5s"
+          },
+          "mobileHints-k06gfq75": {
+            "recommendedHeight": 23,
+            "orderIndex": 0,
+            "offsetX": 7,
+            "offsetY": 7,
+            "recommendedWidth": 149,
+            "author": "studio",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "recommendedScale": 0.8727272727272727,
+            "offsetOrigin": "leftTop",
+            "type": "MobileHints",
+            "id": "mobileHints-k06gfq75"
+          },
           "mobileHints-k05do2xe": {
             "id": "mobileHints-k05do2xe",
             "type": "MobileHints",
@@ -124,9 +1646,653 @@
               "schemaVersion": "1.0",
               "isHidden": false
             }
+          },
+          "mobileHints-k06gfq9h": {
+            "recommendedHeight": 22,
+            "orderIndex": 4,
+            "offsetX": 0,
+            "offsetY": 27,
+            "recommendedWidth": 98,
+            "author": "studio",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "recommendedScale": 1,
+            "offsetOrigin": "leftBottom",
+            "type": "MobileHints",
+            "id": "mobileHints-k06gfq9h"
+          },
+          "mobileHints-k06gfq8p1": {
+            "recommendedHeight": 44,
+            "orderIndex": 3,
+            "offsetX": -2,
+            "offsetY": 19,
+            "recommendedWidth": 280,
+            "author": "studio",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "recommendedScale": 0.9974999999999999,
+            "offsetOrigin": "leftBottom",
+            "type": "MobileHints",
+            "id": "mobileHints-k06gfq8p1"
+          },
+          "mobileHints-k06gfqa81": {
+            "recommendedHeight": 35,
+            "orderIndex": 5,
+            "offsetX": 0,
+            "offsetY": 21,
+            "recommendedWidth": 147,
+            "author": "studio",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "recommendedScale": 0.8846153846153846,
+            "offsetOrigin": "leftTop",
+            "type": "MobileHints",
+            "id": "mobileHints-k06gfqa81"
+          },
+          "mobileHints-k06gfq4j": {
+            "id": "mobileHints-k06gfq4j",
+            "type": "MobileHints",
+            "recommendedWidth": 320,
+            "recommendedHeight": 1348,
+            "recommendedScale": 1,
+            "author": "studio",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            }
+          },
+          "mobileHints-k06gfqb41": {
+            "recommendedHeight": 40,
+            "orderIndex": 6,
+            "offsetX": 18,
+            "offsetY": -10,
+            "recommendedWidth": 120,
+            "author": "studio",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "recommendedScale": 1,
+            "offsetOrigin": "rightTop",
+            "type": "MobileHints",
+            "id": "mobileHints-k06gfqb41"
+          },
+          "mobileHints-k06gfq5f1": {
+            "recommendedHeight": 436,
+            "orderIndex": 0,
+            "offsetX": 0,
+            "offsetY": 0,
+            "recommendedWidth": 320,
+            "author": "studio",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "recommendedScale": 1,
+            "offsetOrigin": "leftTop",
+            "type": "MobileHints",
+            "id": "mobileHints-k06gfq5f1"
+          },
+          "mobileHints-k06gfq83": {
+            "recommendedHeight": 17,
+            "orderIndex": 2,
+            "offsetX": 10,
+            "offsetY": 35,
+            "recommendedWidth": 149,
+            "author": "studio",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "recommendedScale": 0.9333333333333333,
+            "offsetOrigin": "leftTop",
+            "type": "MobileHints",
+            "id": "mobileHints-k06gfq83"
           }
         },
-        "design_data": {}
+        "design_data": {
+          "dataItem-k06gfq51__item3": {
+            "id": "dataItem-k06gfq51__item3",
+            "type": "MediaContainerDesignData",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "background": "#dataItem-k06gfq5f",
+            "cssStyle": {
+              "cssBorder": {
+                "width": {
+                  "top": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "right": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "bottom": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "left": {
+                    "value": 0,
+                    "unit": "px"
+                  }
+                },
+                "style": {
+                  "top": "solid",
+                  "right": "solid",
+                  "left": "solid",
+                  "bottom": "solid"
+                },
+                "color": {
+                  "top": {
+                    "red": 176,
+                    "green": 169,
+                    "blue": 134,
+                    "alpha": 1
+                  },
+                  "right": {
+                    "red": 176,
+                    "green": 169,
+                    "blue": 134,
+                    "alpha": 1
+                  },
+                  "left": {
+                    "red": 176,
+                    "green": 169,
+                    "blue": 134,
+                    "alpha": 1
+                  },
+                  "bottom": {
+                    "red": 176,
+                    "green": 169,
+                    "blue": 134,
+                    "alpha": 1
+                  }
+                }
+              },
+              "cssBorderRadius": {
+                "topLeft": {
+                  "value": 0,
+                  "unit": "px"
+                },
+                "topRight": {
+                  "value": 0,
+                  "unit": "px"
+                },
+                "bottomLeft": {
+                  "value": 0,
+                  "unit": "px"
+                },
+                "bottomRight": {
+                  "value": 0,
+                  "unit": "px"
+                }
+              },
+              "cssBoxShadow": [
+                {
+                  "inset": false,
+                  "offsetX": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "offsetY": {
+                    "value": 4,
+                    "unit": "px"
+                  },
+                  "blurRadius": {
+                    "value": 10,
+                    "unit": "px"
+                  },
+                  "spreadRadius": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0,
+                    "alpha": 0.1
+                  }
+                }
+              ]
+            },
+            "themeMappings": {},
+            "charas": "design-j9pcqsl2",
+            "dataChangeBehaviors": []
+          },
+          "dataItem-k06gfq5f": {
+            "color": "#FFFFFF",
+            "scrollType": "none",
+            "showOverlayForMediaType": "WixVideo",
+            "colorOpacity": 1,
+            "mediaTransforms": {
+              "scale": 1
+            },
+            "colorOverlay": "",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "fittingType": "fill",
+            "type": "BackgroundMedia",
+            "id": "dataItem-k06gfq5f",
+            "colorOverlayOpacity": 0,
+            "alignType": "center"
+          },
+          "dataItem-k06gfq51__item1": {
+            "id": "dataItem-k06gfq51__item1",
+            "type": "MediaContainerDesignData",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "background": "#dataItem-k06gfq5d",
+            "cssStyle": {
+              "cssBorder": {
+                "width": {
+                  "top": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "right": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "bottom": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "left": {
+                    "value": 0,
+                    "unit": "px"
+                  }
+                },
+                "style": {
+                  "top": "solid",
+                  "right": "solid",
+                  "left": "solid",
+                  "bottom": "solid"
+                },
+                "color": {
+                  "top": {
+                    "red": 176,
+                    "green": 169,
+                    "blue": 134,
+                    "alpha": 1
+                  },
+                  "right": {
+                    "red": 176,
+                    "green": 169,
+                    "blue": 134,
+                    "alpha": 1
+                  },
+                  "left": {
+                    "red": 176,
+                    "green": 169,
+                    "blue": 134,
+                    "alpha": 1
+                  },
+                  "bottom": {
+                    "red": 176,
+                    "green": 169,
+                    "blue": 134,
+                    "alpha": 1
+                  }
+                }
+              },
+              "cssBorderRadius": {
+                "topLeft": {
+                  "value": 0,
+                  "unit": "px"
+                },
+                "topRight": {
+                  "value": 0,
+                  "unit": "px"
+                },
+                "bottomLeft": {
+                  "value": 0,
+                  "unit": "px"
+                },
+                "bottomRight": {
+                  "value": 0,
+                  "unit": "px"
+                }
+              },
+              "cssBoxShadow": [
+                {
+                  "inset": false,
+                  "offsetX": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "offsetY": {
+                    "value": 4,
+                    "unit": "px"
+                  },
+                  "blurRadius": {
+                    "value": 10,
+                    "unit": "px"
+                  },
+                  "spreadRadius": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0,
+                    "alpha": 0.1
+                  }
+                }
+              ]
+            },
+            "themeMappings": {},
+            "charas": "design-j9o8atta",
+            "dataChangeBehaviors": []
+          },
+          "dataItem-k06gfq5d": {
+            "color": "#FFFFFF",
+            "scrollType": "none",
+            "showOverlayForMediaType": "WixVideo",
+            "colorOpacity": 1,
+            "mediaTransforms": {
+              "scale": 1
+            },
+            "colorOverlay": "",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "fittingType": "fill",
+            "type": "BackgroundMedia",
+            "id": "dataItem-k06gfq5d",
+            "colorOverlayOpacity": 0,
+            "alignType": "center"
+          },
+          "dataItem-k06gfq51__item2": {
+            "id": "dataItem-k06gfq51__item2",
+            "type": "MediaContainerDesignData",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "background": "#dataItem-k06gfq5e",
+            "cssStyle": {
+              "cssBorder": {
+                "width": {
+                  "top": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "right": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "bottom": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "left": {
+                    "value": 0,
+                    "unit": "px"
+                  }
+                },
+                "style": {
+                  "top": "solid",
+                  "right": "solid",
+                  "left": "solid",
+                  "bottom": "solid"
+                },
+                "color": {
+                  "top": {
+                    "red": 176,
+                    "green": 169,
+                    "blue": 134,
+                    "alpha": 1
+                  },
+                  "right": {
+                    "red": 176,
+                    "green": 169,
+                    "blue": 134,
+                    "alpha": 1
+                  },
+                  "left": {
+                    "red": 176,
+                    "green": 169,
+                    "blue": 134,
+                    "alpha": 1
+                  },
+                  "bottom": {
+                    "red": 176,
+                    "green": 169,
+                    "blue": 134,
+                    "alpha": 1
+                  }
+                }
+              },
+              "cssBorderRadius": {
+                "topLeft": {
+                  "value": 0,
+                  "unit": "px"
+                },
+                "topRight": {
+                  "value": 0,
+                  "unit": "px"
+                },
+                "bottomLeft": {
+                  "value": 0,
+                  "unit": "px"
+                },
+                "bottomRight": {
+                  "value": 0,
+                  "unit": "px"
+                }
+              },
+              "cssBoxShadow": [
+                {
+                  "inset": false,
+                  "offsetX": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "offsetY": {
+                    "value": 4,
+                    "unit": "px"
+                  },
+                  "blurRadius": {
+                    "value": 10,
+                    "unit": "px"
+                  },
+                  "spreadRadius": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0,
+                    "alpha": 0.1
+                  }
+                }
+              ]
+            },
+            "themeMappings": {},
+            "charas": "design-j9pcqmvo",
+            "dataChangeBehaviors": []
+          },
+          "dataItem-k06gfq5e": {
+            "color": "#FFFFFF",
+            "scrollType": "none",
+            "showOverlayForMediaType": "WixVideo",
+            "colorOpacity": 1,
+            "mediaTransforms": {
+              "scale": 1
+            },
+            "colorOverlay": "",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "fittingType": "fill",
+            "type": "BackgroundMedia",
+            "id": "dataItem-k06gfq5e",
+            "colorOverlayOpacity": 0,
+            "alignType": "center"
+          },
+          "dataItem-k06gfq51": {
+            "id": "dataItem-k06gfq51",
+            "type": "MediaContainerDesignData",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "background": "#dataItem-k06gfqd6",
+            "cssStyle": {
+              "cssBorder": {
+                "width": {
+                  "top": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "right": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "bottom": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "left": {
+                    "value": 0,
+                    "unit": "px"
+                  }
+                },
+                "style": {
+                  "top": "solid",
+                  "right": "solid",
+                  "left": "solid",
+                  "bottom": "solid"
+                },
+                "color": {
+                  "top": {
+                    "red": 176,
+                    "green": 169,
+                    "blue": 134,
+                    "alpha": 1
+                  },
+                  "right": {
+                    "red": 176,
+                    "green": 169,
+                    "blue": 134,
+                    "alpha": 1
+                  },
+                  "left": {
+                    "red": 176,
+                    "green": 169,
+                    "blue": 134,
+                    "alpha": 1
+                  },
+                  "bottom": {
+                    "red": 176,
+                    "green": 169,
+                    "blue": 134,
+                    "alpha": 1
+                  }
+                }
+              },
+              "cssBorderRadius": {
+                "topLeft": {
+                  "value": 0,
+                  "unit": "px"
+                },
+                "topRight": {
+                  "value": 0,
+                  "unit": "px"
+                },
+                "bottomLeft": {
+                  "value": 0,
+                  "unit": "px"
+                },
+                "bottomRight": {
+                  "value": 0,
+                  "unit": "px"
+                }
+              },
+              "cssBoxShadow": [
+                {
+                  "inset": false,
+                  "offsetX": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "offsetY": {
+                    "value": 4,
+                    "unit": "px"
+                  },
+                  "blurRadius": {
+                    "value": 10,
+                    "unit": "px"
+                  },
+                  "spreadRadius": {
+                    "value": 0,
+                    "unit": "px"
+                  },
+                  "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0,
+                    "alpha": 0.1
+                  }
+                }
+              ]
+            },
+            "themeMappings": {},
+            "charas": "design-j9o8atta",
+            "dataChangeBehaviors": []
+          },
+          "dataItem-k06gfqd6": {
+            "color": "#FFFFFF",
+            "scrollType": "none",
+            "showOverlayForMediaType": "WixVideo",
+            "colorOpacity": 1,
+            "mediaTransforms": {
+              "scale": 1
+            },
+            "colorOverlay": "",
+            "metaData": {
+              "isPreset": false,
+              "schemaVersion": "1.0",
+              "isHidden": false
+            },
+            "fittingType": "fill",
+            "type": "BackgroundMedia",
+            "id": "dataItem-k06gfqd6",
+            "colorOverlayOpacity": 0,
+            "alignType": "center"
+          }
+        }
       },
       "pageUriSEO": "corvid-testing-new-page",
       "title": "Corvid testing new page",
