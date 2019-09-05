@@ -7,7 +7,7 @@
           "x": 0,
           "y": 0,
           "fixedPosition": false,
-          "height": 505.99999999999994,
+          "height": 506,
           "scale": 1,
           "rotationInDegrees": 0
         },
@@ -264,23 +264,6 @@
             "skin": "platform.components.skins.controllerSkin",
             "dataQuery": "#dataItem-k06hhlv4",
             "mobileHintsQuery": "mobileHints-k06hhlw9"
-          },
-          {
-            "layout": {
-              "x": 450,
-              "y": 70,
-              "fixedPosition": false,
-              "width": 60,
-              "height": 78,
-              "scale": 1,
-              "rotationInDegrees": 0
-            },
-            "componentType": "platform.components.AppController",
-            "id": "comp-k06my0l4",
-            "type": "Component",
-            "dataQuery": "#dataItem-k06my0n8",
-            "styleId": "controller1",
-            "connectionQuery": "connection-k06my0n9"
           }
         ],
         "componentType": "mobile.core.components.Page",
@@ -555,34 +538,6 @@
             "skin": "platform.components.skins.controllerSkin",
             "dataQuery": "#dataItem-k06hhlv4",
             "mobileHintsQuery": "mobileHints-k06hhlw9"
-          },
-          {
-            "conversionData": {
-              "isSemiTransparentContainer": false,
-              "isTransparentContainer": false,
-              "shouldApplyPreset": true,
-              "mobileHints": {
-                "hidden": false
-              },
-              "isNonContainableFullWidth": false,
-              "nonLayoutComponent": true,
-              "hiddenable": false
-            },
-            "connectionQuery": "connection-k06my0n9",
-            "layout": {
-              "x": 0,
-              "y": 0,
-              "fixedPosition": false,
-              "width": 0,
-              "height": 0,
-              "scale": 1,
-              "rotationInDegrees": 0
-            },
-            "styleId": "controller1",
-            "componentType": "platform.components.AppController",
-            "type": "Component",
-            "id": "comp-k06my0l4",
-            "dataQuery": "#dataItem-k06my0n8"
           }
         ],
         "type": "Page",
@@ -918,18 +873,6 @@
             "stylesMapId": "CK_EDITOR_PARAGRAPH_STYLES",
             "linkList": []
           },
-          "dataItem-k06my0n8": {
-            "id": "dataItem-k06my0n8",
-            "type": "AppController",
-            "name": "Sample",
-            "controllerType": "router_dataset",
-            "applicationId": "dataBinding",
-            "metaData": {
-              "isPreset": false,
-              "schemaVersion": "1.0",
-              "isHidden": false
-            }
-          },
           "dataItem-k06gfq71__item1": {
             "id": "dataItem-k06gfq71__item1",
             "type": "StyledText",
@@ -1183,7 +1126,7 @@
             "descriptionSEO": "",
             "isPopup": false,
             "underConstruction": false,
-            "indexable": false,
+            "indexable": true,
             "metaKeywordsSEO": "",
             "pageSecurity": {
               "requireLogin": false,
@@ -1195,7 +1138,7 @@
               "schemaVersion": "1.0",
               "isHidden": false
             },
-            "hidePage": true,
+            "hidePage": false,
             "pageTitleSEO": "",
             "hideTitle": true,
             "pageBackgrounds": {
@@ -1822,21 +1765,6 @@
               {
                 "type": "WixCodeConnectionItem",
                 "role": "dataset1"
-              }
-            ],
-            "metaData": {
-              "isPreset": false,
-              "schemaVersion": "1.0",
-              "isHidden": false
-            }
-          },
-          "connection-k06my0n9": {
-            "id": "connection-k06my0n9",
-            "type": "ConnectionList",
-            "items": [
-              {
-                "type": "WixCodeConnectionItem",
-                "role": "dynamicDataset"
               }
             ],
             "metaData": {
@@ -2645,14 +2573,14 @@
         }
       },
       "pageUriSEO": "corvid-testing-new-page",
-      "title": "Corvid testing new page",
+      "title": "Sample (All)",
       "translations": {},
       "menus": {
         "CUSTOM_MAIN_MENU": {
           "dataItem-k05do2we": {
             "type": "BasicMenuItem",
-            "isVisible": false,
-            "isVisibleMobile": false,
+            "isVisible": true,
+            "isVisibleMobile": true,
             "id": "dataItem-k05do2we",
             "label": "Sample (All)",
             "link": "#dataItem-k05do2we1",
@@ -2679,7 +2607,7 @@
         "dataBinding"
       ]
     },
-    "pageUriSeo": "corvid-testing-new-page",
+    "pageUriSeo": "sample-all",
     "title": "Sample (All)",
     "isPopup": false,
     "pageId": "rxktr"

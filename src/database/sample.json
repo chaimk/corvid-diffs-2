@@ -19,18 +19,6 @@
       },
       "plugin": "dataBinding",
       "index": 1
-    },
-    "link-sample-all": {
-      "displayName": "Sample (All)",
-      "type": "pagelink",
-      "calculator": {
-        "id": "FIELDS_PATTERN",
-        "config": {
-          "pattern": "/sample/"
-        }
-      },
-      "plugin": "dataBinding",
-      "index": 2
     }
   },
   "permissions": {
