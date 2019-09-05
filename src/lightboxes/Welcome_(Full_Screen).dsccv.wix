@@ -570,116 +570,13 @@
             "type": "ComponentStyle",
             "id": "style-k06f5ko4",
             "skin": "svgshape.v2.Svg_9a8686831e874878a55a90925c0feb6c"
-          },
-          "style-k06f5koo": {
-            "componentClassName": "wysiwyg.viewer.components.PopupContainer",
-            "pageId": "",
-            "compId": "",
-            "styleType": "custom",
-            "metaData": {
-              "isPreset": false,
-              "schemaVersion": "1.0",
-              "isHidden": false
-            },
-            "style": {
-              "groups": {},
-              "properties": {
-                "alpha-bg": "1",
-                "bg": "rgba(255,255,255,1)"
-              },
-              "propertiesSource": {
-                "alpha-bg": "value",
-                "bg": "value"
-              }
-            },
-            "type": "ComponentStyle",
-            "id": "style-k06f5koo",
-            "skin": "wysiwyg.viewer.skins.stripContainer.DefaultStripContainer"
-          },
-          "style-k06f5kq9": {
-            "componentClassName": "wysiwyg.viewer.components.PopupCloseTextButton",
-            "pageId": "",
-            "compId": "",
-            "styleType": "custom",
-            "metaData": {
-              "isPreset": false,
-              "schemaVersion": "1.0",
-              "isHidden": false
-            },
-            "style": {
-              "groups": {},
-              "properties": {
-                "boxShadowToggleOn-shd": "false",
-                "alpha-txt": "1",
-                "bgh": "#36D9D8",
-                "alpha-brdh": "0",
-                "bg": "#18C1C0",
-                "alpha-brd": "1",
-                "brw": "0",
-                "alpha-txth": "1",
-                "fnt": "normal normal normal 15px/1.4em raleway",
-                "shd": "0 1px 4px rgba(0, 0, 0, 0.6);",
-                "txt": "#FFFFFF",
-                "rd": "0px",
-                "brdh": "#B08484",
-                "brd": "#BD1515",
-                "alpha-bg": "1",
-                "alpha-bgh": "1",
-                "txth": "#FFFFFF"
-              },
-              "propertiesSource": {
-                "bgh": "value",
-                "alpha-brdh": "value",
-                "bg": "value",
-                "brw": "value",
-                "fnt": "value",
-                "shd": "value",
-                "txt": "value",
-                "rd": "value",
-                "brdh": "value",
-                "brd": "value",
-                "txth": "value"
-              }
-            },
-            "type": "ComponentStyle",
-            "id": "style-k06f5kq9",
-            "skin": "wysiwyg.viewer.skins.button.BasicButton"
-          },
-          "style-k06f5kqs": {
-            "componentClassName": "wysiwyg.viewer.components.PopupCloseIconButton",
-            "pageId": "",
-            "compId": "",
-            "styleType": "custom",
-            "metaData": {
-              "isPreset": false,
-              "schemaVersion": "1.0",
-              "isHidden": false
-            },
-            "style": {
-              "groups": {},
-              "properties": {
-                "alpha-fillcolor": "1",
-                "alpha-stroke": "1",
-                "fillcolor": "#F2F2F2",
-                "stroke": "#ED1566",
-                "strokewidth": "0px"
-              },
-              "propertiesSource": {
-                "fillcolor": "value",
-                "stroke": "value",
-                "strokewidth": "value"
-              }
-            },
-            "type": "ComponentStyle",
-            "id": "style-k06f5kqs",
-            "skin": "svgshape.v2.Svg_9a8686831e874878a55a90925c0feb6c"
           }
         },
         "behaviors_data": {
           "behavior-k06f5kmk": {
             "id": "behavior-k06f5kmk",
             "type": "ObsoleteBehaviorsList",
-            "items": "[{\"name\":\"FadeIn\",\"delay\":0.1,\"duration\":0.75,\"action\":\"screenIn\",\"targetId\":\"\",\"params\":{}},{\"name\":\"FadeOut\",\"delay\":0.1,\"duration\":0.75,\"action\":\"exit\",\"targetId\":\"\",\"params\":{}}]",
+            "items": "[{\"name\":\"FadeIn\",\"delay\":0.2,\"duration\":0.75,\"action\":\"screenIn\",\"targetId\":\"\",\"params\":{\"doubleDelayFixed\":true}},{\"name\":\"FadeOut\",\"delay\":0.1,\"duration\":0.75,\"action\":\"exit\",\"targetId\":\"\",\"params\":{}}]",
             "metaData": {
               "isPreset": false,
               "schemaVersion": "1.0",
